@@ -215,6 +215,7 @@
     .band-farm   { background: #1B1F3A; }
     .band-bucolic { background: #D9F0B0; }
     .band-suburbia { background: #E8F4FD; }
+    .band-easter { background: #FDF3DC; }
 
     .band-theme-header {
       display: flex;
@@ -233,6 +234,7 @@
     .band-farm .band-theme-title    { color: #B9E6FE; }
     .band-bucolic .band-theme-title  { color: #2D4A1E; }
     .band-suburbia .band-theme-title { color: #1A2744; }
+    .band-easter .band-theme-title   { color: #7A4A10; }
 
     .band-theme-desc {
       font-size: 0.78rem;
@@ -242,6 +244,7 @@
     .band-farm .band-theme-desc    { color: #B9E6FE; }
     .band-bucolic .band-theme-desc  { color: #2D4A1E; }
     .band-suburbia .band-theme-desc { color: #1A2744; }
+    .band-easter .band-theme-desc   { color: #7A4A10; }
 
     .band-theme-count {
       font-size: 0.7rem;
@@ -254,6 +257,7 @@
     .band-farm .band-theme-count    { color: #B9E6FE; }
     .band-bucolic .band-theme-count  { color: #2D4A1E; }
     .band-suburbia .band-theme-count { color: #1A2744; }
+    .band-easter .band-theme-count   { color: #7A4A10; }
 
     /* Gallery grid */
     .band-grid {
@@ -524,7 +528,8 @@
     }
 
     .band-bucolic .gallery-item.loading,
-    .band-suburbia .gallery-item.loading {
+    .band-suburbia .gallery-item.loading,
+    .band-easter .gallery-item.loading {
       background: linear-gradient(90deg, rgba(0,0,0,0.05) 25%, rgba(0,0,0,0.1) 50%, rgba(0,0,0,0.05) 75%);
       background-size: 200% 100%;
     }
@@ -605,6 +610,7 @@
     <button class="filter-pill" data-theme="farm">Farm</button>
     <button class="filter-pill" data-theme="bucolic">Bucolic</button>
     <button class="filter-pill" data-theme="suburbia">Suburbia</button>
+    <button class="filter-pill" data-theme="easter">Easter</button>
     <div class="filter-sep"></div>
     <div id="tag-filters" style="display:flex;gap:6px;flex-wrap:nowrap;"></div>
   </div>
@@ -641,7 +647,7 @@
 
   <!-- FOOTER BAND -->
   <footer class="band-footer">
-    <span class="band-footer-text">paper — 28 wallpapers, free to download</span>
+    <span class="band-footer-text">paper — 36 wallpapers, free to download</span>
   </footer>
 
   <script>
@@ -674,6 +680,14 @@
       { id: "snow-day", name: "Snow Day", theme: "suburbia", tags: ["winter", "snow", "cold", "quiet"], file: "suburbia/snow-day.jpg" },
       { id: "block-party", name: "Block Party", theme: "suburbia", tags: ["summer", "evening", "community", "party"], file: "suburbia/block-party.jpg" },
       { id: "late-night", name: "Late Night Suburbia", theme: "suburbia", tags: ["night", "quiet", "2am", "street"], file: "suburbia/late-night.jpg" },
+      { id: "the-empty-tomb", name: "The Empty Tomb", theme: "easter", tags: ["resurrection", "tomb", "dawn", "easter"], file: "easter/the-empty-tomb.jpg" },
+      { id: "three-crosses", name: "Three Crosses", theme: "easter", tags: ["resurrection", "cross", "sunset", "easter"], file: "easter/three-crosses.jpg" },
+      { id: "resurrection-dawn", name: "Resurrection Dawn", theme: "easter", tags: ["resurrection", "dawn", "light", "easter"], file: "easter/resurrection-dawn.jpg" },
+      { id: "the-garden-tomb", name: "The Garden Tomb", theme: "easter", tags: ["resurrection", "garden", "tomb", "easter"], file: "easter/the-garden-tomb.jpg" },
+      { id: "olive-grove-at-dawn", name: "Olive Grove at Dawn", theme: "easter", tags: ["resurrection", "olive", "dawn", "easter"], file: "easter/olive-grove-at-dawn.jpg" },
+      { id: "the-stone-rolled-away", name: "The Stone Rolled Away", theme: "easter", tags: ["resurrection", "stone", "dawn", "easter"], file: "easter/the-stone-rolled-away.jpg" },
+      { id: "easter-morning-sky", name: "Easter Morning Sky", theme: "easter", tags: ["resurrection", "sky", "sunrise", "easter"], file: "easter/easter-morning-sky.jpg" },
+      { id: "the-risen-light", name: "The Risen Light", theme: "easter", tags: ["resurrection", "light", "morning", "easter"], file: "easter/the-risen-light.jpg" },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -715,6 +729,7 @@
         { key: 'farm',     label: 'Farm',     desc: 'Nighttime pastoral scenes' },
         { key: 'bucolic',  label: 'Bucolic',  desc: 'Idyllic countryside' },
         { key: 'suburbia', label: 'Suburbia', desc: 'The quiet beauty of American suburbs' },
+        { key: 'easter',   label: 'Easter',   desc: 'Resurrection morning' },
       ];
 
       let html = '';
