@@ -111,7 +111,7 @@
       max-width: 480px;
     }
 
-    /* Hero clouds -- flat design style, overlapping circles */
+    /* Hero clouds -- flat design style, blended with SVG goo filter */
     .hero-clouds {
       position: absolute;
       inset: 0;
@@ -119,14 +119,14 @@
       overflow: hidden;
     }
 
-    .cloud {
+    .cloud-svg {
       position: absolute;
-      fill: rgba(250, 246, 238, 0.12);
+      fill: rgba(250, 246, 238, 0.13);
     }
 
-    .cloud-lg { right: 60px; bottom: 32px; width: 280px; height: 110px; }
-    .cloud-md { right: 280px; top: 40px; width: 200px; height: 80px; }
-    .cloud-sm { right: 180px; top: 80px; width: 140px; height: 58px; }
+    .cloud-lg { right: 20px; bottom: 0; width: 340px; height: 160px; }
+    .cloud-md { right: 300px; top: 20px; width: 240px; height: 110px; }
+    .cloud-sm { right: 200px; top: 60px; width: 160px; height: 80px; }
 
     /* === FILTER BAND === */
     .band-filter {
@@ -526,28 +526,48 @@
     <div class="hero-title">paper</div>
     <div class="hero-tagline">4k wallpapers in a flat design</div>
     <div class="hero-clouds">
+      <!-- SVG defs with goo filter to merge circles into smooth clouds -->
+      <svg width="0" height="0" style="position:absolute">
+        <defs>
+          <filter id="cloud-goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"/>
+            <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 22 -9" result="goo"/>
+            <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+          </filter>
+        </defs>
+      </svg>
+
       <!-- Large cloud, bottom right -->
-      <svg class="cloud cloud-lg" viewBox="0 0 280 110" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="70" cy="75" r="45"/>
-        <circle cx="130" cy="55" r="58"/>
-        <circle cx="195" cy="68" r="42"/>
-        <circle cx="245" cy="78" r="32"/>
-        <rect x="25" y="80" width="230" height="30"/>
+      <svg class="cloud-svg cloud-lg" viewBox="0 0 340 160" xmlns="http://www.w3.org/2000/svg">
+        <g filter="url(#cloud-goo)">
+          <circle cx="68" cy="108" r="52"/>
+          <circle cx="130" cy="82" r="65"/>
+          <circle cx="205" cy="95" r="50"/>
+          <circle cx="265" cy="108" r="40"/>
+          <circle cx="310" cy="118" r="32"/>
+          <rect x="16" y="118" width="308" height="42"/>
+        </g>
       </svg>
-      <!-- Medium cloud, top area -->
-      <svg class="cloud cloud-md" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="50" cy="54" r="32"/>
-        <circle cx="95" cy="38" r="42"/>
-        <circle cx="148" cy="50" r="30"/>
-        <circle cx="183" cy="58" r="22"/>
-        <rect x="18" y="58" width="170" height="22"/>
+
+      <!-- Medium cloud, upper right -->
+      <svg class="cloud-svg cloud-md" viewBox="0 0 240 110" xmlns="http://www.w3.org/2000/svg">
+        <g filter="url(#cloud-goo)">
+          <circle cx="52" cy="72" r="36"/>
+          <circle cx="105" cy="50" r="46"/>
+          <circle cx="165" cy="62" r="34"/>
+          <circle cx="208" cy="74" r="26"/>
+          <rect x="16" y="76" width="208" height="34"/>
+        </g>
       </svg>
+
       <!-- Small cloud, middle -->
-      <svg class="cloud cloud-sm" viewBox="0 0 140 58" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="35" cy="38" r="22"/>
-        <circle cx="68" cy="26" r="30"/>
-        <circle cx="106" cy="35" r="22"/>
-        <rect x="13" y="40" width="118" height="18"/>
+      <svg class="cloud-svg cloud-sm" viewBox="0 0 160 80" xmlns="http://www.w3.org/2000/svg">
+        <g filter="url(#cloud-goo)">
+          <circle cx="36" cy="52" r="26"/>
+          <circle cx="76" cy="36" r="34"/>
+          <circle cx="122" cy="48" r="26"/>
+          <rect x="10" y="54" width="140" height="26"/>
+        </g>
       </svg>
     </div>
   </div>
