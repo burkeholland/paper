@@ -241,6 +241,7 @@
     .band-americana { background: #B5372A; }
     .band-lehigh    { background: #4E3629; }
     .band-1920s     { background: #1A1008; }
+    .band-childhood { background: #3D6B4F; }
 
     .band-theme-header {
       display: flex;
@@ -265,6 +266,7 @@
     .band-americana .band-theme-title { color: #F5E6C8; }
     .band-lehigh .band-theme-title    { color: #FFFFFF; }
     .band-1920s .band-theme-title     { color: #C9A84C; }
+    .band-childhood .band-theme-title { color: #FAF6EE; }
 
     .band-theme-desc {
       font-size: 0.78rem;
@@ -280,6 +282,7 @@
     .band-americana .band-theme-desc { color: #F5E6C8; }
     .band-lehigh .band-theme-desc    { color: #FFFFFF; }
     .band-1920s .band-theme-desc     { color: #C9A84C; }
+    .band-childhood .band-theme-desc { color: #FAF6EE; }
 
     .band-theme-count {
       font-size: 0.7rem;
@@ -298,6 +301,7 @@
     .band-americana .band-theme-count { color: #F5E6C8; }
     .band-lehigh .band-theme-count    { color: #FFFFFF; }
     .band-1920s .band-theme-count     { color: #C9A84C; }
+    .band-childhood .band-theme-count { color: #FAF6EE; }
 
     /* Gallery grid */
     .band-grid {
@@ -833,7 +837,7 @@
 
   <!-- FOOTER BAND -->
   <footer class="band-footer">
-    <span class="band-footer-text">paper — 84 wallpapers, free to download</span>
+    <span class="band-footer-text">paper — 92 wallpapers, free to download</span>
   </footer>
 
   <script>
@@ -922,6 +926,14 @@
       { id: "grand-train-station", name: "Grand Train Station", theme: "1920s", tags: ["train station", "arches", "steam", "1920s"], file: "1920s/grand-train-station.jpg" },
       { id: "movie-palace-exterior", name: "Movie Palace Exterior", theme: "1920s", tags: ["movie palace", "art deco", "marquee", "1920s"], file: "1920s/movie-palace-exterior.jpg" },
       { id: "gatsby-mansion-dusk", name: "Gatsby Mansion at Dusk", theme: "1920s", tags: ["mansion", "gatsby", "dusk", "1920s"], file: "1920s/gatsby-mansion-dusk.jpg" },
+      { id: "treehouse-in-summer", name: "Treehouse in Summer", theme: "childhood", tags: ["treehouse", "summer", "oak", "afternoon"], file: "childhood/treehouse-in-summer.jpg" },
+      { id: "lemonade-stand", name: "Lemonade Stand", theme: "childhood", tags: ["lemonade", "summer", "sidewalk", "sunny"], file: "childhood/lemonade-stand.jpg" },
+      { id: "bicycle-on-lawn", name: "Bicycle on a Lawn", theme: "childhood", tags: ["bicycle", "suburban", "afternoon", "yard"], file: "childhood/bicycle-on-lawn.jpg" },
+      { id: "backyard-sprinkler", name: "Backyard Sprinkler", theme: "childhood", tags: ["sprinkler", "summer", "water", "lawn"], file: "childhood/backyard-sprinkler.jpg" },
+      { id: "ice-cream-truck", name: "Ice Cream Truck", theme: "childhood", tags: ["ice cream", "truck", "summer", "street"], file: "childhood/ice-cream-truck.jpg" },
+      { id: "blanket-fort", name: "Blanket Fort", theme: "childhood", tags: ["fort", "cozy", "pillows", "warm"], file: "childhood/blanket-fort.jpg" },
+      { id: "playground-golden-hour", name: "Playground at Golden Hour", theme: "childhood", tags: ["playground", "swings", "dusk", "shadows"], file: "childhood/playground-golden-hour.jpg" },
+      { id: "fireflies-dusk", name: "Fireflies at Dusk", theme: "childhood", tags: ["fireflies", "evening", "backyard", "glow"], file: "childhood/fireflies-dusk.jpg" },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -969,6 +981,7 @@
         { key: 'americana', label: 'Americana', desc: 'Heartland, highways & home' },
         { key: 'lehigh', label: 'Lehigh University', desc: 'The Mountain Hawks' },
         { key: '1920s', label: 'The 1920s', desc: 'Jazz Age glamour & Art Deco elegance' },
+        { key: 'childhood', label: 'Childhood', desc: 'Sun-soaked summer nostalgia' },
       ];
 
       let html = '';
