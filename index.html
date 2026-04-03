@@ -240,6 +240,7 @@
     .band-nyc     { background: #2A2A2A; }
     .band-americana { background: #B5372A; }
     .band-lehigh    { background: #4E3629; }
+    .band-1920s     { background: #1A1008; }
 
     .band-theme-header {
       display: flex;
@@ -263,6 +264,7 @@
     .band-nyc .band-theme-title      { color: #F5C842; }
     .band-americana .band-theme-title { color: #F5E6C8; }
     .band-lehigh .band-theme-title    { color: #FFFFFF; }
+    .band-1920s .band-theme-title     { color: #C9A84C; }
 
     .band-theme-desc {
       font-size: 0.78rem;
@@ -277,6 +279,7 @@
     .band-nyc .band-theme-desc      { color: #F5C842; }
     .band-americana .band-theme-desc { color: #F5E6C8; }
     .band-lehigh .band-theme-desc    { color: #FFFFFF; }
+    .band-1920s .band-theme-desc     { color: #C9A84C; }
 
     .band-theme-count {
       font-size: 0.7rem;
@@ -294,6 +297,7 @@
     .band-nyc .band-theme-count      { color: #F5C842; }
     .band-americana .band-theme-count { color: #F5E6C8; }
     .band-lehigh .band-theme-count    { color: #FFFFFF; }
+    .band-1920s .band-theme-count     { color: #C9A84C; }
 
     /* Gallery grid */
     .band-grid {
@@ -829,7 +833,7 @@
 
   <!-- FOOTER BAND -->
   <footer class="band-footer">
-    <span class="band-footer-text">paper — 76 wallpapers, free to download</span>
+    <span class="band-footer-text">paper — 84 wallpapers, free to download</span>
   </footer>
 
   <script>
@@ -910,6 +914,14 @@
       { id: "lehigh-valley-panorama", name: "Lehigh Valley Panorama", theme: "lehigh", tags: ["lehigh", "valley", "panorama", "dawn"], file: "lehigh/lehigh-valley-panorama.jpg" },
       { id: "star-of-bethlehem", name: "Star of Bethlehem", theme: "lehigh", tags: ["lehigh", "bethlehem", "star", "night"], file: "lehigh/star-of-bethlehem.jpg" },
       { id: "packer-memorial-church", name: "Packer Memorial Church", theme: "lehigh", tags: ["lehigh", "church", "gothic", "brownstone"], file: "lehigh/packer-memorial-church.jpg" },
+      { id: "art-deco-skyscraper", name: "Art Deco Skyscraper", theme: "1920s", tags: ["art deco", "skyscraper", "night", "1920s"], file: "1920s/art-deco-skyscraper.jpg" },
+      { id: "jazz-club-interior", name: "Jazz Club Interior", theme: "1920s", tags: ["jazz", "club", "interior", "1920s"], file: "1920s/jazz-club-interior.jpg" },
+      { id: "speakeasy-bar", name: "Speakeasy Bar", theme: "1920s", tags: ["speakeasy", "bar", "bottles", "1920s"], file: "1920s/speakeasy-bar.jpg" },
+      { id: "model-t-rainy-cobblestone", name: "Model T on Rainy Cobblestone", theme: "1920s", tags: ["model t", "rain", "cobblestone", "1920s"], file: "1920s/model-t-rainy-cobblestone.jpg" },
+      { id: "ocean-liner-foggy-harbor", name: "Ocean Liner in Foggy Harbor", theme: "1920s", tags: ["ocean liner", "harbor", "fog", "1920s"], file: "1920s/ocean-liner-foggy-harbor.jpg" },
+      { id: "grand-train-station", name: "Grand Train Station", theme: "1920s", tags: ["train station", "arches", "steam", "1920s"], file: "1920s/grand-train-station.jpg" },
+      { id: "movie-palace-exterior", name: "Movie Palace Exterior", theme: "1920s", tags: ["movie palace", "art deco", "marquee", "1920s"], file: "1920s/movie-palace-exterior.jpg" },
+      { id: "gatsby-mansion-dusk", name: "Gatsby Mansion at Dusk", theme: "1920s", tags: ["mansion", "gatsby", "dusk", "1920s"], file: "1920s/gatsby-mansion-dusk.jpg" },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -956,6 +968,7 @@
         { key: 'nyc',      label: 'New York City', desc: 'The city that never sleeps' },
         { key: 'americana', label: 'Americana', desc: 'Heartland, highways & home' },
         { key: 'lehigh', label: 'Lehigh University', desc: 'The Mountain Hawks' },
+        { key: '1920s', label: 'The 1920s', desc: 'Jazz Age glamour & Art Deco elegance' },
       ];
 
       let html = '';
