@@ -10,20 +10,23 @@
 
     :root {
       --bg: #FDFAF4;
-      --bg-subtle: #F5F0E8;
+      --bg-subtle: #F0EBE1;
       --text: #1A1A2E;
       --text-secondary: #4B5568;
       --text-tertiary: #8896A8;
       --border: #E2D9CC;
       --border-light: #EDE8DF;
       --coral: #F97066;
+      --coral-light: #FFF5F4;
       --azure: #7CD4FD;
+      --azure-light: #EAF7FF;
       --lime: #85E13A;
+      --lime-light: #F0FEE4;
       --ice: #B9E6FE;
       --navy: #1A2744;
       --overlay: rgba(10, 12, 20, 0.88);
       --card-bg: #FDFAF4;
-      --tag-bg: #EDE8DF;
+      --tag-bg: #F0EBE1;
       --tag-text: #4B5568;
       --search-bg: #F0EBE1;
     }
@@ -31,12 +34,15 @@
     @media (prefers-color-scheme: dark) {
       :root {
         --bg: #0F1219;
-        --bg-subtle: #161D28;
+        --bg-subtle: #141C27;
         --text: #E8EDF3;
         --text-secondary: #8896A8;
         --text-tertiary: #5A6A7A;
         --border: #1E2A3A;
         --border-light: #182030;
+        --coral-light: rgba(249,112,102,0.07);
+        --azure-light: rgba(124,212,253,0.06);
+        --lime-light: rgba(133,225,58,0.06);
         --overlay: rgba(0, 0, 0, 0.92);
         --card-bg: #141C27;
         --tag-bg: #1A2535;
@@ -148,14 +154,26 @@
       gap: 1rem;
     }
 
-    /* Theme sections */
+    /* Theme sections -- each gets its own color temperature */
     .theme-section {
-      padding: 0 2rem 3rem;
+      padding: 2.5rem 2rem 3rem;
+    }
+
+    .theme-section[data-theme="farm"] {
+      background: var(--coral-light);
+    }
+
+    .theme-section[data-theme="bucolic"] {
+      background: var(--lime-light);
+    }
+
+    .theme-section[data-theme="suburbia"] {
+      background: var(--azure-light);
     }
 
     .theme-section-header {
-      padding: 2rem 0 1.25rem;
-      border-top: 2px solid var(--coral);
+      padding: 0 0 1.5rem;
+      border-top: none;
       display: flex;
       align-items: baseline;
       gap: 1.25rem;
@@ -163,9 +181,9 @@
     }
 
     .theme-heading {
-      font-size: 1.5rem;
-      font-weight: 700;
-      letter-spacing: -0.02em;
+      font-size: 1.75rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
       color: var(--text);
     }
 
@@ -224,7 +242,7 @@
       align-items: center;
       gap: 0.5rem;
       flex-wrap: wrap;
-      border-bottom: 1px solid var(--border-light);
+      background: var(--bg);
     }
 
     .filter-btn {
@@ -232,9 +250,9 @@
       font-size: 0.8125rem;
       font-weight: 500;
       padding: 0.35rem 0.85rem;
-      border: 1px solid var(--border);
+      border: none;
       border-radius: 4px;
-      background: transparent;
+      background: var(--bg-subtle);
       color: var(--text-secondary);
       cursor: pointer;
       transition: all 0.15s;
@@ -242,7 +260,7 @@
     }
 
     .filter-btn:hover {
-      border-color: var(--text-tertiary);
+      background: var(--border);
       color: var(--text);
     }
 
@@ -263,7 +281,7 @@
       font-family: inherit;
       font-size: 0.75rem;
       padding: 0.25rem 0.6rem;
-      border: 1px solid transparent;
+      border: none;
       border-radius: 3px;
       background: var(--tag-bg);
       color: var(--tag-text);
@@ -273,7 +291,7 @@
     }
 
     .tag-btn:hover {
-      border-color: var(--border);
+      background: var(--border);
       color: var(--text);
     }
 
@@ -296,7 +314,7 @@
 
     .gallery-item {
       position: relative;
-      border-radius: 6px;
+      border-radius: 4px;
       overflow: hidden;
       cursor: pointer;
       background: var(--bg-subtle);
@@ -583,7 +601,7 @@
       }
 
       .theme-section {
-        padding: 0 1.25rem 2rem;
+        padding: 2rem 1.25rem;
       }
 
       .gallery-grid {
