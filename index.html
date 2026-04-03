@@ -218,6 +218,7 @@
     .band-suburbia { background: #E8F4FD; }
     .band-easter { background: #FDF3DC; }
     .band-coastal { background: #1A4A6B; }
+    .band-nyc     { background: #2A2A2A; }
 
     .band-theme-header {
       display: flex;
@@ -238,6 +239,7 @@
     .band-suburbia .band-theme-title { color: #1A2744; }
     .band-easter .band-theme-title   { color: #7A4A10; }
     .band-coastal .band-theme-title  { color: #B9E6FE; }
+    .band-nyc .band-theme-title      { color: #F5C842; }
 
     .band-theme-desc {
       font-size: 0.78rem;
@@ -249,6 +251,7 @@
     .band-suburbia .band-theme-desc { color: #1A2744; }
     .band-easter .band-theme-desc   { color: #7A4A10; }
     .band-coastal .band-theme-desc  { color: #B9E6FE; }
+    .band-nyc .band-theme-desc      { color: #F5C842; }
 
     .band-theme-count {
       font-size: 0.7rem;
@@ -263,6 +266,7 @@
     .band-suburbia .band-theme-count { color: #1A2744; }
     .band-easter .band-theme-count   { color: #7A4A10; }
     .band-coastal .band-theme-count  { color: #B9E6FE; }
+    .band-nyc .band-theme-count      { color: #F5C842; }
 
     /* Gallery grid */
     .band-grid {
@@ -617,6 +621,7 @@
     <button class="filter-pill" data-theme="suburbia">Suburbia</button>
     <button class="filter-pill" data-theme="easter">Easter</button>
     <button class="filter-pill" data-theme="coastal">Coastal</button>
+    <button class="filter-pill" data-theme="nyc">New York City</button>
     <div class="filter-sep"></div>
     <div id="tag-filters" style="display:flex;gap:6px;flex-wrap:nowrap;"></div>
   </div>
@@ -653,7 +658,7 @@
 
   <!-- FOOTER BAND -->
   <footer class="band-footer">
-    <span class="band-footer-text">paper — 48 wallpapers, free to download</span>
+    <span class="band-footer-text">paper — 58 wallpapers, free to download</span>
   </footer>
 
   <script>
@@ -706,6 +711,16 @@
       { id: "storm-coast", name: "Storm Coast", theme: "coastal", tags: ["storm", "dramatic", "waves", "dark"], file: "coastal/storm-coast.jpg" },
       { id: "sea-cave", name: "Sea Cave", theme: "coastal", tags: ["cave", "ocean", "turquoise", "light"], file: "coastal/sea-cave.jpg" },
       { id: "low-tide-morning", name: "Low Tide Morning", theme: "coastal", tags: ["low tide", "dawn", "reflection", "still"], file: "coastal/low-tide-morning.jpg" },
+      { id: "brooklyn-bridge-at-dawn", name: "Brooklyn Bridge at Dawn", theme: "nyc", tags: ["bridge", "dawn", "river", "nyc"], file: "nyc/brooklyn-bridge-at-dawn.jpg" },
+      { id: "manhattan-skyline-at-dusk", name: "Manhattan Skyline at Dusk", theme: "nyc", tags: ["skyline", "dusk", "reflection", "nyc"], file: "nyc/manhattan-skyline-at-dusk.jpg" },
+      { id: "central-park-autumn", name: "Central Park Autumn", theme: "nyc", tags: ["central park", "autumn", "aerial", "nyc"], file: "nyc/central-park-autumn.jpg" },
+      { id: "chrysler-building", name: "Chrysler Building", theme: "nyc", tags: ["art deco", "skyscraper", "architecture", "nyc"], file: "nyc/chrysler-building.jpg" },
+      { id: "the-high-line", name: "The High Line", theme: "nyc", tags: ["high line", "park", "sunset", "nyc"], file: "nyc/the-high-line.jpg" },
+      { id: "empire-state-at-night", name: "Empire State at Night", theme: "nyc", tags: ["empire state", "night", "skyscraper", "nyc"], file: "nyc/empire-state-at-night.jpg" },
+      { id: "brooklyn-waterfront", name: "Brooklyn Waterfront", theme: "nyc", tags: ["brooklyn", "waterfront", "golden hour", "nyc"], file: "nyc/brooklyn-waterfront.jpg" },
+      { id: "central-park-winter", name: "Central Park Winter", theme: "nyc", tags: ["central park", "winter", "snow", "nyc"], file: "nyc/central-park-winter.jpg" },
+      { id: "coney-island-boardwalk", name: "Coney Island Boardwalk", theme: "nyc", tags: ["coney island", "boardwalk", "sunset", "nyc"], file: "nyc/coney-island-boardwalk.jpg" },
+      { id: "rainy-night-midtown", name: "Rainy Night in Midtown", theme: "nyc", tags: ["rain", "night", "midtown", "nyc"], file: "nyc/rainy-night-midtown.jpg" },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -749,6 +764,7 @@
         { key: 'suburbia', label: 'Suburbia', desc: 'The quiet beauty of American suburbs' },
         { key: 'easter',   label: 'Easter',   desc: 'Resurrection morning' },
         { key: 'coastal',  label: 'Coastal',  desc: 'Sea, cliffs & shore' },
+        { key: 'nyc',      label: 'New York City', desc: 'The city that never sleeps' },
       ];
 
       let html = '';
