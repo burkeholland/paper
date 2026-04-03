@@ -96,6 +96,26 @@
 
     .hero-credit a:hover { color: rgba(250, 246, 238, 0.8); }
 
+    .hero-request-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 8px 18px;
+      border: 1.5px solid rgba(250, 246, 238, 0.5);
+      border-radius: 6px;
+      color: rgba(250, 246, 238, 0.85);
+      font-size: 0.82rem;
+      font-family: inherit;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      text-decoration: none;
+      transition: border-color 0.15s, color 0.15s;
+    }
+
+    .hero-request-btn:hover {
+      border-color: rgba(250, 246, 238, 0.9);
+      color: #FAF6EE;
+    }
+
     /* === HERO BAND === */
     .band-hero {
       min-height: 260px;
@@ -690,6 +710,7 @@
     <div class="hero-title">paper</div>
     <div class="hero-tagline">4k wallpapers in a flat design</div>
     <div class="hero-credit">Made with ♥︎ by <a href="https://burkeholland.github.io/max" target="_blank" rel="noopener">Max</a></div>
+    <a href="#request" class="hero-request-btn">Request a Theme</a>
     <div class="hero-clouds">
       <!-- SVG defs with goo filter to merge circles into smooth clouds -->
       <svg width="0" height="0" style="position:absolute">
@@ -783,7 +804,7 @@
   </div>
 
   <!-- REQUEST A PACK BAND -->
-  <section class="band-request">
+  <section class="band-request" id="request">
     <div class="band-request-inner">
       <p class="band-request-label">Request a Pack</p>
       <h2 class="band-request-title">Want a theme that isn't here?</h2>
