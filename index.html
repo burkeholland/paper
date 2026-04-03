@@ -4,7 +4,805 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>paper — wallpaper gallery</title>
-  <meta name="description" content="Curated AI-generated wallpapers in Figma flat illustration style. Free 4K downloads.">
+  <meta name="description" content="4k wallpapers in a flat design. Free downloads.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #FAF6EE;
+      color: #1A2744;
+      min-height: 100vh;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* === HEADER BAND === */
+    .band-header {
+      height: 60px;
+      background: #FAF6EE;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 48px;
+      border-bottom: 1px solid rgba(26,39,68,0.08);
+    }
+
+    .logo {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #1A2744;
+      letter-spacing: -0.02em;
+      text-decoration: none;
+    }
+
+    .logo .dot { color: #F97066; }
+
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .search-compact {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      border: 1.5px solid #E0DCCF;
+      border-radius: 6px;
+      padding: 6px 12px;
+      background: #fff;
+      transition: border-color 0.15s;
+    }
+
+    .search-compact:focus-within { border-color: #F97066; }
+    .search-compact svg { opacity: 0.3; flex-shrink: 0; }
+
+    .search-compact input {
+      background: none;
+      border: none;
+      outline: none;
+      font-family: inherit;
+      font-size: 0.82rem;
+      color: #1A2744;
+      width: 180px;
+    }
+
+    .search-compact input::placeholder { color: #B0A898; }
+
+    .wallpaper-count {
+      font-size: 0.78rem;
+      color: #9A9080;
+    }
+
+    /* === HERO BAND === */
+    .band-hero {
+      min-height: 260px;
+      background: #F97066;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 48px 48px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: clamp(4rem, 10vw, 8rem);
+      font-weight: 700;
+      color: #FAF6EE;
+      letter-spacing: -0.04em;
+      line-height: 0.9;
+    }
+
+    .hero-tagline {
+      font-size: 1.05rem;
+      color: rgba(250, 246, 238, 0.75);
+      margin-top: 16px;
+      font-weight: 300;
+      max-width: 480px;
+    }
+
+    .hero-shape-1 {
+      position: absolute;
+      right: 140px;
+      top: 24px;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: rgba(250, 246, 238, 0.07);
+    }
+
+    .hero-shape-2 {
+      position: absolute;
+      right: 72px;
+      bottom: -40px;
+      width: 140px;
+      height: 140px;
+      background: rgba(250, 246, 238, 0.05);
+      transform: rotate(45deg);
+    }
+
+    .hero-shape-3 {
+      position: absolute;
+      right: 320px;
+      bottom: 32px;
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      background: rgba(250, 246, 238, 0.09);
+    }
+
+    /* === FILTER BAND === */
+    .band-filter {
+      height: 52px;
+      background: #F0EBE1;
+      display: flex;
+      align-items: center;
+      padding: 0 48px;
+      gap: 8px;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+    }
+
+    .filter-pill {
+      font-family: 'DM Sans', sans-serif;
+      padding: 5px 16px;
+      border-radius: 100px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      cursor: pointer;
+      border: none;
+      transition: all 0.15s;
+      white-space: nowrap;
+      flex-shrink: 0;
+      background: rgba(26, 39, 68, 0.08);
+      color: #6B6154;
+    }
+
+    .filter-pill:hover {
+      background: rgba(26, 39, 68, 0.15);
+      color: #1A2744;
+    }
+
+    .filter-pill.active {
+      background: #F97066;
+      color: #FAF6EE;
+    }
+
+    .filter-sep {
+      width: 1px;
+      height: 20px;
+      background: rgba(26,39,68,0.12);
+      flex-shrink: 0;
+      margin: 0 4px;
+    }
+
+    .tag-pill {
+      font-family: 'DM Sans', sans-serif;
+      padding: 3px 10px;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      font-weight: 500;
+      cursor: pointer;
+      border: none;
+      transition: all 0.15s;
+      white-space: nowrap;
+      flex-shrink: 0;
+      background: rgba(26, 39, 68, 0.06);
+      color: #8A7F72;
+    }
+
+    .tag-pill:hover { background: rgba(26,39,68,0.12); color: #1A2744; }
+    .tag-pill.active { background: #7CD4FD; color: #1A2744; }
+
+    /* === THEME BANDS === */
+    .band-theme {
+      padding: 40px 48px 48px;
+    }
+
+    .band-farm   { background: #1B1F3A; }
+    .band-bucolic { background: #D9F0B0; }
+    .band-suburbia { background: #E8F4FD; }
+
+    .band-theme-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    .band-theme-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.25rem;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+    }
+
+    .band-farm .band-theme-title    { color: #B9E6FE; }
+    .band-bucolic .band-theme-title  { color: #2D4A1E; }
+    .band-suburbia .band-theme-title { color: #1A2744; }
+
+    .band-theme-desc {
+      font-size: 0.78rem;
+      opacity: 0.5;
+    }
+
+    .band-farm .band-theme-desc    { color: #B9E6FE; }
+    .band-bucolic .band-theme-desc  { color: #2D4A1E; }
+    .band-suburbia .band-theme-desc { color: #1A2744; }
+
+    .band-theme-count {
+      font-size: 0.7rem;
+      font-weight: 600;
+      opacity: 0.35;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .band-farm .band-theme-count    { color: #B9E6FE; }
+    .band-bucolic .band-theme-count  { color: #2D4A1E; }
+    .band-suburbia .band-theme-count { color: #1A2744; }
+
+    /* Gallery grid */
+    .band-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 8px;
+    }
+
+    .gallery-item {
+      position: relative;
+      border-radius: 5px;
+      overflow: hidden;
+      cursor: pointer;
+      aspect-ratio: 16 / 10;
+      background: rgba(0,0,0,0.15);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-item:hover img { transform: scale(1.05); }
+
+    .gallery-item .overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 55%);
+      opacity: 0;
+      transition: opacity 0.22s;
+      display: flex;
+      align-items: flex-end;
+      padding: 8px 10px;
+    }
+
+    .gallery-item:hover .overlay { opacity: 1; }
+
+    .overlay-info {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .overlay-name {
+      font-size: 0.72rem;
+      font-weight: 600;
+      color: #fff;
+      line-height: 1.2;
+    }
+
+    .overlay-download {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.15);
+      border: none;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: background 0.15s;
+      flex-shrink: 0;
+    }
+
+    .overlay-download:hover { background: rgba(255,255,255,0.3); }
+    .overlay-download svg { width: 13px; height: 13px; }
+
+    /* Empty state */
+    .empty-state {
+      text-align: center;
+      padding: 5rem 2rem;
+      color: #9A9080;
+      font-size: 0.9rem;
+      background: #FAF6EE;
+    }
+
+    /* === LIGHTBOX === */
+    .lightbox {
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+      background: rgba(10, 12, 20, 0.92);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+
+    .lightbox.open { display: flex; opacity: 1; }
+
+    .lightbox-inner {
+      max-width: 90vw;
+      max-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .lightbox-img-wrap {
+      position: relative;
+      max-width: 100%;
+      max-height: calc(90vh - 80px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .lightbox-img-wrap img {
+      max-width: 100%;
+      max-height: calc(90vh - 80px);
+      object-fit: contain;
+      border-radius: 4px;
+      display: block;
+    }
+
+    .lightbox-close {
+      position: fixed;
+      top: 1.25rem;
+      right: 1.5rem;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      border: none;
+      background: rgba(255,255,255,0.1);
+      color: rgba(255,255,255,0.8);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.15s;
+      z-index: 1001;
+    }
+
+    .lightbox-close:hover { background: rgba(255,255,255,0.2); color: #fff; }
+    .lightbox-close svg { width: 18px; height: 18px; }
+
+    .lightbox-meta {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .lightbox-title { font-size: 1rem; font-weight: 600; color: #fff; }
+    .lightbox-detail { font-size: 0.75rem; color: rgba(255,255,255,0.45); text-transform: uppercase; letter-spacing: 0.04em; }
+
+    .lightbox-tags { display: flex; gap: 0.35rem; flex-wrap: wrap; }
+    .lightbox-tag { font-size: 0.7rem; padding: 0.15rem 0.5rem; border-radius: 3px; background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.6); }
+
+    .lightbox-download-btn {
+      font-family: inherit;
+      font-size: 0.8125rem;
+      font-weight: 600;
+      padding: 0.5rem 1.25rem;
+      border: none;
+      border-radius: 5px;
+      background: #F97066;
+      color: #fff;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      transition: opacity 0.15s;
+      text-decoration: none;
+    }
+
+    .lightbox-download-btn:hover { opacity: 0.88; }
+    .lightbox-download-btn svg { width: 14px; height: 14px; }
+
+    .lightbox-nav {
+      position: fixed;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: none;
+      background: rgba(255,255,255,0.08);
+      color: rgba(255,255,255,0.7);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.15s;
+      z-index: 1001;
+    }
+
+    .lightbox-nav:hover { background: rgba(255,255,255,0.15); color: #fff; }
+    .lightbox-nav svg { width: 20px; height: 20px; }
+    .lightbox-prev { left: 1.25rem; }
+    .lightbox-next { right: 1.25rem; }
+
+    /* === FOOTER BAND === */
+    .band-footer {
+      height: 48px;
+      background: #F97066;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 48px;
+    }
+
+    .band-footer-text {
+      font-size: 0.75rem;
+      color: rgba(250, 246, 238, 0.65);
+    }
+
+    /* === RESPONSIVE === */
+    @media (max-width: 1100px) {
+      .band-grid { grid-template-columns: repeat(4, 1fr); }
+    }
+
+    @media (max-width: 768px) {
+      .band-header { padding: 0 20px; }
+      .band-hero { padding: 36px 20px; }
+      .band-filter { padding: 0 20px; }
+      .band-theme { padding: 28px 20px 32px; }
+      .band-footer { padding: 0 20px; }
+      .band-grid { grid-template-columns: repeat(3, 1fr); gap: 6px; }
+      .search-compact input { width: 130px; }
+      .wallpaper-count { display: none; }
+      .hero-shape-1, .hero-shape-2, .hero-shape-3 { display: none; }
+      .gallery-item .overlay { opacity: 1; background: linear-gradient(to top, rgba(0,0,0,0.55) 0%, transparent 45%); }
+      .lightbox-prev { left: 0.5rem; }
+      .lightbox-next { right: 0.5rem; }
+    }
+
+    @media (max-width: 480px) {
+      .band-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    /* Focus styles */
+    .filter-pill:focus-visible,
+    .tag-pill:focus-visible,
+    .gallery-item:focus-visible,
+    .lightbox-close:focus-visible,
+    .lightbox-nav:focus-visible {
+      outline: 2px solid #F97066;
+      outline-offset: 2px;
+    }
+
+    /* Loading shimmer */
+    .gallery-item.loading {
+      background: linear-gradient(90deg, rgba(255,255,255,0.05) 25%, rgba(255,255,255,0.1) 50%, rgba(255,255,255,0.05) 75%);
+      background-size: 200% 100%;
+      animation: shimmer 1.5s infinite;
+    }
+
+    .band-bucolic .gallery-item.loading,
+    .band-suburbia .gallery-item.loading {
+      background: linear-gradient(90deg, rgba(0,0,0,0.05) 25%, rgba(0,0,0,0.1) 50%, rgba(0,0,0,0.05) 75%);
+      background-size: 200% 100%;
+    }
+
+    @keyframes shimmer {
+      0% { background-position: 200% 0; }
+      100% { background-position: -200% 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER BAND -->
+  <header class="band-header">
+    <a href="./" class="logo">paper<span class="dot">.</span></a>
+    <div class="header-right">
+      <div class="search-compact">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" id="search" placeholder="Search wallpapers..." autocomplete="off" spellcheck="false">
+      </div>
+      <span class="wallpaper-count" id="count"></span>
+    </div>
+  </header>
+
+  <!-- HERO BAND -->
+  <div class="band-hero">
+    <div class="hero-title">paper</div>
+    <div class="hero-tagline">4k wallpapers in a flat design</div>
+    <div class="hero-shape-1"></div>
+    <div class="hero-shape-2"></div>
+    <div class="hero-shape-3"></div>
+  </div>
+
+  <!-- FILTER BAND -->
+  <div class="band-filter" id="filters">
+    <button class="filter-pill active" data-theme="all">All</button>
+    <button class="filter-pill" data-theme="farm">Farm</button>
+    <button class="filter-pill" data-theme="bucolic">Bucolic</button>
+    <button class="filter-pill" data-theme="suburbia">Suburbia</button>
+    <div class="filter-sep"></div>
+    <div id="tag-filters" style="display:flex;gap:6px;flex-wrap:nowrap;"></div>
+  </div>
+
+  <!-- GALLERY (rendered by JS) -->
+  <main id="gallery"></main>
+  <div class="empty-state" id="empty" style="display:none"><p>No wallpapers match your search.</p></div>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lb-close" aria-label="Close">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <button class="lightbox-nav lightbox-prev" id="lb-prev" aria-label="Previous">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <button class="lightbox-nav lightbox-next" id="lb-next" aria-label="Next">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 6 15 12 9 18"/></svg>
+    </button>
+    <div class="lightbox-inner">
+      <div class="lightbox-img-wrap"><img id="lb-img" src="" alt=""></div>
+      <div class="lightbox-meta">
+        <span class="lightbox-title" id="lb-title"></span>
+        <span class="lightbox-detail" id="lb-theme"></span>
+        <span class="lightbox-detail" id="lb-res">5504 x 3072</span>
+        <div class="lightbox-tags" id="lb-tags"></div>
+        <a class="lightbox-download-btn" id="lb-download" href="#" download>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download 4K
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER BAND -->
+  <footer class="band-footer">
+    <span class="band-footer-text">paper — 28 wallpapers, free to download</span>
+  </footer>
+
+  <script>
+    const wallpapers = [
+      { id: "moonlit-barn", name: "Moonlit Barn", theme: "farm", tags: ["night", "barn", "moonlight", "rural"], file: "farm/moonlit-barn.jpg" },
+      { id: "starry-pasture", name: "Starry Pasture", theme: "farm", tags: ["night", "stars", "pasture", "field"], file: "farm/starry-pasture.jpg" },
+      { id: "farmhouse-porch", name: "Farmhouse Porch", theme: "farm", tags: ["night", "farmhouse", "porch", "cozy"], file: "farm/farmhouse-porch.jpg" },
+      { id: "hay-bales", name: "Hay Bales", theme: "farm", tags: ["night", "hay", "field", "stars"], file: "farm/hay-bales.jpg" },
+      { id: "night-harvest", name: "Night Harvest", theme: "farm", tags: ["night", "harvest", "tractor", "field"], file: "farm/night-harvest.jpg" },
+      { id: "pond-reflections", name: "Pond Reflections", theme: "farm", tags: ["night", "pond", "water", "reflections"], file: "farm/pond-reflections.jpg" },
+      { id: "orchard-twilight", name: "Orchard at Twilight", theme: "farm", tags: ["twilight", "orchard", "trees", "evening"], file: "farm/orchard-twilight.jpg" },
+      { id: "country-road", name: "Country Road", theme: "farm", tags: ["night", "road", "moonlight", "rural"], file: "farm/country-road.jpg" },
+      { id: "windmill-tower", name: "Windmill & Water Tower", theme: "farm", tags: ["night", "windmill", "tower", "rural"], file: "farm/windmill-tower.jpg" },
+      { id: "dawn-breaking", name: "Dawn Breaking", theme: "farm", tags: ["dawn", "sunrise", "morning", "farm"], file: "farm/dawn-breaking.jpg" },
+      { id: "rolling-hills", name: "Rolling Hills", theme: "bucolic", tags: ["hills", "countryside", "green", "daytime"], file: "bucolic/rolling-hills.jpg" },
+      { id: "valley-stream", name: "Valley Stream", theme: "bucolic", tags: ["valley", "stream", "water", "peaceful"], file: "bucolic/valley-stream.jpg" },
+      { id: "meadow-path", name: "Meadow Path", theme: "bucolic", tags: ["meadow", "path", "wildflowers", "walk"], file: "bucolic/meadow-path.jpg" },
+      { id: "pastoral-sunset", name: "Pastoral Sunset", theme: "bucolic", tags: ["sunset", "pastoral", "golden-hour", "warm"], file: "bucolic/pastoral-sunset.jpg" },
+      { id: "cottage-garden", name: "Cottage Garden", theme: "bucolic", tags: ["cottage", "garden", "flowers", "cozy"], file: "bucolic/cottage-garden.jpg" },
+      { id: "stone-bridge", name: "Stone Bridge", theme: "bucolic", tags: ["bridge", "stone", "river", "countryside"], file: "bucolic/stone-bridge.jpg" },
+      { id: "hillside-village", name: "Hillside Village", theme: "bucolic", tags: ["village", "hillside", "houses", "rural"], file: "bucolic/hillside-village.jpg" },
+      { id: "morning-mist", name: "Morning Mist", theme: "bucolic", tags: ["morning", "mist", "fog", "ethereal"], file: "bucolic/morning-mist.jpg" },
+      { id: "cul-de-sac", name: "Cul-de-sac", theme: "suburbia", tags: ["aerial", "neighborhood", "houses", "daytime"], file: "suburbia/cul-de-sac.jpg" },
+      { id: "mailbox-row", name: "Mailbox Row", theme: "suburbia", tags: ["afternoon", "mailboxes", "street", "golden-hour"], file: "suburbia/mailbox-row.jpg" },
+      { id: "backyard-bbq", name: "Backyard BBQ", theme: "suburbia", tags: ["dusk", "backyard", "bbq", "evening"], file: "suburbia/backyard-bbq.jpg" },
+      { id: "morning-jogger", name: "Morning Jogger", theme: "suburbia", tags: ["sunrise", "jogging", "morning", "street"], file: "suburbia/morning-jogger.jpg" },
+      { id: "garage-sale", name: "Garage Sale Saturday", theme: "suburbia", tags: ["daytime", "garage-sale", "weekend", "community"], file: "suburbia/garage-sale.jpg" },
+      { id: "pool-day", name: "Pool Day", theme: "suburbia", tags: ["aerial", "pool", "summer", "backyard"], file: "suburbia/pool-day.jpg" },
+      { id: "trick-or-treat", name: "Trick or Treat Street", theme: "suburbia", tags: ["autumn", "halloween", "twilight", "spooky"], file: "suburbia/trick-or-treat.jpg" },
+      { id: "snow-day", name: "Snow Day", theme: "suburbia", tags: ["winter", "snow", "cold", "quiet"], file: "suburbia/snow-day.jpg" },
+      { id: "block-party", name: "Block Party", theme: "suburbia", tags: ["summer", "evening", "community", "party"], file: "suburbia/block-party.jpg" },
+      { id: "late-night", name: "Late Night Suburbia", theme: "suburbia", tags: ["night", "quiet", "2am", "street"], file: "suburbia/late-night.jpg" },
+    ];
+
+    const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
+
+    let activeTheme = 'all';
+    let activeTag = null;
+    let searchQuery = '';
+    let filteredWallpapers = [...wallpapers];
+    let lightboxIndex = -1;
+
+    const $ = (sel) => document.querySelector(sel);
+
+    function buildTagFilters() {
+      const container = $('#tag-filters');
+      container.innerHTML = allTags.map(tag =>
+        `<button class="tag-pill" data-tag="${tag}">${tag}</button>`
+      ).join('');
+    }
+
+    function applyFilters() {
+      const q = searchQuery.toLowerCase().trim();
+      filteredWallpapers = wallpapers.filter(w => {
+        if (activeTheme !== 'all' && w.theme !== activeTheme) return false;
+        if (activeTag && !w.tags.includes(activeTag)) return false;
+        if (q) {
+          const haystack = (w.name + ' ' + w.theme + ' ' + w.tags.join(' ')).toLowerCase();
+          return haystack.includes(q);
+        }
+        return true;
+      });
+      renderGallery();
+      updateCount();
+    }
+
+    function updateCount() {
+      $('#count').textContent = filteredWallpapers.length + ' wallpaper' + (filteredWallpapers.length !== 1 ? 's' : '');
+    }
+
+    function renderGallery() {
+      const gallery = $('#gallery');
+      const empty = $('#empty');
+
+      const themes = [
+        { key: 'farm',     label: 'Farm',     desc: 'Nighttime pastoral scenes' },
+        { key: 'bucolic',  label: 'Bucolic',  desc: 'Idyllic countryside' },
+        { key: 'suburbia', label: 'Suburbia', desc: 'The quiet beauty of American suburbs' },
+      ];
+
+      let html = '';
+      let totalVisible = 0;
+
+      for (const theme of themes) {
+        const items = filteredWallpapers.filter(w => w.theme === theme.key);
+        if (items.length === 0) continue;
+        totalVisible += items.length;
+
+        html += `<section class="band-theme band-${theme.key}">
+          <div class="band-theme-header">
+            <div>
+              <span class="band-theme-title">${theme.label}</span>
+              <span class="band-theme-desc" style="margin-left:12px">${theme.desc}</span>
+            </div>
+            <span class="band-theme-count">${items.length} wallpaper${items.length !== 1 ? 's' : ''}</span>
+          </div>
+          <div class="band-grid">
+            ${items.map(w => {
+              const idx = filteredWallpapers.indexOf(w);
+              return `<div class="gallery-item loading" data-index="${idx}" tabindex="0" role="button" aria-label="${w.name}">
+                <img src="thumbs/${w.file}" alt="${w.name}" loading="lazy" onload="this.parentElement.classList.remove('loading')">
+                <div class="overlay">
+                  <div class="overlay-info">
+                    <span class="overlay-name">${w.name}</span>
+                    <button class="overlay-download" onclick="event.stopPropagation();downloadWallpaper('${w.file}','${w.id}')" aria-label="Download ${w.name}">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    </button>
+                  </div>
+                </div>
+              </div>`;
+            }).join('')}
+          </div>
+        </section>`;
+      }
+
+      if (totalVisible === 0) {
+        gallery.innerHTML = '';
+        empty.style.display = 'block';
+        return;
+      }
+
+      empty.style.display = 'none';
+      gallery.innerHTML = html;
+
+      gallery.querySelectorAll('.gallery-item').forEach(item => {
+        item.addEventListener('click', () => openLightbox(parseInt(item.dataset.index)));
+        item.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openLightbox(parseInt(item.dataset.index)); }
+        });
+      });
+    }
+
+    function downloadWallpaper(file, id) {
+      const a = document.createElement('a');
+      a.href = 'wallpapers/' + file;
+      a.download = id + '-4k.jpg';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    }
+
+    function openLightbox(index) {
+      lightboxIndex = index;
+      const w = filteredWallpapers[index];
+      if (!w) return;
+      $('#lb-img').src = 'wallpapers/' + w.file;
+      $('#lb-img').alt = w.name;
+      $('#lb-title').textContent = w.name;
+      $('#lb-theme').textContent = w.theme;
+      $('#lb-tags').innerHTML = w.tags.map(t => `<span class="lightbox-tag">${t}</span>`).join('');
+      $('#lb-download').href = 'wallpapers/' + w.file;
+      $('#lb-download').download = w.id + '-4k.jpg';
+      $('#lightbox').classList.add('open');
+      document.body.style.overflow = 'hidden';
+      updateNavVisibility();
+    }
+
+    function closeLightbox() {
+      $('#lightbox').classList.remove('open');
+      document.body.style.overflow = '';
+      $('#lb-img').src = '';
+      lightboxIndex = -1;
+    }
+
+    function navigateLightbox(dir) {
+      const newIndex = lightboxIndex + dir;
+      if (newIndex >= 0 && newIndex < filteredWallpapers.length) openLightbox(newIndex);
+    }
+
+    function updateNavVisibility() {
+      $('#lb-prev').style.display = lightboxIndex > 0 ? '' : 'none';
+      $('#lb-next').style.display = lightboxIndex < filteredWallpapers.length - 1 ? '' : 'none';
+    }
+
+    $('#search').addEventListener('input', (e) => { searchQuery = e.target.value; applyFilters(); });
+
+    document.querySelectorAll('.filter-pill[data-theme]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-pill[data-theme]').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeTheme = btn.dataset.theme;
+        applyFilters();
+      });
+    });
+
+    $('#tag-filters').addEventListener('click', (e) => {
+      const btn = e.target.closest('.tag-pill');
+      if (!btn) return;
+      if (btn.classList.contains('active')) {
+        btn.classList.remove('active');
+        activeTag = null;
+      } else {
+        document.querySelectorAll('.tag-pill').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeTag = btn.dataset.tag;
+      }
+      applyFilters();
+    });
+
+    $('#lb-close').addEventListener('click', closeLightbox);
+    $('#lb-prev').addEventListener('click', () => navigateLightbox(-1));
+    $('#lb-next').addEventListener('click', () => navigateLightbox(1));
+    $('#lightbox').addEventListener('click', (e) => { if (e.target === $('#lightbox')) closeLightbox(); });
+
+    document.addEventListener('keydown', (e) => {
+      if (!$('#lightbox').classList.contains('open')) return;
+      if (e.key === 'Escape') closeLightbox();
+      if (e.key === 'ArrowLeft') navigateLightbox(-1);
+      if (e.key === 'ArrowRight') navigateLightbox(1);
+    });
+
+    buildTagFilters();
+    applyFilters();
+  </script>
+</body>
+</html>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
