@@ -219,6 +219,7 @@
     .band-coastal { background: #1A4A6B; }
     .band-nyc     { background: #2A2A2A; }
     .band-americana { background: #B5372A; }
+    .band-lehigh    { background: #4E3629; }
 
     .band-theme-header {
       display: flex;
@@ -241,6 +242,7 @@
     .band-coastal .band-theme-title  { color: #B9E6FE; }
     .band-nyc .band-theme-title      { color: #F5C842; }
     .band-americana .band-theme-title { color: #F5E6C8; }
+    .band-lehigh .band-theme-title    { color: #FFFFFF; }
 
     .band-theme-desc {
       font-size: 0.78rem;
@@ -254,6 +256,7 @@
     .band-coastal .band-theme-desc  { color: #B9E6FE; }
     .band-nyc .band-theme-desc      { color: #F5C842; }
     .band-americana .band-theme-desc { color: #F5E6C8; }
+    .band-lehigh .band-theme-desc    { color: #FFFFFF; }
 
     .band-theme-count {
       font-size: 0.7rem;
@@ -270,6 +273,7 @@
     .band-coastal .band-theme-count  { color: #B9E6FE; }
     .band-nyc .band-theme-count      { color: #F5C842; }
     .band-americana .band-theme-count { color: #F5E6C8; }
+    .band-lehigh .band-theme-count    { color: #FFFFFF; }
 
     /* Gallery grid */
     .band-grid {
@@ -626,6 +630,7 @@
     <button class="filter-pill" data-theme="coastal">Coastal</button>
     <button class="filter-pill" data-theme="nyc">New York City</button>
     <button class="filter-pill" data-theme="americana">Americana</button>
+    <button class="filter-pill" data-theme="lehigh">Lehigh</button>
     <div class="filter-sep"></div>
     <div id="tag-filters" style="display:flex;gap:6px;flex-wrap:nowrap;"></div>
   </div>
@@ -662,7 +667,7 @@
 
   <!-- FOOTER BAND -->
   <footer class="band-footer">
-    <span class="band-footer-text">paper — 68 wallpapers, free to download</span>
+    <span class="band-footer-text">paper — 76 wallpapers, free to download</span>
   </footer>
 
   <script>
@@ -735,6 +740,14 @@
       { id: "covered-bridge-in-autumn", name: "Covered Bridge in Autumn", theme: "americana", tags: ["bridge", "autumn", "rural", "americana"], file: "americana/covered-bridge-in-autumn.jpg" },
       { id: "general-store", name: "General Store", theme: "americana", tags: ["general store", "rural", "vintage", "americana"], file: "americana/general-store.jpg" },
       { id: "main-street-at-dusk", name: "Main Street at Dusk", theme: "americana", tags: ["main street", "small town", "dusk", "americana"], file: "americana/main-street-at-dusk.jpg" },
+      { id: "linderman-library", name: "Linderman Library", theme: "lehigh", tags: ["lehigh", "library", "architecture", "autumn"], file: "lehigh/linderman-library.jpg" },
+      { id: "lehigh-hillside-campus", name: "Lehigh Hillside Campus", theme: "lehigh", tags: ["lehigh", "campus", "hillside", "autumn"], file: "lehigh/lehigh-hillside-campus.jpg" },
+      { id: "asa-packer-mansion", name: "Asa Packer Mansion", theme: "lehigh", tags: ["lehigh", "mansion", "victorian", "campus"], file: "lehigh/asa-packer-mansion.jpg" },
+      { id: "bethlehem-steel", name: "Bethlehem Steel", theme: "lehigh", tags: ["lehigh", "bethlehem", "industrial", "steel"], file: "lehigh/bethlehem-steel.jpg" },
+      { id: "taylor-stadium", name: "Taylor Stadium", theme: "lehigh", tags: ["lehigh", "stadium", "football", "campus"], file: "lehigh/taylor-stadium.jpg" },
+      { id: "lehigh-valley-at-dawn", name: "Lehigh Valley at Dawn", theme: "lehigh", tags: ["lehigh", "valley", "dawn", "bethlehem"], file: "lehigh/lehigh-valley-at-dawn.jpg" },
+      { id: "the-christmas-city", name: "The Christmas City", theme: "lehigh", tags: ["lehigh", "bethlehem", "christmas", "night"], file: "lehigh/the-christmas-city.jpg" },
+      { id: "alumni-memorial-building", name: "Alumni Memorial Building", theme: "lehigh", tags: ["lehigh", "architecture", "neoclassical", "campus"], file: "lehigh/alumni-memorial-building.jpg" },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -780,6 +793,7 @@
         { key: 'coastal',  label: 'Coastal',  desc: 'Sea, cliffs & shore' },
         { key: 'nyc',      label: 'New York City', desc: 'The city that never sleeps' },
         { key: 'americana', label: 'Americana', desc: 'Heartland, highways & home' },
+        { key: 'lehigh', label: 'Lehigh University', desc: 'The Mountain Hawks' },
       ];
 
       let html = '';
