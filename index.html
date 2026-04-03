@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>paper — wallpaper gallery</title>
+  <meta name="description" content="Curated AI-generated wallpapers in Figma flat illustration style. Free 4K downloads.">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #ffffff;
+      --bg-subtle: #f9fafb;
+      --text: #111827;
+      --text-secondary: #4b5563;
+      --text-tertiary: #9ca3af;
+      --border: #e5e7eb;
+      --border-light: #f3f4f6;
+      --coral: #ff7f50;
+      --azure: #0ea5e9;
+      --sage: #84cc16;
+      --overlay: rgba(0, 0, 0, 0.85);
+      --card-bg: #ffffff;
+      --tag-bg: #f3f4f6;
+      --tag-text: #4b5563;
+      --search-bg: #f9fafb;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f1117;
+        --bg-subtle: #161822;
+        --text: #e5e7eb;
+        --text-secondary: #9ca3af;
+        --text-tertiary: #6b7280;
+        --border: #1f2937;
+        --border-light: #1a1d2a;
+        --overlay: rgba(0, 0, 0, 0.92);
+        --card-bg: #161822;
+        --tag-bg: #1f2937;
+        --tag-text: #9ca3af;
+        --search-bg: #161822;
+      }
+    }
+
+    html { font-size: 16px; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      min-height: 100vh;
+    }
+
+    /* Header */
+    .site-header {
+      padding: 1.25rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5rem;
+      border-bottom: 1px solid var(--border-light);
+      position: sticky;
+      top: 0;
+      background: var(--bg);
+      z-index: 100;
+    }
+
+    .site-logo {
+      font-size: 1.35rem;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      color: var(--text);
+      text-decoration: none;
+      flex-shrink: 0;
+    }
+
+    .site-logo .dot {
+      display: inline-block;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--coral);
+      margin-left: 1px;
+      vertical-align: baseline;
+      position: relative;
+      top: -1px;
+    }
+
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .search-box {
+      position: relative;
+    }
+
+    .search-box svg {
+      position: absolute;
+      left: 0.75rem;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 15px;
+      height: 15px;
+      color: var(--text-tertiary);
+      pointer-events: none;
+    }
+
+    .search-input {
+      font-family: inherit;
+      font-size: 0.875rem;
+      padding: 0.5rem 0.75rem 0.5rem 2.25rem;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: var(--search-bg);
+      color: var(--text);
+      width: 220px;
+      outline: none;
+      transition: border-color 0.15s, width 0.2s;
+    }
+
+    .search-input:focus {
+      border-color: var(--text-tertiary);
+      width: 280px;
+    }
+
+    .search-input::placeholder {
+      color: var(--text-tertiary);
+    }
+
+    .wallpaper-count {
+      font-size: 0.8rem;
+      color: var(--text-tertiary);
+      white-space: nowrap;
+    }
+
+    /* Filters */
+    .filters-bar {
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      border-bottom: 1px solid var(--border-light);
+    }
+
+    .filter-btn {
+      font-family: inherit;
+      font-size: 0.8125rem;
+      font-weight: 500;
+      padding: 0.35rem 0.85rem;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      background: transparent;
+      color: var(--text-secondary);
+      cursor: pointer;
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+
+    .filter-btn:hover {
+      border-color: var(--text-tertiary);
+      color: var(--text);
+    }
+
+    .filter-btn.active {
+      background: var(--text);
+      color: var(--bg);
+      border-color: var(--text);
+    }
+
+    .filter-separator {
+      width: 1px;
+      height: 20px;
+      background: var(--border);
+      margin: 0 0.25rem;
+    }
+
+    .tag-btn {
+      font-family: inherit;
+      font-size: 0.75rem;
+      padding: 0.25rem 0.6rem;
+      border: 1px solid transparent;
+      border-radius: 3px;
+      background: var(--tag-bg);
+      color: var(--tag-text);
+      cursor: pointer;
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+
+    .tag-btn:hover {
+      border-color: var(--border);
+      color: var(--text);
+    }
+
+    .tag-btn.active {
+      background: var(--azure);
+      color: #fff;
+      border-color: var(--azure);
+    }
+
+    /* Gallery Grid */
+    .gallery {
+      padding: 1.5rem 2rem 3rem;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1rem;
+    }
+
+    .gallery-item {
+      position: relative;
+      border-radius: 6px;
+      overflow: hidden;
+      cursor: pointer;
+      background: var(--bg-subtle);
+      aspect-ratio: 16 / 9;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.03);
+    }
+
+    .gallery-item .overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.6) 0%, transparent 50%);
+      opacity: 0;
+      transition: opacity 0.25s;
+      display: flex;
+      align-items: flex-end;
+      padding: 1rem;
+    }
+
+    .gallery-item:hover .overlay {
+      opacity: 1;
+    }
+
+    .overlay-info {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .overlay-name {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    .overlay-theme {
+      font-size: 0.7rem;
+      color: rgba(255,255,255,0.7);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-top: 2px;
+    }
+
+    .overlay-download {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.15);
+      border: none;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: background 0.15s;
+      flex-shrink: 0;
+    }
+
+    .overlay-download:hover {
+      background: rgba(255,255,255,0.3);
+    }
+
+    .overlay-download svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    /* Empty state */
+    .empty-state {
+      text-align: center;
+      padding: 4rem 2rem;
+      color: var(--text-tertiary);
+    }
+
+    .empty-state p {
+      font-size: 0.9375rem;
+    }
+
+    /* Lightbox */
+    .lightbox {
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+      background: var(--overlay);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+
+    .lightbox.open {
+      display: flex;
+      opacity: 1;
+    }
+
+    .lightbox-inner {
+      max-width: 90vw;
+      max-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .lightbox-img-wrap {
+      position: relative;
+      max-width: 100%;
+      max-height: calc(90vh - 80px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .lightbox-img-wrap img {
+      max-width: 100%;
+      max-height: calc(90vh - 80px);
+      object-fit: contain;
+      border-radius: 4px;
+      display: block;
+    }
+
+    .lightbox-close {
+      position: fixed;
+      top: 1.25rem;
+      right: 1.5rem;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      border: none;
+      background: rgba(255,255,255,0.1);
+      color: rgba(255,255,255,0.8);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.15s;
+      z-index: 1001;
+    }
+
+    .lightbox-close:hover {
+      background: rgba(255,255,255,0.2);
+      color: #fff;
+    }
+
+    .lightbox-close svg {
+      width: 18px;
+      height: 18px;
+    }
+
+    .lightbox-meta {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .lightbox-title {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    .lightbox-detail {
+      font-size: 0.75rem;
+      color: rgba(255,255,255,0.5);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .lightbox-tags {
+      display: flex;
+      gap: 0.35rem;
+      flex-wrap: wrap;
+    }
+
+    .lightbox-tag {
+      font-size: 0.7rem;
+      padding: 0.15rem 0.5rem;
+      border-radius: 3px;
+      background: rgba(255,255,255,0.1);
+      color: rgba(255,255,255,0.65);
+    }
+
+    .lightbox-download-btn {
+      font-family: inherit;
+      font-size: 0.8125rem;
+      font-weight: 600;
+      padding: 0.5rem 1.25rem;
+      border: none;
+      border-radius: 5px;
+      background: #fff;
+      color: #111827;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      transition: opacity 0.15s;
+      text-decoration: none;
+    }
+
+    .lightbox-download-btn:hover {
+      opacity: 0.85;
+    }
+
+    .lightbox-download-btn svg {
+      width: 14px;
+      height: 14px;
+    }
+
+    /* Navigation arrows */
+    .lightbox-nav {
+      position: fixed;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: none;
+      background: rgba(255,255,255,0.08);
+      color: rgba(255,255,255,0.7);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.15s;
+      z-index: 1001;
+    }
+
+    .lightbox-nav:hover {
+      background: rgba(255,255,255,0.15);
+      color: #fff;
+    }
+
+    .lightbox-nav svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    .lightbox-prev { left: 1.25rem; }
+    .lightbox-next { right: 1.25rem; }
+
+    /* Footer */
+    .site-footer {
+      padding: 2rem;
+      border-top: 1px solid var(--border-light);
+      text-align: center;
+      color: var(--text-tertiary);
+      font-size: 0.75rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .site-header {
+        padding: 1rem 1.25rem;
+      }
+
+      .search-input {
+        width: 160px;
+      }
+
+      .search-input:focus {
+        width: 200px;
+      }
+
+      .filters-bar {
+        padding: 0.75rem 1.25rem;
+      }
+
+      .gallery {
+        padding: 1rem 1.25rem 2rem;
+      }
+
+      .gallery-grid {
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        gap: 0.75rem;
+      }
+
+      .gallery-item .overlay {
+        opacity: 1;
+        background: linear-gradient(to top, rgba(0,0,0,0.5) 0%, transparent 40%);
+      }
+
+      .wallpaper-count { display: none; }
+
+      .lightbox-prev { left: 0.5rem; }
+      .lightbox-next { right: 0.5rem; }
+
+      .lightbox-nav {
+        width: 34px;
+        height: 34px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .gallery-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Keyboard focus styles */
+    .filter-btn:focus-visible,
+    .tag-btn:focus-visible,
+    .gallery-item:focus-visible,
+    .lightbox-close:focus-visible,
+    .lightbox-nav:focus-visible {
+      outline: 2px solid var(--azure);
+      outline-offset: 2px;
+    }
+
+    /* Loading shimmer for images */
+    .gallery-item.loading {
+      background: linear-gradient(90deg, var(--bg-subtle) 25%, var(--border-light) 50%, var(--bg-subtle) 75%);
+      background-size: 200% 100%;
+      animation: shimmer 1.5s infinite;
+    }
+
+    @keyframes shimmer {
+      0% { background-position: 200% 0; }
+      100% { background-position: -200% 0; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a href="./" class="site-logo">paper<span class="dot"></span></a>
+    <div class="header-right">
+      <div class="search-box">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" class="search-input" id="search" placeholder="Search wallpapers..." autocomplete="off" spellcheck="false">
+      </div>
+      <span class="wallpaper-count" id="count"></span>
+    </div>
+  </header>
+
+  <div class="filters-bar" id="filters">
+    <button class="filter-btn active" data-theme="all">All</button>
+    <button class="filter-btn" data-theme="farm">Farm</button>
+    <button class="filter-btn" data-theme="suburbia">Suburbia</button>
+    <div class="filter-separator"></div>
+    <div id="tag-filters"></div>
+  </div>
+
+  <main class="gallery">
+    <div class="gallery-grid" id="gallery"></div>
+    <div class="empty-state" id="empty" style="display:none">
+      <p>No wallpapers match your search.</p>
+    </div>
+  </main>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lb-close" aria-label="Close">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <button class="lightbox-nav lightbox-prev" id="lb-prev" aria-label="Previous">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <button class="lightbox-nav lightbox-next" id="lb-next" aria-label="Next">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 6 15 12 9 18"/></svg>
+    </button>
+    <div class="lightbox-inner">
+      <div class="lightbox-img-wrap">
+        <img id="lb-img" src="" alt="">
+      </div>
+      <div class="lightbox-meta">
+        <span class="lightbox-title" id="lb-title"></span>
+        <span class="lightbox-detail" id="lb-theme"></span>
+        <span class="lightbox-detail" id="lb-res">5504 x 3072</span>
+        <div class="lightbox-tags" id="lb-tags"></div>
+        <a class="lightbox-download-btn" id="lb-download" href="#" download>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download 4K
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    Made with paper
+  </footer>
+
+  <script>
+    const wallpapers = [
+      { id: "moonlit-barn", name: "Moonlit Barn", theme: "farm", tags: ["night", "barn", "moonlight", "rural"], file: "farm/moonlit-barn.jpg" },
+      { id: "starry-pasture", name: "Starry Pasture", theme: "farm", tags: ["night", "stars", "pasture", "field"], file: "farm/starry-pasture.jpg" },
+      { id: "farmhouse-porch", name: "Farmhouse Porch", theme: "farm", tags: ["night", "farmhouse", "porch", "cozy"], file: "farm/farmhouse-porch.jpg" },
+      { id: "hay-bales", name: "Hay Bales", theme: "farm", tags: ["night", "hay", "field", "stars"], file: "farm/hay-bales.jpg" },
+      { id: "night-harvest", name: "Night Harvest", theme: "farm", tags: ["night", "harvest", "tractor", "field"], file: "farm/night-harvest.jpg" },
+      { id: "pond-reflections", name: "Pond Reflections", theme: "farm", tags: ["night", "pond", "water", "reflections"], file: "farm/pond-reflections.jpg" },
+      { id: "orchard-twilight", name: "Orchard at Twilight", theme: "farm", tags: ["twilight", "orchard", "trees", "evening"], file: "farm/orchard-twilight.jpg" },
+      { id: "country-road", name: "Country Road", theme: "farm", tags: ["night", "road", "moonlight", "rural"], file: "farm/country-road.jpg" },
+      { id: "windmill-tower", name: "Windmill & Water Tower", theme: "farm", tags: ["night", "windmill", "tower", "rural"], file: "farm/windmill-tower.jpg" },
+      { id: "dawn-breaking", name: "Dawn Breaking", theme: "farm", tags: ["dawn", "sunrise", "morning", "farm"], file: "farm/dawn-breaking.jpg" },
+      { id: "cul-de-sac", name: "Cul-de-sac", theme: "suburbia", tags: ["aerial", "neighborhood", "houses", "daytime"], file: "suburbia/cul-de-sac.jpg" },
+      { id: "mailbox-row", name: "Mailbox Row", theme: "suburbia", tags: ["afternoon", "mailboxes", "street", "golden-hour"], file: "suburbia/mailbox-row.jpg" },
+      { id: "backyard-bbq", name: "Backyard BBQ", theme: "suburbia", tags: ["dusk", "backyard", "bbq", "evening"], file: "suburbia/backyard-bbq.jpg" },
+      { id: "morning-jogger", name: "Morning Jogger", theme: "suburbia", tags: ["sunrise", "jogging", "morning", "street"], file: "suburbia/morning-jogger.jpg" },
+      { id: "garage-sale", name: "Garage Sale Saturday", theme: "suburbia", tags: ["daytime", "garage-sale", "weekend", "community"], file: "suburbia/garage-sale.jpg" },
+      { id: "pool-day", name: "Pool Day", theme: "suburbia", tags: ["aerial", "pool", "summer", "backyard"], file: "suburbia/pool-day.jpg" },
+      { id: "trick-or-treat", name: "Trick or Treat Street", theme: "suburbia", tags: ["autumn", "halloween", "twilight", "spooky"], file: "suburbia/trick-or-treat.jpg" },
+      { id: "snow-day", name: "Snow Day", theme: "suburbia", tags: ["winter", "snow", "cold", "quiet"], file: "suburbia/snow-day.jpg" },
+      { id: "block-party", name: "Block Party", theme: "suburbia", tags: ["summer", "evening", "community", "party"], file: "suburbia/block-party.jpg" },
+      { id: "late-night", name: "Late Night Suburbia", theme: "suburbia", tags: ["night", "quiet", "2am", "street"], file: "suburbia/late-night.jpg" },
+    ];
+
+    // Gather all unique tags
+    const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
+
+    // State
+    let activeTheme = 'all';
+    let activeTag = null;
+    let searchQuery = '';
+    let filteredWallpapers = [...wallpapers];
+    let lightboxIndex = -1;
+
+    const $ = (sel) => document.querySelector(sel);
+    const $$ = (sel) => document.querySelectorAll(sel);
+
+    // Build tag filter buttons
+    function buildTagFilters() {
+      const container = $('#tag-filters');
+      container.innerHTML = allTags.map(tag =>
+        `<button class="tag-btn" data-tag="${tag}">${tag}</button>`
+      ).join('');
+    }
+
+    // Filter wallpapers
+    function applyFilters() {
+      const q = searchQuery.toLowerCase().trim();
+      filteredWallpapers = wallpapers.filter(w => {
+        if (activeTheme !== 'all' && w.theme !== activeTheme) return false;
+        if (activeTag && !w.tags.includes(activeTag)) return false;
+        if (q) {
+          const haystack = (w.name + ' ' + w.theme + ' ' + w.tags.join(' ')).toLowerCase();
+          return haystack.includes(q);
+        }
+        return true;
+      });
+      renderGallery();
+      updateCount();
+    }
+
+    function updateCount() {
+      $('#count').textContent = filteredWallpapers.length + ' wallpaper' + (filteredWallpapers.length !== 1 ? 's' : '');
+    }
+
+    // Render gallery
+    function renderGallery() {
+      const grid = $('#gallery');
+      const empty = $('#empty');
+
+      if (filteredWallpapers.length === 0) {
+        grid.innerHTML = '';
+        empty.style.display = 'block';
+        return;
+      }
+
+      empty.style.display = 'none';
+      grid.innerHTML = filteredWallpapers.map((w, i) => `
+        <div class="gallery-item loading" data-index="${i}" tabindex="0" role="button" aria-label="${w.name}">
+          <img src="thumbs/${w.file}" alt="${w.name}" loading="lazy" onload="this.parentElement.classList.remove('loading')">
+          <div class="overlay">
+            <div class="overlay-info">
+              <div>
+                <div class="overlay-name">${w.name}</div>
+                <div class="overlay-theme">${w.theme}</div>
+              </div>
+              <button class="overlay-download" onclick="event.stopPropagation(); downloadWallpaper('${w.file}', '${w.id}')" aria-label="Download ${w.name}">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      `).join('');
+
+      // Attach click handlers
+      grid.querySelectorAll('.gallery-item').forEach(item => {
+        item.addEventListener('click', () => openLightbox(parseInt(item.dataset.index)));
+        item.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            openLightbox(parseInt(item.dataset.index));
+          }
+        });
+      });
+    }
+
+    // Download helper
+    function downloadWallpaper(file, id) {
+      const a = document.createElement('a');
+      a.href = 'wallpapers/' + file;
+      a.download = id + '-4k.jpg';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    }
+
+    // Lightbox
+    function openLightbox(index) {
+      lightboxIndex = index;
+      const w = filteredWallpapers[index];
+      if (!w) return;
+
+      $('#lb-img').src = 'wallpapers/' + w.file;
+      $('#lb-img').alt = w.name;
+      $('#lb-title').textContent = w.name;
+      $('#lb-theme').textContent = w.theme;
+      $('#lb-tags').innerHTML = w.tags.map(t => `<span class="lightbox-tag">${t}</span>`).join('');
+      $('#lb-download').href = 'wallpapers/' + w.file;
+      $('#lb-download').download = w.id + '-4k.jpg';
+
+      const lb = $('#lightbox');
+      lb.classList.add('open');
+      document.body.style.overflow = 'hidden';
+
+      updateNavVisibility();
+    }
+
+    function closeLightbox() {
+      $('#lightbox').classList.remove('open');
+      document.body.style.overflow = '';
+      $('#lb-img').src = '';
+      lightboxIndex = -1;
+    }
+
+    function navigateLightbox(dir) {
+      const newIndex = lightboxIndex + dir;
+      if (newIndex >= 0 && newIndex < filteredWallpapers.length) {
+        openLightbox(newIndex);
+      }
+    }
+
+    function updateNavVisibility() {
+      $('#lb-prev').style.display = lightboxIndex > 0 ? '' : 'none';
+      $('#lb-next').style.display = lightboxIndex < filteredWallpapers.length - 1 ? '' : 'none';
+    }
+
+    // Event listeners
+    $('#search').addEventListener('input', (e) => {
+      searchQuery = e.target.value;
+      applyFilters();
+    });
+
+    // Theme filters
+    document.querySelectorAll('.filter-btn[data-theme]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn[data-theme]').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeTheme = btn.dataset.theme;
+        applyFilters();
+      });
+    });
+
+    // Tag filters (delegated)
+    $('#tag-filters').addEventListener('click', (e) => {
+      const btn = e.target.closest('.tag-btn');
+      if (!btn) return;
+
+      if (btn.classList.contains('active')) {
+        btn.classList.remove('active');
+        activeTag = null;
+      } else {
+        document.querySelectorAll('.tag-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeTag = btn.dataset.tag;
+      }
+      applyFilters();
+    });
+
+    // Lightbox controls
+    $('#lb-close').addEventListener('click', closeLightbox);
+    $('#lb-prev').addEventListener('click', () => navigateLightbox(-1));
+    $('#lb-next').addEventListener('click', () => navigateLightbox(1));
+
+    $('#lightbox').addEventListener('click', (e) => {
+      if (e.target === $('#lightbox')) closeLightbox();
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (!$('#lightbox').classList.contains('open')) return;
+      if (e.key === 'Escape') closeLightbox();
+      if (e.key === 'ArrowLeft') navigateLightbox(-1);
+      if (e.key === 'ArrowRight') navigateLightbox(1);
+    });
+
+    // Init
+    buildTagFilters();
+    applyFilters();
+  </script>
+</body>
+</html>
