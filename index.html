@@ -217,6 +217,7 @@
     .band-bucolic { background: #D9F0B0; }
     .band-suburbia { background: #E8F4FD; }
     .band-easter { background: #FDF3DC; }
+    .band-coastal { background: #1A4A6B; }
 
     .band-theme-header {
       display: flex;
@@ -236,6 +237,7 @@
     .band-bucolic .band-theme-title  { color: #2D4A1E; }
     .band-suburbia .band-theme-title { color: #1A2744; }
     .band-easter .band-theme-title   { color: #7A4A10; }
+    .band-coastal .band-theme-title  { color: #B9E6FE; }
 
     .band-theme-desc {
       font-size: 0.78rem;
@@ -246,6 +248,7 @@
     .band-bucolic .band-theme-desc  { color: #2D4A1E; }
     .band-suburbia .band-theme-desc { color: #1A2744; }
     .band-easter .band-theme-desc   { color: #7A4A10; }
+    .band-coastal .band-theme-desc  { color: #B9E6FE; }
 
     .band-theme-count {
       font-size: 0.7rem;
@@ -259,6 +262,7 @@
     .band-bucolic .band-theme-count  { color: #2D4A1E; }
     .band-suburbia .band-theme-count { color: #1A2744; }
     .band-easter .band-theme-count   { color: #7A4A10; }
+    .band-coastal .band-theme-count  { color: #B9E6FE; }
 
     /* Gallery grid */
     .band-grid {
@@ -612,6 +616,7 @@
     <button class="filter-pill" data-theme="bucolic">Bucolic</button>
     <button class="filter-pill" data-theme="suburbia">Suburbia</button>
     <button class="filter-pill" data-theme="easter">Easter</button>
+    <button class="filter-pill" data-theme="coastal">Coastal</button>
     <div class="filter-sep"></div>
     <div id="tag-filters" style="display:flex;gap:6px;flex-wrap:nowrap;"></div>
   </div>
@@ -648,7 +653,7 @@
 
   <!-- FOOTER BAND -->
   <footer class="band-footer">
-    <span class="band-footer-text">paper — 40 wallpapers, free to download</span>
+    <span class="band-footer-text">paper — 48 wallpapers, free to download</span>
   </footer>
 
   <script>
@@ -693,6 +698,14 @@
       { id: "easter-bell-tower", name: "Easter Bell Tower", theme: "easter", tags: ["resurrection", "church", "bell tower", "morning", "easter"], file: "easter/easter-bell-tower.jpg" },
       { id: "country-chapel-at-dawn", name: "Country Chapel at Dawn", theme: "easter", tags: ["resurrection", "chapel", "dawn", "meadow", "easter"], file: "easter/country-chapel-at-dawn.jpg" },
       { id: "village-easter-morning", name: "Village Easter Morning", theme: "easter", tags: ["resurrection", "village", "church", "morning", "easter"], file: "easter/village-easter-morning.jpg" },
+      { id: "sea-stacks-at-dusk", name: "Sea Stacks at Dusk", theme: "coastal", tags: ["ocean", "rocks", "dusk", "dramatic"], file: "coastal/sea-stacks-at-dusk.jpg" },
+      { id: "foggy-cliffs", name: "Foggy Cliffs", theme: "coastal", tags: ["cliffs", "fog", "morning", "moody"], file: "coastal/foggy-cliffs.jpg" },
+      { id: "lighthouse-point", name: "Lighthouse Point", theme: "coastal", tags: ["lighthouse", "rocky", "dusk", "ocean"], file: "coastal/lighthouse-point.jpg" },
+      { id: "tide-pools", name: "Tide Pools", theme: "coastal", tags: ["tide pools", "rocks", "ocean", "afternoon"], file: "coastal/tide-pools.jpg" },
+      { id: "coastal-headland", name: "Coastal Headland", theme: "coastal", tags: ["headland", "ocean", "green", "calm"], file: "coastal/coastal-headland.jpg" },
+      { id: "storm-coast", name: "Storm Coast", theme: "coastal", tags: ["storm", "dramatic", "waves", "dark"], file: "coastal/storm-coast.jpg" },
+      { id: "sea-cave", name: "Sea Cave", theme: "coastal", tags: ["cave", "ocean", "turquoise", "light"], file: "coastal/sea-cave.jpg" },
+      { id: "low-tide-morning", name: "Low Tide Morning", theme: "coastal", tags: ["low tide", "dawn", "reflection", "still"], file: "coastal/low-tide-morning.jpg" },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -735,6 +748,7 @@
         { key: 'bucolic',  label: 'Bucolic',  desc: 'Idyllic countryside' },
         { key: 'suburbia', label: 'Suburbia', desc: 'The quiet beauty of American suburbs' },
         { key: 'easter',   label: 'Easter',   desc: 'Resurrection morning' },
+        { key: 'coastal',  label: 'Coastal',  desc: 'Sea, cliffs & shore' },
       ];
 
       let html = '';
