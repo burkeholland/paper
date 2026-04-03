@@ -218,6 +218,7 @@
     .band-easter { background: #FDF3DC; }
     .band-coastal { background: #1A4A6B; }
     .band-nyc     { background: #2A2A2A; }
+    .band-americana { background: #B5372A; }
 
     .band-theme-header {
       display: flex;
@@ -239,6 +240,7 @@
     .band-easter .band-theme-title   { color: #7A4A10; }
     .band-coastal .band-theme-title  { color: #B9E6FE; }
     .band-nyc .band-theme-title      { color: #F5C842; }
+    .band-americana .band-theme-title { color: #F5E6C8; }
 
     .band-theme-desc {
       font-size: 0.78rem;
@@ -251,6 +253,7 @@
     .band-easter .band-theme-desc   { color: #7A4A10; }
     .band-coastal .band-theme-desc  { color: #B9E6FE; }
     .band-nyc .band-theme-desc      { color: #F5C842; }
+    .band-americana .band-theme-desc { color: #F5E6C8; }
 
     .band-theme-count {
       font-size: 0.7rem;
@@ -266,6 +269,7 @@
     .band-easter .band-theme-count   { color: #7A4A10; }
     .band-coastal .band-theme-count  { color: #B9E6FE; }
     .band-nyc .band-theme-count      { color: #F5C842; }
+    .band-americana .band-theme-count { color: #F5E6C8; }
 
     /* Gallery grid */
     .band-grid {
@@ -621,6 +625,7 @@
     <button class="filter-pill" data-theme="easter">Easter</button>
     <button class="filter-pill" data-theme="coastal">Coastal</button>
     <button class="filter-pill" data-theme="nyc">New York City</button>
+    <button class="filter-pill" data-theme="americana">Americana</button>
     <div class="filter-sep"></div>
     <div id="tag-filters" style="display:flex;gap:6px;flex-wrap:nowrap;"></div>
   </div>
@@ -657,7 +662,7 @@
 
   <!-- FOOTER BAND -->
   <footer class="band-footer">
-    <span class="band-footer-text">paper — 58 wallpapers, free to download</span>
+    <span class="band-footer-text">paper — 68 wallpapers, free to download</span>
   </footer>
 
   <script>
@@ -720,6 +725,16 @@
       { id: "central-park-winter", name: "Central Park Winter", theme: "nyc", tags: ["central park", "winter", "snow", "nyc"], file: "nyc/central-park-winter.jpg" },
       { id: "coney-island-boardwalk", name: "Coney Island Boardwalk", theme: "nyc", tags: ["coney island", "boardwalk", "sunset", "nyc"], file: "nyc/coney-island-boardwalk.jpg" },
       { id: "rainy-night-midtown", name: "Rainy Night in Midtown", theme: "nyc", tags: ["rain", "night", "midtown", "nyc"], file: "nyc/rainy-night-midtown.jpg" },
+      { id: "route-66", name: "Route 66", theme: "americana", tags: ["highway", "desert", "road trip", "americana"], file: "americana/route-66.jpg" },
+      { id: "grain-elevator", name: "Grain Elevator", theme: "americana", tags: ["midwest", "plains", "grain", "americana"], file: "americana/grain-elevator.jpg" },
+      { id: "drive-in-at-dusk", name: "Drive-In at Dusk", theme: "americana", tags: ["drive-in", "cinema", "dusk", "americana"], file: "americana/drive-in-at-dusk.jpg" },
+      { id: "small-town-water-tower", name: "Small Town Water Tower", theme: "americana", tags: ["water tower", "small town", "americana"], file: "americana/small-town-water-tower.jpg" },
+      { id: "roadside-diner", name: "Roadside Diner", theme: "americana", tags: ["diner", "neon", "roadside", "americana"], file: "americana/roadside-diner.jpg" },
+      { id: "county-fair-ferris-wheel", name: "County Fair Ferris Wheel", theme: "americana", tags: ["fair", "ferris wheel", "sunset", "americana"], file: "americana/county-fair-ferris-wheel.jpg" },
+      { id: "baseball-diamond", name: "Baseball Diamond", theme: "americana", tags: ["baseball", "field", "golden hour", "americana"], file: "americana/baseball-diamond.jpg" },
+      { id: "covered-bridge-in-autumn", name: "Covered Bridge in Autumn", theme: "americana", tags: ["bridge", "autumn", "rural", "americana"], file: "americana/covered-bridge-in-autumn.jpg" },
+      { id: "general-store", name: "General Store", theme: "americana", tags: ["general store", "rural", "vintage", "americana"], file: "americana/general-store.jpg" },
+      { id: "main-street-at-dusk", name: "Main Street at Dusk", theme: "americana", tags: ["main street", "small town", "dusk", "americana"], file: "americana/main-street-at-dusk.jpg" },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -764,6 +779,7 @@
         { key: 'easter',   label: 'Easter',   desc: 'Resurrection morning' },
         { key: 'coastal',  label: 'Coastal',  desc: 'Sea, cliffs & shore' },
         { key: 'nyc',      label: 'New York City', desc: 'The city that never sleeps' },
+        { key: 'americana', label: 'Americana', desc: 'Heartland, highways & home' },
       ];
 
       let html = '';
