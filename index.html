@@ -244,6 +244,7 @@
     .band-childhood { background: #3D6B4F; }
     .band-rooftops  { background: #2C2C34; }
     .band-abandoned { background: #2A2E25; }
+    .band-cars-and-coffee { background: #2C1A0E; }
 
     .band-theme-header {
       display: flex;
@@ -271,6 +272,7 @@
     .band-childhood .band-theme-title { color: #FAF6EE; }
     .band-rooftops .band-theme-title  { color: #E8C87A; }
     .band-abandoned .band-theme-title { color: #D4B876; }
+    .band-cars-and-coffee .band-theme-title { color: #F5C87A; }
 
     .band-theme-desc {
       font-size: 0.78rem;
@@ -289,6 +291,7 @@
     .band-childhood .band-theme-desc { color: #FAF6EE; }
     .band-rooftops .band-theme-desc  { color: #E8C87A; }
     .band-abandoned .band-theme-desc { color: #D4B876; }
+    .band-cars-and-coffee .band-theme-desc { color: #F5C87A; }
 
     .band-theme-count {
       font-size: 0.7rem;
@@ -310,6 +313,7 @@
     .band-childhood .band-theme-count { color: #FAF6EE; }
     .band-rooftops .band-theme-count  { color: #E8C87A; }
     .band-abandoned .band-theme-count { color: #D4B876; }
+    .band-cars-and-coffee .band-theme-count { color: #F5C87A; }
 
     /* Gallery grid */
     .band-grid {
@@ -961,6 +965,14 @@
       { id: "flooded-cathedral", name: "Flooded Cathedral", theme: "abandoned", tags: ["cathedral", "flooded", "stained glass", "abandoned"], file: "abandoned/flooded-cathedral.jpg" },
       { id: "derelict-factory", name: "Derelict Factory", theme: "abandoned", tags: ["factory", "industrial", "derelict", "abandoned"], file: "abandoned/derelict-factory.jpg" },
       { id: "crumbling-observatory", name: "Crumbling Observatory", theme: "abandoned", tags: ["observatory", "telescope", "stars", "abandoned"], file: "abandoned/crumbling-observatory.jpg" },
+      { id: "vintage-porsche-morning", name: "Vintage Porsche Morning", theme: "cars-and-coffee", tags: ["porsche", "vintage", "morning", "cars-and-coffee"], file: "cars-and-coffee/vintage-porsche-morning.jpg" },
+      { id: "ferrari-at-dawn", name: "Ferrari at Dawn", theme: "cars-and-coffee", tags: ["ferrari", "dawn", "sunrise", "cars-and-coffee"], file: "cars-and-coffee/ferrari-at-dawn.jpg" },
+      { id: "steaming-cup-hood", name: "Steaming Cup on Hood", theme: "cars-and-coffee", tags: ["coffee", "cup", "hood", "cars-and-coffee"], file: "cars-and-coffee/steaming-cup-hood.jpg" },
+      { id: "parking-lot-meetup", name: "Parking Lot Meetup", theme: "cars-and-coffee", tags: ["meetup", "parking lot", "cars", "cars-and-coffee"], file: "cars-and-coffee/parking-lot-meetup.jpg" },
+      { id: "classic-mustang-mist", name: "Classic Mustang in Mist", theme: "cars-and-coffee", tags: ["mustang", "classic", "mist", "cars-and-coffee"], file: "cars-and-coffee/classic-mustang-mist.jpg" },
+      { id: "espresso-and-engine", name: "Espresso and Engine", theme: "cars-and-coffee", tags: ["espresso", "engine", "morning", "cars-and-coffee"], file: "cars-and-coffee/espresso-and-engine.jpg" },
+      { id: "sunrise-car-show", name: "Sunrise Car Show", theme: "cars-and-coffee", tags: ["car show", "sunrise", "golden hour", "cars-and-coffee"], file: "cars-and-coffee/sunrise-car-show.jpg" },
+      { id: "bmw-and-barista", name: "BMW and Barista", theme: "cars-and-coffee", tags: ["bmw", "barista", "coffee shop", "cars-and-coffee"], file: "cars-and-coffee/bmw-and-barista.jpg" },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -1011,6 +1023,7 @@
         { key: 'childhood', label: 'Childhood', desc: 'Sun-soaked summer nostalgia' },
         { key: 'rooftops', label: 'Rooftops', desc: 'Above the skyline' },
         { key: 'abandoned', label: 'Abandoned', desc: 'Nature reclaims' },
+        { key: 'cars-and-coffee', label: 'Cars & Coffee', desc: 'Morning meets and motors' },
       ];
 
       let html = '';
