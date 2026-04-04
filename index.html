@@ -779,6 +779,7 @@
     <button class="filter-pill" data-theme="lehigh">Lehigh</button>
     <button class="filter-pill" data-theme="childhood">Childhood</button>
     <button class="filter-pill" data-theme="1920s">1920s</button>
+    <button class="filter-pill" data-theme="rooftops">Rooftops</button>
     <div class="filter-sep"></div>
     <div id="tag-filters" style="display:flex;gap:6px;flex-wrap:nowrap;"></div>
   </div>
@@ -839,7 +840,7 @@
 
   <!-- FOOTER BAND -->
   <footer class="band-footer">
-    <span class="band-footer-text">paper — 92 wallpapers, free to download. Images are created by Max (Burke's AI assistant) who writes the prompts and sends them to Google's Gemini image model for generation.</span>
+    <span class="band-footer-text">paper — 100 wallpapers, free to download. Images are created by Max (Burke's AI assistant) who writes the prompts and sends them to Google's Gemini image model for generation.</span>
   </footer>
 
   <script>
@@ -936,6 +937,14 @@
       { id: "blanket-fort", name: "Blanket Fort", theme: "childhood", tags: ["fort", "cozy", "pillows", "warm"], file: "childhood/blanket-fort.jpg" },
       { id: "playground-golden-hour", name: "Playground at Golden Hour", theme: "childhood", tags: ["playground", "swings", "dusk", "shadows"], file: "childhood/playground-golden-hour.jpg" },
       { id: "fireflies-dusk", name: "Fireflies at Dusk", theme: "childhood", tags: ["fireflies", "evening", "backyard", "glow"], file: "childhood/fireflies-dusk.jpg" },
+      { id: "water-towers-sunset", name: "Water Towers at Sunset", theme: "rooftops", tags: ["water tower", "sunset", "rooftop", "golden hour"], file: "rooftops/water-towers-sunset.jpg" },
+      { id: "string-lights-rain", name: "String Lights After Rain", theme: "rooftops", tags: ["string lights", "rain", "rooftop", "evening"], file: "rooftops/string-lights-rain.jpg" },
+      { id: "rooftop-garden", name: "Rooftop Garden at Golden Hour", theme: "rooftops", tags: ["garden", "golden hour", "rooftop", "plants"], file: "rooftops/rooftop-garden.jpg" },
+      { id: "neon-glow-below", name: "Neon Glow From Below", theme: "rooftops", tags: ["neon", "night", "rooftop", "city lights"], file: "rooftops/neon-glow-below.jpg" },
+      { id: "clotheslines-brick", name: "Clotheslines and Brick", theme: "rooftops", tags: ["clotheslines", "brick", "rooftop", "afternoon"], file: "rooftops/clotheslines-brick.jpg" },
+      { id: "snowy-chimneys-dusk", name: "Snowy Chimneys at Dusk", theme: "rooftops", tags: ["snow", "chimneys", "rooftop", "winter", "dusk"], file: "rooftops/snowy-chimneys-dusk.jpg" },
+      { id: "dawn-fog", name: "Dawn Fog Rolling In", theme: "rooftops", tags: ["dawn", "fog", "rooftop", "morning", "mist"], file: "rooftops/dawn-fog.jpg" },
+      { id: "old-antennas-clouds", name: "Old Antennas and Dramatic Clouds", theme: "rooftops", tags: ["antennas", "clouds", "rooftop", "dramatic", "moody"], file: "rooftops/old-antennas-clouds.jpg" },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
