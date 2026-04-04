@@ -245,6 +245,7 @@
     .band-rooftops  { background: #2C2C34; }
     .band-abandoned { background: #2A2E25; }
     .band-cars-and-coffee { background: #2C1A0E; }
+    .band-skylines { background: #1A2332; }
 
     .band-theme-header {
       display: flex;
@@ -273,6 +274,7 @@
     .band-rooftops .band-theme-title  { color: #E8C87A; }
     .band-abandoned .band-theme-title { color: #D4B876; }
     .band-cars-and-coffee .band-theme-title { color: #F5C87A; }
+    .band-skylines .band-theme-title { color: #B9D8F5; }
 
     .band-theme-desc {
       font-size: 0.78rem;
@@ -292,6 +294,7 @@
     .band-rooftops .band-theme-desc  { color: #E8C87A; }
     .band-abandoned .band-theme-desc { color: #D4B876; }
     .band-cars-and-coffee .band-theme-desc { color: #F5C87A; }
+    .band-skylines .band-theme-desc { color: #B9D8F5; }
 
     .band-theme-count {
       font-size: 0.7rem;
@@ -314,6 +317,7 @@
     .band-rooftops .band-theme-count  { color: #E8C87A; }
     .band-abandoned .band-theme-count { color: #D4B876; }
     .band-cars-and-coffee .band-theme-count { color: #F5C87A; }
+    .band-skylines .band-theme-count { color: #B9D8F5; }
 
     /* Gallery grid */
     .band-grid {
@@ -792,6 +796,7 @@
     <button class="filter-pill" data-theme="childhood">Childhood</button>
     <button class="filter-pill" data-theme="1920s">1920s</button>
     <button class="filter-pill" data-theme="rooftops">Rooftops</button>
+    <button class="filter-pill" data-theme="skylines">Skylines</button>
     <div class="filter-sep"></div>
     <div id="tag-filters" style="display:flex;gap:6px;flex-wrap:nowrap;"></div>
   </div>
@@ -852,7 +857,7 @@
 
   <!-- FOOTER BAND -->
   <footer class="band-footer">
-    <span class="band-footer-text">paper — 108 wallpapers, free to download.</span>
+    <span class="band-footer-text">paper — 116 wallpapers, free to download.</span>
   </footer>
 
   <script>
@@ -973,6 +978,14 @@
       { id: "espresso-and-engine", name: "Espresso and Engine", theme: "cars-and-coffee", tags: ["espresso", "engine", "morning", "cars-and-coffee"], file: "cars-and-coffee/espresso-and-engine.jpg" },
       { id: "sunrise-car-show", name: "Sunrise Car Show", theme: "cars-and-coffee", tags: ["car show", "sunrise", "golden hour", "cars-and-coffee"], file: "cars-and-coffee/sunrise-car-show.jpg" },
       { id: "bmw-and-barista", name: "BMW and Barista", theme: "cars-and-coffee", tags: ["bmw", "barista", "coffee shop", "cars-and-coffee"], file: "cars-and-coffee/bmw-and-barista.jpg" },
+      { id: "new-york-dawn", name: "New York Dawn", theme: "skylines", tags: ["new york", "dawn", "empire state", "skylines"], file: "skylines/new-york-dawn.jpg" },
+      { id: "chicago-dusk", name: "Chicago Dusk", theme: "skylines", tags: ["chicago", "dusk", "lake michigan", "skylines"], file: "skylines/chicago-dusk.jpg" },
+      { id: "san-francisco-fog", name: "San Francisco Fog", theme: "skylines", tags: ["san francisco", "fog", "golden gate", "skylines"], file: "skylines/san-francisco-fog.jpg" },
+      { id: "los-angeles-golden", name: "Los Angeles Golden Hour", theme: "skylines", tags: ["los angeles", "golden hour", "palm trees", "skylines"], file: "skylines/los-angeles-golden.jpg" },
+      { id: "new-orleans-night", name: "New Orleans Night", theme: "skylines", tags: ["new orleans", "night", "french quarter", "skylines"], file: "skylines/new-orleans-night.jpg" },
+      { id: "nashville-twilight", name: "Nashville Twilight", theme: "skylines", tags: ["nashville", "twilight", "batman building", "skylines"], file: "skylines/nashville-twilight.jpg" },
+      { id: "seattle-overcast", name: "Seattle Overcast", theme: "skylines", tags: ["seattle", "overcast", "space needle", "skylines"], file: "skylines/seattle-overcast.jpg" },
+      { id: "miami-sunrise", name: "Miami Sunrise", theme: "skylines", tags: ["miami", "sunrise", "art deco", "skylines"], file: "skylines/miami-sunrise.jpg" },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -1024,6 +1037,7 @@
         { key: 'rooftops', label: 'Rooftops', desc: 'Above the skyline' },
         { key: 'abandoned', label: 'Abandoned', desc: 'Nature reclaims' },
         { key: 'cars-and-coffee', label: 'Cars & Coffee', desc: 'Morning meets and motors' },
+        { key: 'skylines', label: 'Skylines', desc: 'Cities in silhouette' },
       ];
 
       let html = '';
