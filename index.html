@@ -243,6 +243,7 @@
     .band-1920s     { background: #1A1008; }
     .band-childhood { background: #3D6B4F; }
     .band-rooftops  { background: #2C2C34; }
+    .band-abandoned { background: #2A2E25; }
 
     .band-theme-header {
       display: flex;
@@ -269,6 +270,7 @@
     .band-1920s .band-theme-title     { color: #C9A84C; }
     .band-childhood .band-theme-title { color: #FAF6EE; }
     .band-rooftops .band-theme-title  { color: #E8C87A; }
+    .band-abandoned .band-theme-title { color: #D4B876; }
 
     .band-theme-desc {
       font-size: 0.78rem;
@@ -286,6 +288,7 @@
     .band-1920s .band-theme-desc     { color: #C9A84C; }
     .band-childhood .band-theme-desc { color: #FAF6EE; }
     .band-rooftops .band-theme-desc  { color: #E8C87A; }
+    .band-abandoned .band-theme-desc { color: #D4B876; }
 
     .band-theme-count {
       font-size: 0.7rem;
@@ -306,6 +309,7 @@
     .band-1920s .band-theme-count     { color: #C9A84C; }
     .band-childhood .band-theme-count { color: #FAF6EE; }
     .band-rooftops .band-theme-count  { color: #E8C87A; }
+    .band-abandoned .band-theme-count { color: #D4B876; }
 
     /* Gallery grid */
     .band-grid {
@@ -844,7 +848,7 @@
 
   <!-- FOOTER BAND -->
   <footer class="band-footer">
-    <span class="band-footer-text">paper — 100 wallpapers, free to download.</span>
+    <span class="band-footer-text">paper — 108 wallpapers, free to download.</span>
   </footer>
 
   <script>
@@ -949,6 +953,14 @@
       { id: "snowy-chimneys-dusk", name: "Snowy Chimneys at Dusk", theme: "rooftops", tags: ["snow", "chimneys", "rooftop", "winter", "dusk"], file: "rooftops/snowy-chimneys-dusk.jpg" },
       { id: "dawn-fog", name: "Dawn Fog Rolling In", theme: "rooftops", tags: ["dawn", "fog", "rooftop", "morning", "mist"], file: "rooftops/dawn-fog.jpg" },
       { id: "old-antennas-clouds", name: "Old Antennas and Dramatic Clouds", theme: "rooftops", tags: ["antennas", "clouds", "rooftop", "dramatic", "moody"], file: "rooftops/old-antennas-clouds.jpg" },
+      { id: "overgrown-train-station", name: "Overgrown Train Station", theme: "abandoned", tags: ["train", "station", "overgrown", "abandoned"], file: "abandoned/overgrown-train-station.jpg" },
+      { id: "forgotten-library", name: "Forgotten Library", theme: "abandoned", tags: ["library", "books", "forgotten", "abandoned"], file: "abandoned/forgotten-library.jpg" },
+      { id: "abandoned-greenhouse", name: "Abandoned Greenhouse", theme: "abandoned", tags: ["greenhouse", "glass", "overgrown", "abandoned"], file: "abandoned/abandoned-greenhouse.jpg" },
+      { id: "empty-theater", name: "Empty Theater", theme: "abandoned", tags: ["theater", "seats", "curtain", "abandoned"], file: "abandoned/empty-theater.jpg" },
+      { id: "rusted-ferris-wheel", name: "Rusted Ferris Wheel", theme: "abandoned", tags: ["ferris wheel", "carnival", "rusted", "abandoned"], file: "abandoned/rusted-ferris-wheel.jpg" },
+      { id: "flooded-cathedral", name: "Flooded Cathedral", theme: "abandoned", tags: ["cathedral", "flooded", "stained glass", "abandoned"], file: "abandoned/flooded-cathedral.jpg" },
+      { id: "derelict-factory", name: "Derelict Factory", theme: "abandoned", tags: ["factory", "industrial", "derelict", "abandoned"], file: "abandoned/derelict-factory.jpg" },
+      { id: "crumbling-observatory", name: "Crumbling Observatory", theme: "abandoned", tags: ["observatory", "telescope", "stars", "abandoned"], file: "abandoned/crumbling-observatory.jpg" },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -998,6 +1010,7 @@
         { key: '1920s', label: 'The 1920s', desc: 'Jazz Age glamour & Art Deco elegance' },
         { key: 'childhood', label: 'Childhood', desc: 'Sun-soaked summer nostalgia' },
         { key: 'rooftops', label: 'Rooftops', desc: 'Above the skyline' },
+        { key: 'abandoned', label: 'Abandoned', desc: 'Nature reclaims' },
       ];
 
       let html = '';
