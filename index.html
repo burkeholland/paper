@@ -247,6 +247,7 @@
     .band-cars-and-coffee { background: #2C1A0E; }
     .band-skylines { background: #1A2332; }
     .band-backyards { background: #1A2E1A; }
+    .band-deep-space { background: #0D1B2A; }
 
     .band-theme-header {
       display: flex;
@@ -277,6 +278,7 @@
     .band-cars-and-coffee .band-theme-title { color: #F5C87A; }
     .band-skylines .band-theme-title { color: #B9D8F5; }
     .band-backyards .band-theme-title { color: #85E13A; }
+    .band-deep-space .band-theme-title { color: #B9E6FE; }
 
     .band-theme-desc {
       font-size: 0.78rem;
@@ -298,6 +300,7 @@
     .band-cars-and-coffee .band-theme-desc { color: #F5C87A; }
     .band-skylines .band-theme-desc { color: #B9D8F5; }
     .band-backyards .band-theme-desc { color: #85E13A; }
+    .band-deep-space .band-theme-desc { color: #7CD4FD; }
 
     .band-theme-count {
       font-size: 0.7rem;
@@ -322,6 +325,7 @@
     .band-cars-and-coffee .band-theme-count { color: #F5C87A; }
     .band-skylines .band-theme-count { color: #B9D8F5; }
     .band-backyards .band-theme-count { color: #85E13A; }
+    .band-deep-space .band-theme-count { color: #7CD4FD; }
 
     /* Gallery grid */
     .band-grid {
@@ -804,6 +808,7 @@
     <button class="filter-pill" data-theme="rooftops">Rooftops</button>
     <button class="filter-pill" data-theme="skylines">Skylines</button>
     <button class="filter-pill" data-theme="backyards">Backyards</button>
+    <button class="filter-pill" data-theme="deep-space">Deep Space</button>
     <div class="filter-sep"></div>
     <div id="tag-filters" style="display:flex;gap:6px;flex-wrap:nowrap;"></div>
   </div>
@@ -1001,6 +1006,14 @@
       { id: "treehouse-dusk", name: "Treehouse Dusk", theme: "backyards", tags: ["treehouse", "dusk", "fireflies", "oak", "backyards"], file: "backyards/treehouse-dusk.jpg" },
       { id: "garden-spring", name: "Garden Spring", theme: "backyards", tags: ["garden", "spring", "flowers", "birdbath", "backyards"], file: "backyards/garden-spring.jpg" },
       { id: "snow-morning", name: "Snow Morning", theme: "backyards", tags: ["snow", "winter", "morning", "birds", "backyards"], file: "backyards/snow-morning.jpg" },
+      { id: "ds-nebula", name: "Nebula", theme: "deep-space", tags: ["nebula", "gas cloud", "stars", "space", "deep-space"], file: "deep-space/nebula.jpg" },
+      { id: "ds-black-hole", name: "Black Hole", theme: "deep-space", tags: ["black hole", "accretion disk", "space", "deep-space"], file: "deep-space/black-hole.jpg" },
+      { id: "ds-saturn", name: "Saturn", theme: "deep-space", tags: ["saturn", "rings", "planets", "moons", "deep-space"], file: "deep-space/saturn.jpg" },
+      { id: "ds-mars-surface", name: "Mars Surface", theme: "deep-space", tags: ["mars", "red planet", "rover", "landscape", "deep-space"], file: "deep-space/mars-surface.jpg" },
+      { id: "ds-galaxy-core", name: "Galaxy Core", theme: "deep-space", tags: ["galaxy", "spiral", "stars", "cosmos", "deep-space"], file: "deep-space/galaxy-core.jpg" },
+      { id: "ds-astronaut", name: "Astronaut", theme: "deep-space", tags: ["astronaut", "earth", "orbit", "spacewalk", "deep-space"], file: "deep-space/astronaut.jpg" },
+      { id: "ds-aurora-from-orbit", name: "Aurora From Orbit", theme: "deep-space", tags: ["aurora", "earth", "orbit", "night", "deep-space"], file: "deep-space/aurora-from-orbit.jpg" },
+      { id: "ds-supernova", name: "Supernova", theme: "deep-space", tags: ["supernova", "explosion", "shockwave", "stars", "deep-space"], file: "deep-space/supernova.jpg" },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -1054,6 +1067,7 @@
         { key: 'cars-and-coffee', label: 'Cars & Coffee', desc: 'Morning meets and motors' },
         { key: 'skylines', label: 'Skylines', desc: 'Cities in silhouette' },
         { key: 'backyards', label: 'Backyards', desc: 'Every season, out back' },
+        { key: 'deep-space', label: 'Deep Space', desc: 'Beyond the edge of everything' },
       ];
 
       let html = '';
