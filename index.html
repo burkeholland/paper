@@ -249,6 +249,7 @@
     .band-backyards { background: #1A2E1A; }
     .band-deep-space { background: #0D1B2A; }
     .band-coral-reef { background: #0A3045; }
+    .band-rainforest { background: #0D2818; }
 
     .band-theme-header {
       display: flex;
@@ -281,6 +282,7 @@
     .band-backyards .band-theme-title { color: #85E13A; }
     .band-deep-space .band-theme-title { color: #B9E6FE; }
     .band-coral-reef .band-theme-title { color: #7CD4FD; }
+    .band-rainforest .band-theme-title { color: #85E13A; }
 
     .band-theme-desc {
       font-size: 0.78rem;
@@ -304,6 +306,7 @@
     .band-backyards .band-theme-desc { color: #85E13A; }
     .band-deep-space .band-theme-desc { color: #7CD4FD; }
     .band-coral-reef .band-theme-desc { color: #7CD4FD; }
+    .band-rainforest .band-theme-desc { color: #85E13A; }
 
     .band-theme-count {
       font-size: 0.7rem;
@@ -330,6 +333,7 @@
     .band-backyards .band-theme-count { color: #85E13A; }
     .band-deep-space .band-theme-count { color: #7CD4FD; }
     .band-coral-reef .band-theme-count { color: #7CD4FD; }
+    .band-rainforest .band-theme-count { color: #85E13A; }
 
     /* Gallery grid */
     .band-grid {
@@ -814,6 +818,7 @@
     <button class="filter-pill" data-theme="backyards">Backyards</button>
     <button class="filter-pill" data-theme="deep-space">Deep Space</button>
     <button class="filter-pill" data-theme="coral-reef">Coral Reef</button>
+    <button class="filter-pill" data-theme="rainforest">Rainforest</button>
     <div class="filter-sep"></div>
     <div id="tag-filters" style="display:flex;gap:6px;flex-wrap:nowrap;"></div>
   </div>
@@ -1027,6 +1032,14 @@
       { id: "cr-night-reef", name: "Night Reef", theme: "coral-reef", tags: ["night", "bioluminescent", "coral", "reef", "dark", "coral-reef"], file: "coral-reef/night-reef.jpg" },
       { id: "cr-manta-ray", name: "Manta Ray", theme: "coral-reef", tags: ["manta ray", "ray", "reef", "ocean", "coral-reef"], file: "coral-reef/manta-ray.jpg" },
       { id: "cr-reef-sunrise", name: "Reef Sunrise", theme: "coral-reef", tags: ["sunrise", "dawn", "reef", "surface", "light", "coral-reef"], file: "coral-reef/reef-sunrise.jpg" },
+      { id: "rf-canopy-lookout", name: "Canopy Lookout", theme: "rainforest", tags: ["canopy", "trees", "light rays", "jungle", "rainforest"], file: "rainforest/canopy-lookout.jpg" },
+      { id: "rf-forest-floor", name: "Forest Floor", theme: "rainforest", tags: ["roots", "ferns", "mist", "jungle", "rainforest"], file: "rainforest/forest-floor.jpg" },
+      { id: "rf-waterfall", name: "Waterfall", theme: "rainforest", tags: ["waterfall", "pool", "jade", "cascade", "rainforest"], file: "rainforest/waterfall.jpg" },
+      { id: "rf-river-bend", name: "River Bend", theme: "rainforest", tags: ["river", "jungle", "winding", "aerial", "rainforest"], file: "rainforest/river-bend.jpg" },
+      { id: "rf-treetop-village", name: "Treetop Village", theme: "rainforest", tags: ["village", "platforms", "rope bridges", "trees", "rainforest"], file: "rainforest/treetop-village.jpg" },
+      { id: "rf-jaguar", name: "Jaguar", theme: "rainforest", tags: ["jaguar", "big cat", "branch", "dappled light", "rainforest"], file: "rainforest/jaguar.jpg" },
+      { id: "rf-night-jungle", name: "Night Jungle", theme: "rainforest", tags: ["night", "bioluminescent", "fungi", "moonlight", "rainforest"], file: "rainforest/night-jungle.jpg" },
+      { id: "rf-aerial-view", name: "Aerial View", theme: "rainforest", tags: ["aerial", "canopy", "river", "birds eye", "rainforest"], file: "rainforest/aerial-view.jpg" },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -1082,6 +1095,7 @@
         { key: 'backyards', label: 'Backyards', desc: 'Every season, out back' },
         { key: 'deep-space', label: 'Deep Space', desc: 'Beyond the edge of everything' },
         { key: 'coral-reef', label: 'Coral Reef', desc: 'Beneath the surface, another world' },
+        { key: 'rainforest', label: 'Rainforest', desc: 'Ancient green cathedral, alive with life' },
       ];
 
       let html = '';
