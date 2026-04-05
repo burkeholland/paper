@@ -248,6 +248,7 @@
     .band-skylines { background: #1A2332; }
     .band-backyards { background: #1A2E1A; }
     .band-deep-space { background: #0D1B2A; }
+    .band-coral-reef { background: #0A3045; }
 
     .band-theme-header {
       display: flex;
@@ -279,6 +280,7 @@
     .band-skylines .band-theme-title { color: #B9D8F5; }
     .band-backyards .band-theme-title { color: #85E13A; }
     .band-deep-space .band-theme-title { color: #B9E6FE; }
+    .band-coral-reef .band-theme-title { color: #7CD4FD; }
 
     .band-theme-desc {
       font-size: 0.78rem;
@@ -301,6 +303,7 @@
     .band-skylines .band-theme-desc { color: #B9D8F5; }
     .band-backyards .band-theme-desc { color: #85E13A; }
     .band-deep-space .band-theme-desc { color: #7CD4FD; }
+    .band-coral-reef .band-theme-desc { color: #7CD4FD; }
 
     .band-theme-count {
       font-size: 0.7rem;
@@ -326,6 +329,7 @@
     .band-skylines .band-theme-count { color: #B9D8F5; }
     .band-backyards .band-theme-count { color: #85E13A; }
     .band-deep-space .band-theme-count { color: #7CD4FD; }
+    .band-coral-reef .band-theme-count { color: #7CD4FD; }
 
     /* Gallery grid */
     .band-grid {
@@ -809,6 +813,7 @@
     <button class="filter-pill" data-theme="skylines">Skylines</button>
     <button class="filter-pill" data-theme="backyards">Backyards</button>
     <button class="filter-pill" data-theme="deep-space">Deep Space</button>
+    <button class="filter-pill" data-theme="coral-reef">Coral Reef</button>
     <div class="filter-sep"></div>
     <div id="tag-filters" style="display:flex;gap:6px;flex-wrap:nowrap;"></div>
   </div>
@@ -869,7 +874,7 @@
 
   <!-- FOOTER BAND -->
   <footer class="band-footer">
-    <span class="band-footer-text">paper — 116 wallpapers, free to download.</span>
+    <span class="band-footer-text">paper — 124 wallpapers, free to download.</span>
   </footer>
 
   <script>
@@ -1014,6 +1019,14 @@
       { id: "ds-astronaut", name: "Astronaut", theme: "deep-space", tags: ["astronaut", "earth", "orbit", "spacewalk", "deep-space"], file: "deep-space/astronaut.jpg" },
       { id: "ds-aurora-from-orbit", name: "Aurora From Orbit", theme: "deep-space", tags: ["aurora", "earth", "orbit", "night", "deep-space"], file: "deep-space/aurora-from-orbit.jpg" },
       { id: "ds-supernova", name: "Supernova", theme: "deep-space", tags: ["supernova", "explosion", "shockwave", "stars", "deep-space"], file: "deep-space/supernova.jpg" },
+      { id: "cr-shallow-reef", name: "Shallow Reef", theme: "coral-reef", tags: ["coral", "reef", "tropical", "fish", "shallow", "coral-reef"], file: "coral-reef/shallow-reef.jpg" },
+      { id: "cr-deep-wall", name: "Deep Wall", theme: "coral-reef", tags: ["coral", "reef", "deep", "wall", "ocean", "coral-reef"], file: "coral-reef/deep-wall.jpg" },
+      { id: "cr-sea-turtle", name: "Sea Turtle", theme: "coral-reef", tags: ["sea turtle", "turtle", "coral", "reef", "coral-reef"], file: "coral-reef/sea-turtle.jpg" },
+      { id: "cr-kelp-forest", name: "Kelp Forest", theme: "coral-reef", tags: ["kelp", "forest", "underwater", "fish", "coral-reef"], file: "coral-reef/kelp-forest.jpg" },
+      { id: "cr-anemone-field", name: "Anemone Field", theme: "coral-reef", tags: ["anemone", "clownfish", "reef", "coral-reef"], file: "coral-reef/anemone-field.jpg" },
+      { id: "cr-night-reef", name: "Night Reef", theme: "coral-reef", tags: ["night", "bioluminescent", "coral", "reef", "dark", "coral-reef"], file: "coral-reef/night-reef.jpg" },
+      { id: "cr-manta-ray", name: "Manta Ray", theme: "coral-reef", tags: ["manta ray", "ray", "reef", "ocean", "coral-reef"], file: "coral-reef/manta-ray.jpg" },
+      { id: "cr-reef-sunrise", name: "Reef Sunrise", theme: "coral-reef", tags: ["sunrise", "dawn", "reef", "surface", "light", "coral-reef"], file: "coral-reef/reef-sunrise.jpg" },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -1068,6 +1081,7 @@
         { key: 'skylines', label: 'Skylines', desc: 'Cities in silhouette' },
         { key: 'backyards', label: 'Backyards', desc: 'Every season, out back' },
         { key: 'deep-space', label: 'Deep Space', desc: 'Beyond the edge of everything' },
+        { key: 'coral-reef', label: 'Coral Reef', desc: 'Beneath the surface, another world' },
       ];
 
       let html = '';
