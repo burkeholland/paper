@@ -246,6 +246,7 @@
     .band-abandoned { background: #2A2E25; }
     .band-cars-and-coffee { background: #2C1A0E; }
     .band-skylines { background: #1A2332; }
+    .band-backyards { background: #1A2E1A; }
 
     .band-theme-header {
       display: flex;
@@ -275,6 +276,7 @@
     .band-abandoned .band-theme-title { color: #D4B876; }
     .band-cars-and-coffee .band-theme-title { color: #F5C87A; }
     .band-skylines .band-theme-title { color: #B9D8F5; }
+    .band-backyards .band-theme-title { color: #85E13A; }
 
     .band-theme-desc {
       font-size: 0.78rem;
@@ -295,6 +297,7 @@
     .band-abandoned .band-theme-desc { color: #D4B876; }
     .band-cars-and-coffee .band-theme-desc { color: #F5C87A; }
     .band-skylines .band-theme-desc { color: #B9D8F5; }
+    .band-backyards .band-theme-desc { color: #85E13A; }
 
     .band-theme-count {
       font-size: 0.7rem;
@@ -318,6 +321,7 @@
     .band-abandoned .band-theme-count { color: #D4B876; }
     .band-cars-and-coffee .band-theme-count { color: #F5C87A; }
     .band-skylines .band-theme-count { color: #B9D8F5; }
+    .band-backyards .band-theme-count { color: #85E13A; }
 
     /* Gallery grid */
     .band-grid {
@@ -799,6 +803,7 @@
     <button class="filter-pill" data-theme="1920s">1920s</button>
     <button class="filter-pill" data-theme="rooftops">Rooftops</button>
     <button class="filter-pill" data-theme="skylines">Skylines</button>
+    <button class="filter-pill" data-theme="backyards">Backyards</button>
     <div class="filter-sep"></div>
     <div id="tag-filters" style="display:flex;gap:6px;flex-wrap:nowrap;"></div>
   </div>
@@ -988,6 +993,14 @@
       { id: "nashville-twilight", name: "Nashville Twilight", theme: "skylines", tags: ["nashville", "twilight", "batman building", "skylines"], file: "skylines/nashville-twilight.jpg" },
       { id: "seattle-overcast", name: "Seattle Overcast", theme: "skylines", tags: ["seattle", "overcast", "space needle", "skylines"], file: "skylines/seattle-overcast.jpg" },
       { id: "miami-sunrise", name: "Miami Sunrise", theme: "skylines", tags: ["miami", "sunrise", "art deco", "skylines"], file: "skylines/miami-sunrise.jpg" },
+      { id: "summer-bbq", name: "Summer BBQ", theme: "backyards", tags: ["summer", "bbq", "grill", "afternoon", "backyards"], file: "backyards/summer-bbq.jpg" },
+      { id: "firepit-night", name: "Firepit Night", theme: "backyards", tags: ["night", "firepit", "stars", "adirondack", "backyards"], file: "backyards/firepit-night.jpg" },
+      { id: "rainy-afternoon", name: "Rainy Afternoon", theme: "backyards", tags: ["rain", "overcast", "moody", "patio", "backyards"], file: "backyards/rainy-afternoon.jpg" },
+      { id: "fall-morning", name: "Fall Morning", theme: "backyards", tags: ["fall", "autumn", "morning", "golden", "backyards"], file: "backyards/fall-morning.jpg" },
+      { id: "pool-day", name: "Pool Day", theme: "backyards", tags: ["pool", "summer", "midday", "suburban", "backyards"], file: "backyards/pool-day.jpg" },
+      { id: "treehouse-dusk", name: "Treehouse Dusk", theme: "backyards", tags: ["treehouse", "dusk", "fireflies", "oak", "backyards"], file: "backyards/treehouse-dusk.jpg" },
+      { id: "garden-spring", name: "Garden Spring", theme: "backyards", tags: ["garden", "spring", "flowers", "birdbath", "backyards"], file: "backyards/garden-spring.jpg" },
+      { id: "snow-morning", name: "Snow Morning", theme: "backyards", tags: ["snow", "winter", "morning", "birds", "backyards"], file: "backyards/snow-morning.jpg" },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -1040,6 +1053,7 @@
         { key: 'abandoned', label: 'Abandoned', desc: 'Nature reclaims' },
         { key: 'cars-and-coffee', label: 'Cars & Coffee', desc: 'Morning meets and motors' },
         { key: 'skylines', label: 'Skylines', desc: 'Cities in silhouette' },
+        { key: 'backyards', label: 'Backyards', desc: 'Every season, out back' },
       ];
 
       let html = '';
