@@ -251,6 +251,7 @@
     .band-coral-reef { background: #0A3045; }
     .band-rainforest { background: #0D2818; }
     .band-mid-century-modern { background: #2C1A0E; }
+    .band-northern-lights { background: #030B1A; }
 
     .band-theme-header {
       display: flex;
@@ -285,6 +286,7 @@
     .band-coral-reef .band-theme-title { color: #7CD4FD; }
     .band-rainforest .band-theme-title { color: #85E13A; }
     .band-mid-century-modern .band-theme-title { color: #D4A017; }
+    .band-northern-lights .band-theme-title { color: #85E13A; }
 
     .band-theme-desc {
       font-size: 0.78rem;
@@ -310,6 +312,7 @@
     .band-coral-reef .band-theme-desc { color: #7CD4FD; }
     .band-rainforest .band-theme-desc { color: #85E13A; }
     .band-mid-century-modern .band-theme-desc { color: #C4622D; }
+    .band-northern-lights .band-theme-desc { color: #7CD4FD; }
 
     .band-theme-count {
       font-size: 0.7rem;
@@ -338,6 +341,7 @@
     .band-coral-reef .band-theme-count { color: #7CD4FD; }
     .band-rainforest .band-theme-count { color: #85E13A; }
     .band-mid-century-modern .band-theme-count { color: #D4A017; }
+    .band-northern-lights .band-theme-count { color: #7CD4FD; }
 
     /* Gallery grid */
     .band-grid {
@@ -823,6 +827,7 @@
     <button class="filter-pill" data-theme="deep-space">Deep Space</button>
     <button class="filter-pill" data-theme="coral-reef">Coral Reef</button>
     <button class="filter-pill" data-theme="rainforest">Rainforest</button>
+    <button class="filter-pill" data-theme="northern-lights">Northern Lights</button>
     <div class="filter-sep"></div>
     <div id="tag-filters" style="display:flex;gap:6px;flex-wrap:nowrap;"></div>
   </div>
@@ -883,7 +888,7 @@
 
   <!-- FOOTER BAND -->
   <footer class="band-footer">
-    <span class="band-footer-text">paper — 132 wallpapers, free to download.</span>
+    <span class="band-footer-text">paper — 140 wallpapers, free to download.</span>
   </footer>
 
   <script>
@@ -1052,6 +1057,14 @@
       { id: 'mcm-roadside-motel',     name: 'Roadside Motel',      theme: 'mid-century-modern', tags: ['motel', 'desert', 'dusk', 'highway', 'mid-century-modern'], file: 'mid-century-modern/mcm-roadside-motel.jpg' },
       { id: 'mcm-space-age-interior', name: 'Space Age Interior',  theme: 'mid-century-modern', tags: ['space age', 'tulip', 'bubble lamp', '1960s', 'mid-century-modern'], file: 'mid-century-modern/mcm-space-age-interior.jpg' },
       { id: 'mcm-hillside-view',      name: 'Hillside View',       theme: 'mid-century-modern', tags: ['hillside', 'city', 'twilight', 'cantilevered', 'mid-century-modern'], file: 'mid-century-modern/mcm-hillside-view.jpg' },
+      { id: 'nl-frozen-lake',          name: 'Frozen Lake',          theme: 'northern-lights', tags: ['aurora', 'lake', 'reflection', 'pine', 'night'], file: 'northern-lights/frozen-lake.jpg' },
+      { id: 'nl-cabin-in-pines',       name: 'Cabin in the Pines',   theme: 'northern-lights', tags: ['aurora', 'cabin', 'snow', 'pine', 'cozy'], file: 'northern-lights/cabin-in-pines.jpg' },
+      { id: 'nl-frozen-fjord',         name: 'Frozen Fjord',         theme: 'northern-lights', tags: ['aurora', 'fjord', 'cliffs', 'village', 'norway'], file: 'northern-lights/frozen-fjord.jpg' },
+      { id: 'nl-nordic-village',       name: 'Nordic Village',       theme: 'northern-lights', tags: ['aurora', 'village', 'church', 'snow', 'rooftops'], file: 'northern-lights/nordic-village.jpg' },
+      { id: 'nl-tundra-arc',           name: 'Tundra Arc',           theme: 'northern-lights', tags: ['aurora', 'tundra', 'arctic', 'open', 'vast'], file: 'northern-lights/tundra-arc.jpg' },
+      { id: 'nl-iceberg-sea',          name: 'Iceberg Sea',          theme: 'northern-lights', tags: ['aurora', 'icebergs', 'arctic', 'ocean', 'reflection'], file: 'northern-lights/iceberg-sea.jpg' },
+      { id: 'nl-forest-trail',         name: 'Forest Trail',         theme: 'northern-lights', tags: ['aurora', 'forest', 'trail', 'pine', 'snow'], file: 'northern-lights/forest-trail.jpg' },
+      { id: 'nl-mountaintop-observatory', name: 'Mountaintop Observatory', theme: 'northern-lights', tags: ['aurora', 'observatory', 'mountain', 'stars', 'night'], file: 'northern-lights/mountaintop-observatory.jpg' },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -1109,6 +1122,7 @@
         { key: 'coral-reef', label: 'Coral Reef', desc: 'Beneath the surface, another world' },
         { key: 'rainforest', label: 'Rainforest', desc: 'Ancient green cathedral, alive with life' },
         { key: 'mid-century-modern', label: 'Mid-Century Modern', desc: 'Atomic age design, ranch homes & Eames elegance' },
+        { key: 'northern-lights', label: 'Northern Lights', desc: 'Aurora borealis over frozen lakes, fjords & pines' },
       ];
 
       let html = '';
