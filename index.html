@@ -250,6 +250,7 @@
     .band-deep-space { background: #0D1B2A; }
     .band-coral-reef { background: #0A3045; }
     .band-rainforest { background: #0D2818; }
+    .band-mid-century-modern { background: #2C1A0E; }
 
     .band-theme-header {
       display: flex;
@@ -283,6 +284,7 @@
     .band-deep-space .band-theme-title { color: #B9E6FE; }
     .band-coral-reef .band-theme-title { color: #7CD4FD; }
     .band-rainforest .band-theme-title { color: #85E13A; }
+    .band-mid-century-modern .band-theme-title { color: #D4A017; }
 
     .band-theme-desc {
       font-size: 0.78rem;
@@ -307,6 +309,7 @@
     .band-deep-space .band-theme-desc { color: #7CD4FD; }
     .band-coral-reef .band-theme-desc { color: #7CD4FD; }
     .band-rainforest .band-theme-desc { color: #85E13A; }
+    .band-mid-century-modern .band-theme-desc { color: #C4622D; }
 
     .band-theme-count {
       font-size: 0.7rem;
@@ -334,6 +337,7 @@
     .band-deep-space .band-theme-count { color: #7CD4FD; }
     .band-coral-reef .band-theme-count { color: #7CD4FD; }
     .band-rainforest .band-theme-count { color: #85E13A; }
+    .band-mid-century-modern .band-theme-count { color: #D4A017; }
 
     /* Gallery grid */
     .band-grid {
@@ -879,7 +883,7 @@
 
   <!-- FOOTER BAND -->
   <footer class="band-footer">
-    <span class="band-footer-text">paper — 124 wallpapers, free to download.</span>
+    <span class="band-footer-text">paper — 132 wallpapers, free to download.</span>
   </footer>
 
   <script>
@@ -1040,6 +1044,14 @@
       { id: "rf-jaguar", name: "Jaguar", theme: "rainforest", tags: ["jaguar", "big cat", "branch", "dappled light", "rainforest"], file: "rainforest/jaguar.jpg" },
       { id: "rf-night-jungle", name: "Night Jungle", theme: "rainforest", tags: ["night", "bioluminescent", "fungi", "moonlight", "rainforest"], file: "rainforest/night-jungle.jpg" },
       { id: "rf-aerial-view", name: "Aerial View", theme: "rainforest", tags: ["aerial", "canopy", "river", "birds eye", "rainforest"], file: "rainforest/aerial-view.jpg" },
+      { id: 'mcm-ranch-exterior',     name: 'Ranch Exterior',      theme: 'mid-century-modern', tags: ['ranch', 'house', 'golden hour', 'exterior', 'mid-century-modern'], file: 'mid-century-modern/mcm-ranch-exterior.jpg' },
+      { id: 'mcm-atomic-lounge',      name: 'Atomic Lounge',       theme: 'mid-century-modern', tags: ['atomic', 'starburst', 'boomerang', 'lounge', 'mid-century-modern'], file: 'mid-century-modern/mcm-atomic-lounge.jpg' },
+      { id: 'mcm-desert-home',        name: 'Desert Home',         theme: 'mid-century-modern', tags: ['desert', 'glass', 'joshua tree', 'dusk', 'mid-century-modern'], file: 'mid-century-modern/mcm-desert-home.jpg' },
+      { id: 'mcm-kidney-pool',        name: 'Kidney Pool',         theme: 'mid-century-modern', tags: ['pool', 'kidney', 'overhead', 'aerial', 'mid-century-modern'], file: 'mid-century-modern/mcm-kidney-pool.jpg' },
+      { id: 'mcm-living-room',        name: 'Living Room',         theme: 'mid-century-modern', tags: ['eames', 'sunburst', 'interior', 'mountain', 'mid-century-modern'], file: 'mid-century-modern/mcm-living-room.jpg' },
+      { id: 'mcm-roadside-motel',     name: 'Roadside Motel',      theme: 'mid-century-modern', tags: ['motel', 'desert', 'dusk', 'highway', 'mid-century-modern'], file: 'mid-century-modern/mcm-roadside-motel.jpg' },
+      { id: 'mcm-space-age-interior', name: 'Space Age Interior',  theme: 'mid-century-modern', tags: ['space age', 'tulip', 'bubble lamp', '1960s', 'mid-century-modern'], file: 'mid-century-modern/mcm-space-age-interior.jpg' },
+      { id: 'mcm-hillside-view',      name: 'Hillside View',       theme: 'mid-century-modern', tags: ['hillside', 'city', 'twilight', 'cantilevered', 'mid-century-modern'], file: 'mid-century-modern/mcm-hillside-view.jpg' },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -1096,6 +1108,7 @@
         { key: 'deep-space', label: 'Deep Space', desc: 'Beyond the edge of everything' },
         { key: 'coral-reef', label: 'Coral Reef', desc: 'Beneath the surface, another world' },
         { key: 'rainforest', label: 'Rainforest', desc: 'Ancient green cathedral, alive with life' },
+        { key: 'mid-century-modern', label: 'Mid-Century Modern', desc: 'Atomic age design, ranch homes & Eames elegance' },
       ];
 
       let html = '';
