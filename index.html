@@ -253,6 +253,7 @@
     .band-mid-century-modern { background: #2C1A0E; }
     .band-northern-lights { background: #030B1A; }
     .band-national-parks { background: #1A3020; }
+    .band-chicago { background: #1A2744; }
 
     .band-theme-header {
       display: flex;
@@ -289,6 +290,7 @@
     .band-mid-century-modern .band-theme-title { color: #D4A017; }
     .band-northern-lights .band-theme-title { color: #85E13A; }
     .band-national-parks .band-theme-title { color: #E8C48A; }
+    .band-chicago .band-theme-title { color: #7CD4FD; }
 
     .band-theme-desc {
       font-size: 0.78rem;
@@ -316,6 +318,7 @@
     .band-mid-century-modern .band-theme-desc { color: #C4622D; }
     .band-northern-lights .band-theme-desc { color: #7CD4FD; }
     .band-national-parks .band-theme-desc { color: #7A9060; }
+    .band-chicago .band-theme-desc { color: #F97066; }
 
     .band-theme-count {
       font-size: 0.7rem;
@@ -346,6 +349,7 @@
     .band-mid-century-modern .band-theme-count { color: #D4A017; }
     .band-northern-lights .band-theme-count { color: #7CD4FD; }
     .band-national-parks .band-theme-count { color: #7A9060; }
+    .band-chicago .band-theme-count { color: #7CD4FD; }
 
     /* Gallery grid */
     .band-grid {
@@ -1077,6 +1081,14 @@
       { id: 'great-smoky-mountains',  name: 'Great Smoky Mountains',  theme: 'national-parks', tags: ['smoky mountains', 'appalachian', 'haze', 'forest', 'ridges'],  file: 'national-parks/great-smoky-mountains.jpg' },
       { id: 'olympic-rainforest',     name: 'Olympic Rainforest',     theme: 'national-parks', tags: ['olympic', 'rainforest', 'moss', 'ferns', 'trees'],             file: 'national-parks/olympic-rainforest.jpg' },
       { id: 'death-valley-dunes',     name: 'Death Valley Dunes',     theme: 'national-parks', tags: ['death valley', 'dunes', 'sand', 'desert', 'shadows'],         file: 'national-parks/death-valley-dunes.jpg' },
+      { id: 'chicago-skyline',        name: 'Chicago Skyline',        theme: 'chicago', tags: ['chicago', 'skyline', 'lake michigan', 'skyscrapers', 'downtown'],    file: 'chicago/chicago-skyline.jpg' },
+      { id: 'the-loop',               name: 'The Loop',               theme: 'chicago', tags: ['chicago', 'loop', 'elevated train', 'downtown', 'urban'],            file: 'chicago/the-loop.jpg' },
+      { id: 'lake-shore',             name: 'Lake Shore',             theme: 'chicago', tags: ['chicago', 'lake shore', 'lake michigan', 'beach', 'waterfront'],      file: 'chicago/lake-shore.jpg' },
+      { id: 'cloud-gate',             name: 'Cloud Gate',             theme: 'chicago', tags: ['chicago', 'cloud gate', 'bean', 'millennium park', 'sculpture'],      file: 'chicago/cloud-gate.jpg' },
+      { id: 'chicago-river',          name: 'Chicago River',          theme: 'chicago', tags: ['chicago', 'river', 'bridges', 'downtown', 'riverwalk'],              file: 'chicago/chicago-river.jpg' },
+      { id: 'wrigley',                name: 'Wrigley Field',          theme: 'chicago', tags: ['chicago', 'wrigley', 'baseball', 'cubs', 'ballpark'],                file: 'chicago/wrigley.jpg' },
+      { id: 'navy-pier',              name: 'Navy Pier',              theme: 'chicago', tags: ['chicago', 'navy pier', 'ferris wheel', 'lake michigan', 'sunset'],   file: 'chicago/navy-pier.jpg' },
+      { id: 'jazz-alley',             name: 'Jazz Alley',             theme: 'chicago', tags: ['chicago', 'jazz', 'alley', 'nightlife', 'music'],                    file: 'chicago/jazz-alley.jpg' },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -1136,6 +1148,7 @@
         { key: 'mid-century-modern', label: 'Mid-Century Modern', desc: 'Atomic age design, ranch homes & Eames elegance' },
         { key: 'northern-lights', label: 'Northern Lights', desc: 'Aurora borealis over frozen lakes, fjords & pines' },
         { key: 'national-parks', label: 'National Parks', desc: "America's iconic landscapes" },
+        { key: 'chicago', label: 'Chicago', desc: 'The Windy City in every light' },
       ];
 
       let html = '';
