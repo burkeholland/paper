@@ -252,6 +252,7 @@
     .band-rainforest { background: #0D2818; }
     .band-mid-century-modern { background: #2C1A0E; }
     .band-northern-lights { background: #030B1A; }
+    .band-national-parks { background: #1A3020; }
 
     .band-theme-header {
       display: flex;
@@ -287,6 +288,7 @@
     .band-rainforest .band-theme-title { color: #85E13A; }
     .band-mid-century-modern .band-theme-title { color: #D4A017; }
     .band-northern-lights .band-theme-title { color: #85E13A; }
+    .band-national-parks .band-theme-title { color: #E8C48A; }
 
     .band-theme-desc {
       font-size: 0.78rem;
@@ -313,6 +315,7 @@
     .band-rainforest .band-theme-desc { color: #85E13A; }
     .band-mid-century-modern .band-theme-desc { color: #C4622D; }
     .band-northern-lights .band-theme-desc { color: #7CD4FD; }
+    .band-national-parks .band-theme-desc { color: #7A9060; }
 
     .band-theme-count {
       font-size: 0.7rem;
@@ -342,6 +345,7 @@
     .band-rainforest .band-theme-count { color: #85E13A; }
     .band-mid-century-modern .band-theme-count { color: #D4A017; }
     .band-northern-lights .band-theme-count { color: #7CD4FD; }
+    .band-national-parks .band-theme-count { color: #7A9060; }
 
     /* Gallery grid */
     .band-grid {
@@ -1065,6 +1069,14 @@
       { id: 'nl-iceberg-sea',          name: 'Iceberg Sea',          theme: 'northern-lights', tags: ['aurora', 'icebergs', 'arctic', 'ocean', 'reflection'], file: 'northern-lights/iceberg-sea.jpg' },
       { id: 'nl-forest-trail',         name: 'Forest Trail',         theme: 'northern-lights', tags: ['aurora', 'forest', 'trail', 'pine', 'snow'], file: 'northern-lights/forest-trail.jpg' },
       { id: 'nl-mountaintop-observatory', name: 'Mountaintop Observatory', theme: 'northern-lights', tags: ['aurora', 'observatory', 'mountain', 'stars', 'night'], file: 'northern-lights/mountaintop-observatory.jpg' },
+      { id: 'yosemite-valley',        name: 'Yosemite Valley',        theme: 'national-parks', tags: ['yosemite', 'granite', 'valley', 'pine', 'mountains'],        file: 'national-parks/yosemite-valley.jpg' },
+      { id: 'grand-canyon',           name: 'Grand Canyon',           theme: 'national-parks', tags: ['canyon', 'desert', 'strata', 'river', 'southwest'],           file: 'national-parks/grand-canyon.jpg' },
+      { id: 'yellowstone-geysers',    name: 'Yellowstone Geysers',    theme: 'national-parks', tags: ['yellowstone', 'geysers', 'steam', 'geothermal', 'plains'],    file: 'national-parks/yellowstone-geysers.jpg' },
+      { id: 'zion-narrows',           name: 'Zion Narrows',           theme: 'national-parks', tags: ['zion', 'slot canyon', 'sandstone', 'river', 'southwest'],      file: 'national-parks/zion-narrows.jpg' },
+      { id: 'arches-delicate',        name: 'Arches Delicate Arch',   theme: 'national-parks', tags: ['arches', 'arch', 'desert', 'buttes', 'utah'],                  file: 'national-parks/arches-delicate.jpg' },
+      { id: 'great-smoky-mountains',  name: 'Great Smoky Mountains',  theme: 'national-parks', tags: ['smoky mountains', 'appalachian', 'haze', 'forest', 'ridges'],  file: 'national-parks/great-smoky-mountains.jpg' },
+      { id: 'olympic-rainforest',     name: 'Olympic Rainforest',     theme: 'national-parks', tags: ['olympic', 'rainforest', 'moss', 'ferns', 'trees'],             file: 'national-parks/olympic-rainforest.jpg' },
+      { id: 'death-valley-dunes',     name: 'Death Valley Dunes',     theme: 'national-parks', tags: ['death valley', 'dunes', 'sand', 'desert', 'shadows'],         file: 'national-parks/death-valley-dunes.jpg' },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -1123,6 +1135,7 @@
         { key: 'rainforest', label: 'Rainforest', desc: 'Ancient green cathedral, alive with life' },
         { key: 'mid-century-modern', label: 'Mid-Century Modern', desc: 'Atomic age design, ranch homes & Eames elegance' },
         { key: 'northern-lights', label: 'Northern Lights', desc: 'Aurora borealis over frozen lakes, fjords & pines' },
+        { key: 'national-parks', label: 'National Parks', desc: "America's iconic landscapes" },
       ];
 
       let html = '';
