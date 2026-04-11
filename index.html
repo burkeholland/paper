@@ -254,6 +254,7 @@
     .band-northern-lights { background: #030B1A; }
     .band-national-parks { background: #1A3020; }
     .band-chicago { background: #1A2744; }
+    .band-summer-86 { background: #1A2744; }
 
     .band-theme-header {
       display: flex;
@@ -291,6 +292,7 @@
     .band-northern-lights .band-theme-title { color: #85E13A; }
     .band-national-parks .band-theme-title { color: #E8C48A; }
     .band-chicago .band-theme-title { color: #7CD4FD; }
+    .band-summer-86 .band-theme-title { color: #7CD4FD; }
 
     .band-theme-desc {
       font-size: 0.78rem;
@@ -319,6 +321,7 @@
     .band-northern-lights .band-theme-desc { color: #7CD4FD; }
     .band-national-parks .band-theme-desc { color: #7A9060; }
     .band-chicago .band-theme-desc { color: #F97066; }
+    .band-summer-86 .band-theme-desc { color: #F4B5C1; }
 
     .band-theme-count {
       font-size: 0.7rem;
@@ -1089,6 +1092,12 @@
       { id: 'wrigley',                name: 'Wrigley Field',          theme: 'chicago', tags: ['chicago', 'wrigley', 'baseball', 'cubs', 'ballpark'],                file: 'chicago/wrigley.jpg' },
       { id: 'navy-pier',              name: 'Navy Pier',              theme: 'chicago', tags: ['chicago', 'navy pier', 'ferris wheel', 'lake michigan', 'sunset'],   file: 'chicago/navy-pier.jpg' },
       { id: 'jazz-alley',             name: 'Jazz Alley',             theme: 'chicago', tags: ['chicago', 'jazz', 'alley', 'nightlife', 'music'],                    file: 'chicago/jazz-alley.jpg' },
+      { id: 'community-pool',         name: 'Community Pool',         theme: 'summer-86', tags: ['summer', '80s', 'pool', 'nostalgia', 'retro'],                        file: 'summer-86/community-pool.jpg' },
+      { id: 'vhs-rental',             name: 'VHS Rental',             theme: 'summer-86', tags: ['summer', '80s', 'vhs', 'video store', 'nostalgia', 'retro'],           file: 'summer-86/vhs-rental.jpg' },
+      { id: 'roller-rink',            name: 'Roller Rink',            theme: 'summer-86', tags: ['summer', '80s', 'roller rink', 'skating', 'nostalgia', 'retro'],       file: 'summer-86/roller-rink.jpg' },
+      { id: 'arcade',                 name: 'Arcade',                 theme: 'summer-86', tags: ['summer', '80s', 'arcade', 'games', 'nostalgia', 'retro'],              file: 'summer-86/arcade.jpg' },
+      { id: 'drive-in-wagon',         name: 'Drive-In Wagon',         theme: 'summer-86', tags: ['summer', '80s', 'drive-in', 'station wagon', 'nostalgia', 'retro'],    file: 'summer-86/drive-in-wagon.jpg' },
+      { id: 'backyard-sprinkler',     name: 'Backyard Sprinkler',     theme: 'summer-86', tags: ['summer', '80s', 'sprinkler', 'backyard', 'nostalgia', 'retro'],        file: 'summer-86/backyard-sprinkler.jpg' },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -1149,6 +1158,7 @@
         { key: 'northern-lights', label: 'Northern Lights', desc: 'Aurora borealis over frozen lakes, fjords & pines' },
         { key: 'national-parks', label: 'National Parks', desc: "America's iconic landscapes" },
         { key: 'chicago', label: 'Chicago', desc: 'The Windy City in every light' },
+        { key: 'summer-86', label: "Summer '86", desc: 'Neon sunsets, chlorine & VHS static' },
       ];
 
       let html = '';
