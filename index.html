@@ -255,6 +255,7 @@
     .band-national-parks { background: #1A3020; }
     .band-chicago { background: #1A2744; }
     .band-summer-86 { background: #1A2744; }
+    .band-mountains { background: #1A2744; }
 
     .band-theme-header {
       display: flex;
@@ -293,6 +294,7 @@
     .band-national-parks .band-theme-title { color: #E8C48A; }
     .band-chicago .band-theme-title { color: #7CD4FD; }
     .band-summer-86 .band-theme-title { color: #7CD4FD; }
+    .band-mountains .band-theme-title { color: #B9E6FE; }
 
     .band-theme-desc {
       font-size: 0.78rem;
@@ -322,6 +324,7 @@
     .band-national-parks .band-theme-desc { color: #7A9060; }
     .band-chicago .band-theme-desc { color: #F97066; }
     .band-summer-86 .band-theme-desc { color: #F4B5C1; }
+    .band-mountains .band-theme-desc { color: #7CD4FD; }
 
     .band-theme-count {
       font-size: 0.7rem;
@@ -353,6 +356,7 @@
     .band-northern-lights .band-theme-count { color: #7CD4FD; }
     .band-national-parks .band-theme-count { color: #7A9060; }
     .band-chicago .band-theme-count { color: #7CD4FD; }
+    .band-mountains .band-theme-count { color: #B9E6FE; }
 
     /* Gallery grid */
     .band-grid {
@@ -899,7 +903,7 @@
 
   <!-- FOOTER BAND -->
   <footer class="band-footer">
-    <span class="band-footer-text">paper — 140 wallpapers, free to download.</span>
+    <span class="band-footer-text">paper — 148 wallpapers, free to download.</span>
   </footer>
 
   <script>
@@ -1098,6 +1102,14 @@
       { id: 'arcade',                 name: 'Arcade',                 theme: 'summer-86', tags: ['summer', '80s', 'arcade', 'games', 'nostalgia', 'retro'],              file: 'summer-86/arcade.jpg' },
       { id: 'drive-in-wagon',         name: 'Drive-In Wagon',         theme: 'summer-86', tags: ['summer', '80s', 'drive-in', 'station wagon', 'nostalgia', 'retro'],    file: 'summer-86/drive-in-wagon.jpg' },
       { id: 'backyard-sprinkler',     name: 'Backyard Sprinkler',     theme: 'summer-86', tags: ['summer', '80s', 'sprinkler', 'backyard', 'nostalgia', 'retro'],        file: 'summer-86/backyard-sprinkler.jpg' },
+      { id: 'alpine-dawn',            name: 'Alpine Dawn',            theme: 'mountains', tags: ['mountains', 'alpine', 'dawn', 'sunrise', 'peaks'],                   file: 'mountains/alpine-dawn.jpg' },
+      { id: 'glacial-lake',           name: 'Glacial Lake',           theme: 'mountains', tags: ['mountains', 'glacial', 'lake', 'reflection', 'alpine'],               file: 'mountains/glacial-lake.jpg' },
+      { id: 'misty-ridgeline',        name: 'Misty Ridgeline',        theme: 'mountains', tags: ['mountains', 'mist', 'ridgeline', 'fog', 'layers'],                   file: 'mountains/misty-ridgeline.jpg' },
+      { id: 'sunset-range',           name: 'Sunset Range',           theme: 'mountains', tags: ['mountains', 'sunset', 'range', 'golden hour', 'peaks'],              file: 'mountains/sunset-range.jpg' },
+      { id: 'rolling-foothills',      name: 'Rolling Foothills',      theme: 'mountains', tags: ['mountains', 'foothills', 'green', 'rolling', 'valleys'],             file: 'mountains/rolling-foothills.jpg' },
+      { id: 'mountain-meadow',        name: 'Mountain Meadow',        theme: 'mountains', tags: ['mountains', 'meadow', 'wildflowers', 'alpine', 'peaks'],            file: 'mountains/mountain-meadow.jpg' },
+      { id: 'granite-spires',         name: 'Granite Spires',         theme: 'mountains', tags: ['mountains', 'granite', 'spires', 'rock', 'dramatic'],                file: 'mountains/granite-spires.jpg' },
+      { id: 'starlit-peaks',          name: 'Starlit Peaks',          theme: 'mountains', tags: ['mountains', 'night', 'stars', 'peaks', 'moon'],                      file: 'mountains/starlit-peaks.jpg' },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -1159,6 +1171,7 @@
         { key: 'national-parks', label: 'National Parks', desc: "America's iconic landscapes" },
         { key: 'chicago', label: 'Chicago', desc: 'The Windy City in every light' },
         { key: 'summer-86', label: "Summer '86", desc: 'Neon sunsets, chlorine & VHS static' },
+        { key: 'mountains', label: 'Mountains', desc: 'Peaks, ridges & alpine light' },
       ];
 
       let html = '';
