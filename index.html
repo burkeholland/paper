@@ -256,6 +256,7 @@
     .band-chicago { background: #1A2744; }
     .band-summer-86 { background: #1A2744; }
     .band-mountains { background: #1A2744; }
+    .band-dog-lovers { background: #FFF0E6; }
 
     .band-theme-header {
       display: flex;
@@ -295,6 +296,7 @@
     .band-chicago .band-theme-title { color: #7CD4FD; }
     .band-summer-86 .band-theme-title { color: #7CD4FD; }
     .band-mountains .band-theme-title { color: #B9E6FE; }
+    .band-dog-lovers .band-theme-title { color: #1A2744; }
 
     .band-theme-desc {
       font-size: 0.78rem;
@@ -325,6 +327,7 @@
     .band-chicago .band-theme-desc { color: #F97066; }
     .band-summer-86 .band-theme-desc { color: #F4B5C1; }
     .band-mountains .band-theme-desc { color: #7CD4FD; }
+    .band-dog-lovers .band-theme-desc { color: #5C677D; }
 
     .band-theme-count {
       font-size: 0.7rem;
@@ -357,6 +360,7 @@
     .band-national-parks .band-theme-count { color: #7A9060; }
     .band-chicago .band-theme-count { color: #7CD4FD; }
     .band-mountains .band-theme-count { color: #B9E6FE; }
+    .band-dog-lovers .band-theme-count { color: #D4A574; }
 
     /* Gallery grid */
     .band-grid {
@@ -843,6 +847,7 @@
     <button class="filter-pill" data-theme="coral-reef">Coral Reef</button>
     <button class="filter-pill" data-theme="rainforest">Rainforest</button>
     <button class="filter-pill" data-theme="northern-lights">Northern Lights</button>
+    <button class="filter-pill" data-theme="dog-lovers">Dog Lovers</button>
     <div class="filter-sep"></div>
     <div id="tag-filters" style="display:flex;gap:6px;flex-wrap:nowrap;"></div>
   </div>
@@ -903,7 +908,7 @@
 
   <!-- FOOTER BAND -->
   <footer class="band-footer">
-    <span class="band-footer-text">paper — 148 wallpapers, free to download.</span>
+    <span class="band-footer-text">paper — 156 wallpapers, free to download.</span>
   </footer>
 
   <script>
@@ -1110,6 +1115,14 @@
       { id: 'mountain-meadow',        name: 'Mountain Meadow',        theme: 'mountains', tags: ['mountains', 'meadow', 'wildflowers', 'alpine', 'peaks'],            file: 'mountains/mountain-meadow.jpg' },
       { id: 'granite-spires',         name: 'Granite Spires',         theme: 'mountains', tags: ['mountains', 'granite', 'spires', 'rock', 'dramatic'],                file: 'mountains/granite-spires.jpg' },
       { id: 'starlit-peaks',          name: 'Starlit Peaks',          theme: 'mountains', tags: ['mountains', 'night', 'stars', 'peaks', 'moon'],                      file: 'mountains/starlit-peaks.jpg' },
+      { id: "golden-nap", name: "Golden Nap", theme: "dog-lovers", tags: ["dog", "cozy", "indoor"], file: "dog-lovers/golden-nap.jpg" },
+      { id: "rainy-window", name: "Rainy Window", theme: "dog-lovers", tags: ["dog", "rain", "cozy", "indoor"], file: "dog-lovers/rainy-window.jpg" },
+      { id: "park-romp", name: "Park Romp", theme: "dog-lovers", tags: ["dog", "park", "outdoor", "green"], file: "dog-lovers/park-romp.jpg" },
+      { id: "couch-potato", name: "Couch Potato", theme: "dog-lovers", tags: ["dog", "cozy", "indoor", "lazy"], file: "dog-lovers/couch-potato.jpg" },
+      { id: "fetch-field", name: "Fetch Field", theme: "dog-lovers", tags: ["dog", "outdoor", "play", "meadow"], file: "dog-lovers/fetch-field.jpg" },
+      { id: "puppy-pile", name: "Puppy Pile", theme: "dog-lovers", tags: ["dog", "puppies", "cozy", "cute"], file: "dog-lovers/puppy-pile.jpg" },
+      { id: "beach-dog", name: "Beach Dog", theme: "dog-lovers", tags: ["dog", "beach", "ocean", "outdoor"], file: "dog-lovers/beach-dog.jpg" },
+      { id: "autumn-trail", name: "Autumn Trail", theme: "dog-lovers", tags: ["dog", "autumn", "forest", "outdoor"], file: "dog-lovers/autumn-trail.jpg" },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -1172,6 +1185,7 @@
         { key: 'chicago', label: 'Chicago', desc: 'The Windy City in every light' },
         { key: 'summer-86', label: "Summer '86", desc: 'Neon sunsets, chlorine & VHS static' },
         { key: 'mountains', label: 'Mountains', desc: 'Peaks, ridges & alpine light' },
+        { key: 'dog-lovers', label: 'Dog Lovers', desc: 'For the good boys and girls' },
       ];
 
       let html = '';
