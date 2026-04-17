@@ -1252,6 +1252,8 @@
       document.body.removeChild(a);
     }
 
+    let suppressHashUpdate = false;
+
     function openLightbox(index) {
       lightboxIndex = index;
       const w = filteredWallpapers[index];
@@ -1266,6 +1268,7 @@
       $('#lightbox').classList.add('open');
       document.body.style.overflow = 'hidden';
       updateNavVisibility();
+      if (!suppressHashUpdate) updateHash();
     }
 
     function closeLightbox() {
@@ -1273,6 +1276,7 @@
       document.body.style.overflow = '';
       $('#lb-img').src = '';
       lightboxIndex = -1;
+      if (!suppressHashUpdate) updateHash();
     }
 
     function navigateLightbox(dir) {
@@ -1292,7 +1296,10 @@
         document.querySelectorAll('.filter-pill[data-theme]').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         activeTheme = btn.dataset.theme;
+        activeTag = null;
+        document.querySelectorAll('.tag-pill').forEach(b => b.classList.remove('active'));
         applyFilters();
+        updateHash();
       });
     });
 
@@ -1308,6 +1315,7 @@
         activeTag = btn.dataset.tag;
       }
       applyFilters();
+      updateHash();
     });
 
     $('#lb-close').addEventListener('click', closeLightbox);
@@ -1323,7 +1331,80 @@
     });
 
     buildTagFilters();
-    applyFilters();
+
+    /* === HASH ROUTING === */
+    function updateHash() {
+      if ($('#lightbox').classList.contains('open') && lightboxIndex >= 0) {
+        const w = filteredWallpapers[lightboxIndex];
+        if (w) { history.replaceState(null, '', '#wallpaper/' + w.id); return; }
+      }
+      if (activeTheme !== 'all') {
+        const hash = activeTag ? '#' + activeTheme + '/' + activeTag : '#' + activeTheme;
+        history.replaceState(null, '', hash);
+      } else {
+        history.replaceState(null, '', window.location.pathname + window.location.search);
+      }
+    }
+
+    function applyHash() {
+      const hash = decodeURIComponent(window.location.hash.replace(/^#/, ''));
+      if (!hash || hash === 'request') return;
+
+      suppressHashUpdate = true;
+
+      // Close lightbox if open
+      if ($('#lightbox').classList.contains('open')) closeLightbox();
+
+      if (hash.startsWith('wallpaper/')) {
+        const wallpaperId = hash.slice('wallpaper/'.length);
+        // Reset filters to show all so the wallpaper is findable
+        activeTheme = 'all';
+        activeTag = null;
+        searchQuery = '';
+        document.querySelectorAll('.filter-pill[data-theme]').forEach(b => b.classList.remove('active'));
+        const allBtn = document.querySelector('.filter-pill[data-theme="all"]');
+        if (allBtn) allBtn.classList.add('active');
+        document.querySelectorAll('.tag-pill').forEach(b => b.classList.remove('active'));
+        applyFilters();
+        const wpIndex = filteredWallpapers.findIndex(w => w.id === wallpaperId);
+        if (wpIndex >= 0) openLightbox(wpIndex);
+      } else {
+        const parts = hash.split('/');
+        const theme = parts[0];
+        const tag = parts[1] || null;
+
+        // Activate theme pill
+        const themeBtn = document.querySelector(`.filter-pill[data-theme="${theme}"]`);
+        if (themeBtn) {
+          document.querySelectorAll('.filter-pill[data-theme]').forEach(b => b.classList.remove('active'));
+          themeBtn.classList.add('active');
+          activeTheme = theme;
+        }
+
+        // Activate tag pill
+        activeTag = tag;
+        if (tag) {
+          // Tags are built by now, activate matching pill
+          const tagBtn = document.querySelector(`.tag-pill[data-tag="${tag}"]`);
+          if (tagBtn) {
+            document.querySelectorAll('.tag-pill').forEach(b => b.classList.remove('active'));
+            tagBtn.classList.add('active');
+          }
+        }
+
+        applyFilters();
+      }
+
+      suppressHashUpdate = false;
+    }
+
+    window.addEventListener('hashchange', applyHash);
+
+    // Initial load
+    applyHash();
+    if (!window.location.hash || window.location.hash === '#' || window.location.hash === '#request') {
+      applyFilters();
+    }
   </script>
 </body>
 </html>
