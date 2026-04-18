@@ -259,6 +259,7 @@
     .band-dog-lovers { background: #FFF0E6; }
     .band-trains { background: #1A2744; }
     .band-neon-tokyo { background: #120E2A; }
+    .band-carnival { background: #FAF0E4; }
 
     .band-theme-header {
       display: flex;
@@ -301,6 +302,7 @@
     .band-dog-lovers .band-theme-title { color: #1A2744; }
     .band-trains .band-theme-title { color: #D4A853; }
     .band-neon-tokyo .band-theme-title { color: #FF6B9D; }
+    .band-carnival .band-theme-title { color: #E8453A; }
 
     .band-theme-desc {
       font-size: 0.78rem;
@@ -334,6 +336,7 @@
     .band-dog-lovers .band-theme-desc { color: #5C677D; }
     .band-trains .band-theme-desc { color: #7CD4FD; }
     .band-neon-tokyo .band-theme-desc { color: #7B8CFF; }
+    .band-carnival .band-theme-desc { color: #C4862D; }
 
     .band-theme-count {
       font-size: 0.7rem;
@@ -369,6 +372,7 @@
     .band-dog-lovers .band-theme-count { color: #D4A574; }
     .band-trains .band-theme-count { color: #D4A853; }
     .band-neon-tokyo .band-theme-count { color: #FF6B9D; }
+    .band-carnival .band-theme-count { color: #F5D76E; }
 
     /* Gallery grid */
     .band-grid {
@@ -861,6 +865,7 @@
     <button class="filter-pill" data-theme="mountains">Mountains</button>
     <button class="filter-pill" data-theme="trains">Train Journeys</button>
     <button class="filter-pill" data-theme="neon-tokyo">Neon Tokyo</button>
+    <button class="filter-pill" data-theme="carnival">1950s Carnival</button>
     <div class="filter-sep"></div>
     <div id="tag-filters" style="display:flex;gap:6px;flex-wrap:nowrap;"></div>
   </div>
@@ -1152,6 +1157,14 @@
       { id: "nt-train-platform-night", name: "Train Platform at Night", theme: "neon-tokyo", tags: ["tokyo", "neon", "train", "platform", "night", "neon-tokyo"], file: "neon-tokyo/train-platform-night.jpg" },
       { id: "nt-cherry-blossoms-neon", name: "Cherry Blossoms in Neon", theme: "neon-tokyo", tags: ["tokyo", "neon", "cherry blossoms", "sakura", "spring", "neon-tokyo"], file: "neon-tokyo/cherry-blossoms-neon.jpg" },
       { id: "nt-rooftop-skyline", name: "Rooftop Skyline", theme: "neon-tokyo", tags: ["tokyo", "neon", "rooftop", "skyline", "night", "neon-tokyo"], file: "neon-tokyo/rooftop-skyline.jpg" },
+      { id: "ferris-wheel-dusk", name: "Ferris Wheel at Dusk", theme: "carnival", tags: ["carnival", "ferris wheel", "dusk", "lights", "1950s"], file: "carnival/ferris-wheel-dusk.jpg" },
+      { id: "cotton-candy-stand", name: "Cotton Candy Stand", theme: "carnival", tags: ["carnival", "cotton candy", "fairground", "pastel", "1950s"], file: "carnival/cotton-candy-stand.jpg" },
+      { id: "tilt-a-whirl", name: "Tilt-a-Whirl", theme: "carnival", tags: ["carnival", "ride", "spin", "evening", "1950s"], file: "carnival/tilt-a-whirl.jpg" },
+      { id: "midway-at-night", name: "Midway at Night", theme: "carnival", tags: ["carnival", "midway", "night", "lights", "1950s"], file: "carnival/midway-at-night.jpg" },
+      { id: "carousel-close-up", name: "Carousel Close-Up", theme: "carnival", tags: ["carnival", "carousel", "horses", "vintage", "1950s"], file: "carnival/carousel-close-up.jpg" },
+      { id: "bumper-cars", name: "Bumper Cars", theme: "carnival", tags: ["carnival", "bumper cars", "pavilion", "electric", "1950s"], file: "carnival/bumper-cars.jpg" },
+      { id: "ticket-booth", name: "Ticket Booth", theme: "carnival", tags: ["carnival", "ticket booth", "entrance", "warm", "1950s"], file: "carnival/ticket-booth.jpg" },
+      { id: "roller-coaster-sunset", name: "Roller Coaster at Sunset", theme: "carnival", tags: ["carnival", "roller coaster", "sunset", "silhouette", "1950s"], file: "carnival/roller-coaster-sunset.jpg" },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -1217,6 +1230,7 @@
         { key: 'dog-lovers', label: 'Dog Lovers', desc: 'For the good boys and girls' },
         { key: 'trains', label: 'Train Journeys', desc: 'Rails, steam & distant horizons' },
         { key: 'neon-tokyo', label: 'Neon Tokyo', desc: 'Electric nights in the city that glows' },
+        { key: 'carnival', label: '1950s Carnival', desc: 'Candy-colored rides & midway lights' },
       ];
 
       let html = '';
