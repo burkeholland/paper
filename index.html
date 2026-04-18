@@ -257,6 +257,7 @@
     .band-summer-86 { background: #1A2744; }
     .band-mountains { background: #1A2744; }
     .band-dog-lovers { background: #FFF0E6; }
+    .band-trains { background: #1A2744; }
 
     .band-theme-header {
       display: flex;
@@ -297,6 +298,7 @@
     .band-summer-86 .band-theme-title { color: #7CD4FD; }
     .band-mountains .band-theme-title { color: #B9E6FE; }
     .band-dog-lovers .band-theme-title { color: #1A2744; }
+    .band-trains .band-theme-title { color: #D4A853; }
 
     .band-theme-desc {
       font-size: 0.78rem;
@@ -328,6 +330,7 @@
     .band-summer-86 .band-theme-desc { color: #F4B5C1; }
     .band-mountains .band-theme-desc { color: #7CD4FD; }
     .band-dog-lovers .band-theme-desc { color: #5C677D; }
+    .band-trains .band-theme-desc { color: #7CD4FD; }
 
     .band-theme-count {
       font-size: 0.7rem;
@@ -361,6 +364,7 @@
     .band-chicago .band-theme-count { color: #7CD4FD; }
     .band-mountains .band-theme-count { color: #B9E6FE; }
     .band-dog-lovers .band-theme-count { color: #D4A574; }
+    .band-trains .band-theme-count { color: #D4A853; }
 
     /* Gallery grid */
     .band-grid {
@@ -851,6 +855,7 @@
     <button class="filter-pill" data-theme="chicago">Chicago</button>
     <button class="filter-pill" data-theme="summer-86">Summer '86</button>
     <button class="filter-pill" data-theme="mountains">Mountains</button>
+    <button class="filter-pill" data-theme="trains">Train Journeys</button>
     <div class="filter-sep"></div>
     <div id="tag-filters" style="display:flex;gap:6px;flex-wrap:nowrap;"></div>
   </div>
@@ -1126,6 +1131,14 @@
       { id: "puppy-pile", name: "Puppy Pile", theme: "dog-lovers", tags: ["dog", "puppies", "cozy", "cute"], file: "dog-lovers/puppy-pile.jpg" },
       { id: "beach-dog", name: "Beach Dog", theme: "dog-lovers", tags: ["dog", "beach", "ocean", "outdoor"], file: "dog-lovers/beach-dog.jpg" },
       { id: "autumn-trail", name: "Autumn Trail", theme: "dog-lovers", tags: ["dog", "autumn", "forest", "outdoor"], file: "dog-lovers/autumn-trail.jpg" },
+      { id: "tr-stone-viaduct", name: "Stone Viaduct", theme: "trains", tags: ["train", "steam", "viaduct", "dawn", "valley", "trains"], file: "trains/stone-viaduct.jpg" },
+      { id: "tr-bullet-train-blossoms", name: "Bullet Train Blossoms", theme: "trains", tags: ["train", "bullet train", "cherry blossom", "spring", "trains"], file: "trains/bullet-train-blossoms.jpg" },
+      { id: "tr-platform-golden-hour", name: "Platform Golden Hour", theme: "trains", tags: ["train", "platform", "station", "golden hour", "vintage", "trains"], file: "trains/platform-golden-hour.jpg" },
+      { id: "tr-sleeping-car-window", name: "Sleeping Car Window", theme: "trains", tags: ["train", "sleeping car", "window", "sunset", "countryside", "trains"], file: "trains/sleeping-car-window.jpg" },
+      { id: "tr-mountain-switchback", name: "Mountain Switchback", theme: "trains", tags: ["train", "mountain", "alpine", "switchback", "snow", "trains"], file: "trains/mountain-switchback.jpg" },
+      { id: "tr-night-arrival", name: "Night Arrival", theme: "trains", tags: ["train", "night", "station", "lamplight", "stars", "trains"], file: "trains/night-arrival.jpg" },
+      { id: "tr-glass-station", name: "Glass Station", theme: "trains", tags: ["train", "station", "glass", "iron", "european", "grand", "trains"], file: "trains/glass-station.jpg" },
+      { id: "tr-coastal-railway", name: "Coastal Railway", theme: "trains", tags: ["train", "coastal", "cliffs", "ocean", "railway", "trains"], file: "trains/coastal-railway.jpg" },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -1189,6 +1202,7 @@
         { key: 'summer-86', label: "Summer '86", desc: 'Neon sunsets, chlorine & VHS static' },
         { key: 'mountains', label: 'Mountains', desc: 'Peaks, ridges & alpine light' },
         { key: 'dog-lovers', label: 'Dog Lovers', desc: 'For the good boys and girls' },
+        { key: 'trains', label: 'Train Journeys', desc: 'Rails, steam & distant horizons' },
       ];
 
       let html = '';
