@@ -258,6 +258,7 @@
     .band-mountains { background: #1A2744; }
     .band-dog-lovers { background: #FFF0E6; }
     .band-trains { background: #1A2744; }
+    .band-neon-tokyo { background: #120E2A; }
 
     .band-theme-header {
       display: flex;
@@ -299,6 +300,7 @@
     .band-mountains .band-theme-title { color: #B9E6FE; }
     .band-dog-lovers .band-theme-title { color: #1A2744; }
     .band-trains .band-theme-title { color: #D4A853; }
+    .band-neon-tokyo .band-theme-title { color: #FF6B9D; }
 
     .band-theme-desc {
       font-size: 0.78rem;
@@ -331,6 +333,7 @@
     .band-mountains .band-theme-desc { color: #7CD4FD; }
     .band-dog-lovers .band-theme-desc { color: #5C677D; }
     .band-trains .band-theme-desc { color: #7CD4FD; }
+    .band-neon-tokyo .band-theme-desc { color: #7B8CFF; }
 
     .band-theme-count {
       font-size: 0.7rem;
@@ -365,6 +368,7 @@
     .band-mountains .band-theme-count { color: #B9E6FE; }
     .band-dog-lovers .band-theme-count { color: #D4A574; }
     .band-trains .band-theme-count { color: #D4A853; }
+    .band-neon-tokyo .band-theme-count { color: #FF6B9D; }
 
     /* Gallery grid */
     .band-grid {
@@ -856,6 +860,7 @@
     <button class="filter-pill" data-theme="summer-86">Summer '86</button>
     <button class="filter-pill" data-theme="mountains">Mountains</button>
     <button class="filter-pill" data-theme="trains">Train Journeys</button>
+    <button class="filter-pill" data-theme="neon-tokyo">Neon Tokyo</button>
     <div class="filter-sep"></div>
     <div id="tag-filters" style="display:flex;gap:6px;flex-wrap:nowrap;"></div>
   </div>
@@ -1139,6 +1144,14 @@
       { id: "tr-night-arrival", name: "Night Arrival", theme: "trains", tags: ["train", "night", "station", "lamplight", "stars", "trains"], file: "trains/night-arrival.jpg" },
       { id: "tr-glass-station", name: "Glass Station", theme: "trains", tags: ["train", "station", "glass", "iron", "european", "grand", "trains"], file: "trains/glass-station.jpg" },
       { id: "tr-coastal-railway", name: "Coastal Railway", theme: "trains", tags: ["train", "coastal", "cliffs", "ocean", "railway", "trains"], file: "trains/coastal-railway.jpg" },
+      { id: "nt-ramen-alley", name: "Ramen Alley", theme: "neon-tokyo", tags: ["tokyo", "neon", "ramen", "alley", "night", "neon-tokyo"], file: "neon-tokyo/ramen-alley.jpg" },
+      { id: "nt-vending-machines-rain", name: "Vending Machines in Rain", theme: "neon-tokyo", tags: ["tokyo", "neon", "vending machines", "rain", "night", "neon-tokyo"], file: "neon-tokyo/vending-machines-rain.jpg" },
+      { id: "nt-shibuya-crossing", name: "Shibuya Crossing", theme: "neon-tokyo", tags: ["tokyo", "neon", "shibuya", "crossing", "urban", "neon-tokyo"], file: "neon-tokyo/shibuya-crossing.jpg" },
+      { id: "nt-temple-neon", name: "Temple in Neon", theme: "neon-tokyo", tags: ["tokyo", "neon", "temple", "traditional", "contrast", "neon-tokyo"], file: "neon-tokyo/temple-neon.jpg" },
+      { id: "nt-tokyo-tower-dusk", name: "Tokyo Tower at Dusk", theme: "neon-tokyo", tags: ["tokyo", "neon", "tower", "dusk", "skyline", "neon-tokyo"], file: "neon-tokyo/tokyo-tower-dusk.jpg" },
+      { id: "nt-train-platform-night", name: "Train Platform at Night", theme: "neon-tokyo", tags: ["tokyo", "neon", "train", "platform", "night", "neon-tokyo"], file: "neon-tokyo/train-platform-night.jpg" },
+      { id: "nt-cherry-blossoms-neon", name: "Cherry Blossoms in Neon", theme: "neon-tokyo", tags: ["tokyo", "neon", "cherry blossoms", "sakura", "spring", "neon-tokyo"], file: "neon-tokyo/cherry-blossoms-neon.jpg" },
+      { id: "nt-rooftop-skyline", name: "Rooftop Skyline", theme: "neon-tokyo", tags: ["tokyo", "neon", "rooftop", "skyline", "night", "neon-tokyo"], file: "neon-tokyo/rooftop-skyline.jpg" },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -1203,6 +1216,7 @@
         { key: 'mountains', label: 'Mountains', desc: 'Peaks, ridges & alpine light' },
         { key: 'dog-lovers', label: 'Dog Lovers', desc: 'For the good boys and girls' },
         { key: 'trains', label: 'Train Journeys', desc: 'Rails, steam & distant horizons' },
+        { key: 'neon-tokyo', label: 'Neon Tokyo', desc: 'Electric nights in the city that glows' },
       ];
 
       let html = '';
