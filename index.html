@@ -260,6 +260,7 @@
     .band-trains { background: #1A2744; }
     .band-neon-tokyo { background: #120E2A; }
     .band-carnival { background: #FAF0E4; }
+    .band-central-parks { background: #2A4A2A; }
 
     .band-theme-header {
       display: flex;
@@ -303,6 +304,7 @@
     .band-trains .band-theme-title { color: #D4A853; }
     .band-neon-tokyo .band-theme-title { color: #FF6B9D; }
     .band-carnival .band-theme-title { color: #E8453A; }
+    .band-central-parks .band-theme-title { color: #85E13A; }
 
     .band-theme-desc {
       font-size: 0.78rem;
@@ -337,6 +339,7 @@
     .band-trains .band-theme-desc { color: #7CD4FD; }
     .band-neon-tokyo .band-theme-desc { color: #7B8CFF; }
     .band-carnival .band-theme-desc { color: #C4862D; }
+    .band-central-parks .band-theme-desc { color: #B9E6FE; }
 
     .band-theme-count {
       font-size: 0.7rem;
@@ -373,6 +376,7 @@
     .band-trains .band-theme-count { color: #D4A853; }
     .band-neon-tokyo .band-theme-count { color: #FF6B9D; }
     .band-carnival .band-theme-count { color: #F5D76E; }
+    .band-central-parks .band-theme-count { color: #85E13A; }
 
     /* Gallery grid */
     .band-grid {
@@ -866,6 +870,7 @@
     <button class="filter-pill" data-theme="trains">Train Journeys</button>
     <button class="filter-pill" data-theme="neon-tokyo">Neon Tokyo</button>
     <button class="filter-pill" data-theme="carnival">1950s Carnival</button>
+    <button class="filter-pill" data-theme="central-parks">Central Parks</button>
     <div class="filter-sep"></div>
     <div id="tag-filters" style="display:flex;gap:6px;flex-wrap:nowrap;"></div>
   </div>
@@ -1165,6 +1170,14 @@
       { id: "bumper-cars", name: "Bumper Cars", theme: "carnival", tags: ["carnival", "bumper cars", "pavilion", "electric", "1950s"], file: "carnival/bumper-cars.jpg" },
       { id: "ticket-booth", name: "Ticket Booth", theme: "carnival", tags: ["carnival", "ticket booth", "entrance", "warm", "1950s"], file: "carnival/ticket-booth.jpg" },
       { id: "roller-coaster-sunset", name: "Roller Coaster at Sunset", theme: "carnival", tags: ["carnival", "roller coaster", "sunset", "silhouette", "1950s"], file: "carnival/roller-coaster-sunset.jpg" },
+      { id: "bow-bridge-autumn", name: "Bow Bridge Autumn", theme: "central-parks", tags: ["central parks", "new york", "autumn", "bridge", "lake"], file: "central-parks/bow-bridge-autumn.jpg" },
+      { id: "serpentine-morning", name: "Serpentine Morning", theme: "central-parks", tags: ["central parks", "london", "hyde park", "lake", "morning"], file: "central-parks/serpentine-morning.jpg" },
+      { id: "ueno-cherry-blossoms", name: "Ueno Cherry Blossoms", theme: "central-parks", tags: ["central parks", "tokyo", "cherry blossoms", "spring", "japan"], file: "central-parks/ueno-cherry-blossoms.jpg" },
+      { id: "luxembourg-fountain", name: "Luxembourg Fountain", theme: "central-parks", tags: ["central parks", "paris", "fountain", "garden", "palace"], file: "central-parks/luxembourg-fountain.jpg" },
+      { id: "vondelpark-canals", name: "Vondelpark Canals", theme: "central-parks", tags: ["central parks", "amsterdam", "canals", "willows", "spring"], file: "central-parks/vondelpark-canals.jpg" },
+      { id: "ibirapuera-pavilion", name: "Ibirapuera Pavilion", theme: "central-parks", tags: ["central parks", "sao paulo", "modernist", "tropical", "pavilion"], file: "central-parks/ibirapuera-pavilion.jpg" },
+      { id: "stanley-park-totems", name: "Stanley Park Totems", theme: "central-parks", tags: ["central parks", "vancouver", "totems", "forest", "coastal"], file: "central-parks/stanley-park-totems.jpg" },
+      { id: "retiro-crystal-palace", name: "Retiro Crystal Palace", theme: "central-parks", tags: ["central parks", "madrid", "crystal palace", "lake", "glass"], file: "central-parks/retiro-crystal-palace.jpg" },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -1231,6 +1244,7 @@
         { key: 'trains', label: 'Train Journeys', desc: 'Rails, steam & distant horizons' },
         { key: 'neon-tokyo', label: 'Neon Tokyo', desc: 'Electric nights in the city that glows' },
         { key: 'carnival', label: '1950s Carnival', desc: 'Candy-colored rides & midway lights' },
+        { key: 'central-parks', label: 'Central Parks', desc: 'Iconic urban park scenes from around the world' },
       ];
 
       let html = '';
