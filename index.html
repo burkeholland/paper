@@ -261,6 +261,10 @@
     .band-neon-tokyo { background: #120E2A; }
     .band-carnival { background: #FAF0E4; }
     .band-central-parks { background: #2A4A2A; }
+    .band-small-towns { background: #FEF3C7; }
+    .band-small-towns .band-theme-title { color: #92400E; }
+    .band-small-towns .band-theme-desc { color: #B45309; }
+    .band-small-towns .band-theme-count { color: #D97706; }
 
     .band-theme-header {
       display: flex;
@@ -871,6 +875,7 @@
     <button class="filter-pill" data-theme="neon-tokyo">Neon Tokyo</button>
     <button class="filter-pill" data-theme="carnival">1950s Carnival</button>
     <button class="filter-pill" data-theme="central-parks">Central Parks</button>
+    <button class="filter-pill" data-theme="small-towns">Small Towns</button>
     <div class="filter-sep"></div>
     <div id="tag-filters" style="display:flex;gap:6px;flex-wrap:nowrap;"></div>
   </div>
@@ -931,7 +936,7 @@
 
   <!-- FOOTER BAND -->
   <footer class="band-footer">
-    <span class="band-footer-text">paper — 156 wallpapers, free to download.</span>
+    <span class="band-footer-text">paper — 162 wallpapers, free to download.</span>
   </footer>
 
   <script>
@@ -1178,6 +1183,12 @@
       { id: "ibirapuera-pavilion", name: "Ibirapuera Pavilion", theme: "central-parks", tags: ["central parks", "sao paulo", "modernist", "tropical", "pavilion"], file: "central-parks/ibirapuera-pavilion.jpg" },
       { id: "stanley-park-totems", name: "Stanley Park Totems", theme: "central-parks", tags: ["central parks", "vancouver", "totems", "forest", "coastal"], file: "central-parks/stanley-park-totems.jpg" },
       { id: "retiro-crystal-palace", name: "Retiro Crystal Palace", theme: "central-parks", tags: ["central parks", "madrid", "crystal palace", "lake", "glass"], file: "central-parks/retiro-crystal-palace.jpg" },
+      { id: "main-street", name: "Main Street", theme: "small-towns", tags: ["town", "street", "storefronts", "small-towns"], file: "small-towns/main-street.jpg" },
+      { id: "covered-bridge", name: "Covered Bridge", theme: "small-towns", tags: ["bridge", "autumn", "creek", "small-towns"], file: "small-towns/covered-bridge.jpg" },
+      { id: "town-square", name: "Town Square", theme: "small-towns", tags: ["square", "gazebo", "shops", "small-towns"], file: "small-towns/town-square.jpg" },
+      { id: "grain-elevator", name: "Grain Elevator", theme: "small-towns", tags: ["grain", "railroad", "prairie", "small-towns"], file: "small-towns/grain-elevator.jpg" },
+      { id: "diner-at-dusk", name: "Diner at Dusk", theme: "small-towns", tags: ["diner", "dusk", "neon", "small-towns"], file: "small-towns/diner-at-dusk.jpg" },
+      { id: "church-hill", name: "Church Hill", theme: "small-towns", tags: ["church", "hill", "steeple", "small-towns"], file: "small-towns/church-hill.jpg" },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -1245,6 +1256,7 @@
         { key: 'neon-tokyo', label: 'Neon Tokyo', desc: 'Electric nights in the city that glows' },
         { key: 'carnival', label: '1950s Carnival', desc: 'Candy-colored rides & midway lights' },
         { key: 'central-parks', label: 'Central Parks', desc: 'Iconic urban park scenes from around the world' },
+        { key: 'small-towns', label: 'Small Towns', desc: 'Quiet main streets and countryside charm' },
       ];
 
       let html = '';

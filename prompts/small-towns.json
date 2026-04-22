@@ -1,0 +1,32 @@
+[
+  {
+    "id": "main-street",
+    "name": "Main Street",
+    "prompt": "Flat design illustration, figma-flat style, layered depth with smooth organic curves, flat color fills with subtle gradients within shapes, atmospheric perspective through color value shifts, clean edges, no outlines, no texture, no grain, no photorealism, no 3D, no people, no readable text. Palette: #D4956B #F9C87A #7CD4FD #B9E6FE #85E13A #6B7280. 3840x2160 resolution. A quiet small-town main street stretching into the distance, brick and clapboard storefronts with colorful awnings in coral and cream, a faded water tower rising behind the rooftops, soft morning light casting long warm shadows across the empty sidewalks, a single parked pickup truck near a general store."
+  },
+  {
+    "id": "covered-bridge",
+    "name": "Covered Bridge",
+    "prompt": "Flat design illustration, figma-flat style, layered depth with smooth organic curves, flat color fills with subtle gradients within shapes, atmospheric perspective through color value shifts, clean edges, no outlines, no texture, no grain, no photorealism, no 3D, no people, no readable text. Palette: #C84040 #F97066 #E8A838 #85E13A #7CD4FD #4A3728. 3840x2160 resolution. A red covered bridge spanning a gentle creek, surrounded by peak autumn foliage in fiery oranges, warm golds, and deep reds, the creek reflecting the colors below, a gravel path leading up to the bridge entrance, late afternoon sunlight filtering through the trees."
+  },
+  {
+    "id": "town-square",
+    "name": "Town Square",
+    "prompt": "Flat design illustration, figma-flat style, layered depth with smooth organic curves, flat color fills with subtle gradients within shapes, atmospheric perspective through color value shifts, clean edges, no outlines, no texture, no grain, no photorealism, no 3D, no people, no readable text. Palette: #85E13A #7CD4FD #F9F5EB #F97066 #B9E6FE #92400E. 3840x2160 resolution. A charming small-town square on a summer day, a white Victorian gazebo bandstand at the center surrounded by green lawns and wooden benches, quaint two-story shops with coral and cream facades lining the perimeter, large leafy trees casting dappled shade, an American flag on a pole near the gazebo."
+  },
+  {
+    "id": "grain-elevator",
+    "name": "Grain Elevator",
+    "prompt": "Flat design illustration, figma-flat style, layered depth with smooth organic curves, flat color fills with subtle gradients within shapes, atmospheric perspective through color value shifts, clean edges, no outlines, no texture, no grain, no photorealism, no 3D, no people, no readable text. Palette: #F9C87A #D4956B #E8A838 #4A5568 #B9E6FE #2D3748. 3840x2160 resolution. Tall concrete grain elevators towering over railroad tracks in a flat prairie landscape at golden hour, warm amber light flooding the scene, long shadows stretching from the elevators across dry golden wheat fields, a single rail car sitting on the tracks, the sky a gradient from deep gold near the horizon to soft blue above."
+  },
+  {
+    "id": "diner-at-dusk",
+    "name": "Diner at Dusk",
+    "prompt": "Flat design illustration, figma-flat style, layered depth with smooth organic curves, flat color fills with subtle gradients within shapes, atmospheric perspective through color value shifts, clean edges, no outlines, no texture, no grain, no photorealism, no 3D, no people, no readable text. Palette: #F97066 #F9C87A #1E3A5F #7CD4FD #B9E6FE #4A5568. 3840x2160 resolution. A small-town diner with a rounded chrome-and-glass facade glowing warm amber and coral light from inside at blue hour, two or three vintage cars parked in the gravel lot, a deep navy blue sky fading to indigo, the diner's neon sign casting a soft warm glow onto the wet pavement, distant silhouettes of small-town rooftops."
+  },
+  {
+    "id": "church-hill",
+    "name": "Church Hill",
+    "prompt": "Flat design illustration, figma-flat style, layered depth with smooth organic curves, flat color fills with subtle gradients within shapes, atmospheric perspective through color value shifts, clean edges, no outlines, no texture, no grain, no photorealism, no 3D, no people, no readable text. Palette: #F9F5EB #85E13A #7CD4FD #F97066 #B9E6FE #6B8F4A. 3840x2160 resolution. A white steepled New England church perched on a lush green hill, overlooking a patchwork of small-town rooftops with coral and slate shingles below, spring wildflowers dotting the hillside in soft pinks and yellows, a winding path leading up to the church door, gentle rolling hills and misty blue mountains in the far distance."
+  }
+]
