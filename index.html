@@ -265,6 +265,10 @@
     .band-small-towns .band-theme-title { color: #92400E; }
     .band-small-towns .band-theme-desc { color: #B45309; }
     .band-small-towns .band-theme-count { color: #D97706; }
+    .band-flight { background: #E0F2FE; }
+    .band-flight .band-theme-title { color: #1E3A5F; }
+    .band-flight .band-theme-desc { color: #2D5F8A; }
+    .band-flight .band-theme-count { color: #2D5F8A; }
 
     .band-theme-header {
       display: flex;
@@ -876,6 +880,7 @@
     <button class="filter-pill" data-theme="carnival">1950s Carnival</button>
     <button class="filter-pill" data-theme="central-parks">Central Parks</button>
     <button class="filter-pill" data-theme="small-towns">Small Towns</button>
+    <button class="filter-pill" data-theme="flight">Flight</button>
     <div class="filter-sep"></div>
     <div id="tag-filters" style="display:flex;gap:6px;flex-wrap:nowrap;"></div>
   </div>
@@ -936,7 +941,7 @@
 
   <!-- FOOTER BAND -->
   <footer class="band-footer">
-    <span class="band-footer-text">paper — 164 wallpapers, free to download.</span>
+    <span class="band-footer-text">paper — 172 wallpapers, free to download.</span>
   </footer>
 
   <script>
@@ -1191,6 +1196,14 @@
       { id: "main-street-night", name: "Main Street Night", theme: "small-towns", tags: ["night", "street", "lights", "shops", "small-towns"], file: "small-towns/main-street-night.jpg" },
       { id: "steeple-town", name: "Steeple Town", theme: "small-towns", tags: ["church", "steeple", "autumn", "new-england", "small-towns"], file: "small-towns/steeple-town.jpg" },
       { id: "summer-shade", name: "Summer Shade", theme: "small-towns", tags: ["summer", "shade", "trees", "porches", "small-towns"], file: "small-towns/summer-shade.jpg" },
+      { id: "fl-eagle-over-mountains", name: "Eagle Over Mountains", theme: "flight", tags: ["eagle", "mountains", "dawn", "soaring", "aerial", "flight"], file: "flight/eagle-over-mountains.jpg" },
+      { id: "fl-hot-air-balloon-fields", name: "Hot Air Balloon Fields", theme: "flight", tags: ["hot air balloon", "fields", "patchwork", "aerial", "morning", "flight"], file: "flight/hot-air-balloon-fields.jpg" },
+      { id: "fl-plane-window-coastline", name: "Plane Window Coastline", theme: "flight", tags: ["airplane", "window", "coastline", "mediterranean", "ocean", "flight"], file: "flight/plane-window-coastline.jpg" },
+      { id: "fl-drone-city-sunset", name: "Drone City Sunset", theme: "flight", tags: ["drone", "city", "sunset", "overhead", "golden hour", "flight"], file: "flight/drone-city-sunset.jpg" },
+      { id: "fl-river-delta-birds-eye", name: "River Delta Bird's Eye", theme: "flight", tags: ["river delta", "birds eye", "marshland", "aerial", "water", "flight"], file: "flight/river-delta-birds-eye.jpg" },
+      { id: "fl-paraglider-alpine", name: "Paraglider Alpine", theme: "flight", tags: ["paraglider", "alpine", "meadows", "mountains", "lake", "flight"], file: "flight/paraglider-alpine.jpg" },
+      { id: "fl-migrating-geese-sunset", name: "Migrating Geese Sunset", theme: "flight", tags: ["geese", "migration", "sunset", "v-formation", "clouds", "flight"], file: "flight/migrating-geese-sunset.jpg" },
+      { id: "fl-hang-glider-ocean-cliffs", name: "Hang Glider Ocean Cliffs", theme: "flight", tags: ["hang glider", "ocean", "cliffs", "coast", "waves", "flight"], file: "flight/hang-glider-ocean-cliffs.jpg" },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -1259,6 +1272,7 @@
         { key: 'carnival', label: '1950s Carnival', desc: 'Candy-colored rides & midway lights' },
         { key: 'central-parks', label: 'Central Parks', desc: 'Iconic urban park scenes from around the world' },
         { key: 'small-towns', label: 'Small Towns', desc: 'Quiet main streets and countryside charm' },
+        { key: 'flight', label: 'Flight', desc: 'Aerial views from wings, baskets & cockpits' },
       ];
 
       let html = '';
