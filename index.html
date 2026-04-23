@@ -269,6 +269,10 @@
     .band-flight .band-theme-title { color: #1E3A5F; }
     .band-flight .band-theme-desc { color: #2D5F8A; }
     .band-flight .band-theme-count { color: #2D5F8A; }
+    .band-little-ones { background: #FFF5EE; }
+    .band-little-ones .band-theme-title { color: #3D2B1F; }
+    .band-little-ones .band-theme-desc { color: #7A5F4F; }
+    .band-little-ones .band-theme-count { color: #9B7B6B; }
 
     .band-theme-header {
       display: flex;
@@ -881,6 +885,7 @@
     <button class="filter-pill" data-theme="central-parks">Central Parks</button>
     <button class="filter-pill" data-theme="small-towns">Small Towns</button>
     <button class="filter-pill" data-theme="flight">Flight</button>
+    <button class="filter-pill" data-theme="little-ones">Little Ones</button>
     <div class="filter-sep"></div>
     <div id="tag-filters" style="display:flex;gap:6px;flex-wrap:nowrap;"></div>
   </div>
@@ -941,7 +946,7 @@
 
   <!-- FOOTER BAND -->
   <footer class="band-footer">
-    <span class="band-footer-text">paper — 172 wallpapers, free to download.</span>
+    <span class="band-footer-text">paper — 180 wallpapers, free to download.</span>
   </footer>
 
   <script>
@@ -1204,6 +1209,14 @@
       { id: "fl-paraglider-alpine", name: "Paraglider Alpine", theme: "flight", tags: ["paraglider", "alpine", "meadows", "mountains", "lake", "flight"], file: "flight/paraglider-alpine.jpg" },
       { id: "fl-migrating-geese-sunset", name: "Migrating Geese Sunset", theme: "flight", tags: ["geese", "migration", "sunset", "v-formation", "clouds", "flight"], file: "flight/migrating-geese-sunset.jpg" },
       { id: "fl-hang-glider-ocean-cliffs", name: "Hang Glider Ocean Cliffs", theme: "flight", tags: ["hang glider", "ocean", "cliffs", "coast", "waves", "flight"], file: "flight/hang-glider-ocean-cliffs.jpg" },
+      { id: "lo-fox-kit", name: "Fox Kit", theme: "little-ones", tags: ["fox", "autumn", "forest", "baby animal", "little-ones"], file: "little-ones/fox-kit.jpg" },
+      { id: "lo-duckling-pond", name: "Duckling Pond", theme: "little-ones", tags: ["duckling", "pond", "water", "baby animal", "little-ones"], file: "little-ones/duckling-pond.jpg" },
+      { id: "lo-baby-elephant", name: "Baby Elephant", theme: "little-ones", tags: ["elephant", "savanna", "sunset", "baby animal", "little-ones"], file: "little-ones/baby-elephant.jpg" },
+      { id: "lo-kitten-window", name: "Kitten Window", theme: "little-ones", tags: ["kitten", "window", "cozy", "baby animal", "little-ones"], file: "little-ones/kitten-window.jpg" },
+      { id: "lo-misty-fawn", name: "Misty Fawn", theme: "little-ones", tags: ["fawn", "deer", "forest", "mist", "baby animal", "little-ones"], file: "little-ones/misty-fawn.jpg" },
+      { id: "lo-baby-penguin", name: "Baby Penguin", theme: "little-ones", tags: ["penguin", "ice", "antarctic", "twilight", "baby animal", "little-ones"], file: "little-ones/baby-penguin.jpg" },
+      { id: "lo-meadow-puppy", name: "Meadow Puppy", theme: "little-ones", tags: ["puppy", "meadow", "wildflowers", "baby animal", "little-ones"], file: "little-ones/meadow-puppy.jpg" },
+      { id: "lo-owlet-dusk", name: "Owlet at Dusk", theme: "little-ones", tags: ["owl", "dusk", "twilight", "branch", "baby animal", "little-ones"], file: "little-ones/owlet-dusk.jpg" },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -1273,6 +1286,7 @@
         { key: 'central-parks', label: 'Central Parks', desc: 'Iconic urban park scenes from around the world' },
         { key: 'small-towns', label: 'Small Towns', desc: 'Quiet main streets and countryside charm' },
         { key: 'flight', label: 'Flight', desc: 'Aerial views from wings, baskets & cockpits' },
+        { key: 'little-ones', label: 'Little Ones', desc: 'Baby animals in charming scenes' },
       ];
 
       let html = '';
