@@ -1,0 +1,4069 @@
+{
+  "name": "paper",
+  "description": "4k wallpapers in a flat design. Free downloads.",
+  "baseUrl": "https://burkeholland.github.io/paper",
+  "wallpapersPath": "/wallpapers/",
+  "thumbsPath": "/thumbs/",
+  "themes": [
+    {
+      "key": "farm",
+      "label": "Farm",
+      "desc": "Nighttime pastoral scenes"
+    },
+    {
+      "key": "bucolic",
+      "label": "Bucolic",
+      "desc": "Idyllic countryside"
+    },
+    {
+      "key": "suburbia",
+      "label": "Suburbia",
+      "desc": "The quiet beauty of American suburbs"
+    },
+    {
+      "key": "easter",
+      "label": "Easter",
+      "desc": "Resurrection morning"
+    },
+    {
+      "key": "coastal",
+      "label": "Coastal",
+      "desc": "Sea, cliffs & shore"
+    },
+    {
+      "key": "nyc",
+      "label": "New York City",
+      "desc": "The city that never sleeps"
+    },
+    {
+      "key": "americana",
+      "label": "Americana",
+      "desc": "Heartland, highways & home"
+    },
+    {
+      "key": "lehigh",
+      "label": "Lehigh University",
+      "desc": "The Mountain Hawks"
+    },
+    {
+      "key": "1920s",
+      "label": "The 1920s",
+      "desc": "Jazz Age glamour & Art Deco elegance"
+    },
+    {
+      "key": "childhood",
+      "label": "Childhood",
+      "desc": "Sun-soaked summer nostalgia"
+    },
+    {
+      "key": "rooftops",
+      "label": "Rooftops",
+      "desc": "Above the skyline"
+    },
+    {
+      "key": "abandoned",
+      "label": "Abandoned",
+      "desc": "Nature reclaims"
+    },
+    {
+      "key": "cars-and-coffee",
+      "label": "Cars & Coffee",
+      "desc": "Morning meets and motors"
+    },
+    {
+      "key": "skylines",
+      "label": "Skylines",
+      "desc": "Cities in silhouette"
+    },
+    {
+      "key": "backyards",
+      "label": "Backyards",
+      "desc": "Every season, out back"
+    },
+    {
+      "key": "deep-space",
+      "label": "Deep Space",
+      "desc": "Beyond the edge of everything"
+    },
+    {
+      "key": "coral-reef",
+      "label": "Coral Reef",
+      "desc": "Beneath the surface, another world"
+    },
+    {
+      "key": "rainforest",
+      "label": "Rainforest",
+      "desc": "Ancient green cathedral, alive with life"
+    },
+    {
+      "key": "mid-century-modern",
+      "label": "Mid-Century Modern",
+      "desc": "Atomic age design, ranch homes & Eames elegance"
+    },
+    {
+      "key": "northern-lights",
+      "label": "Northern Lights",
+      "desc": "Aurora borealis over frozen lakes, fjords & pines"
+    },
+    {
+      "key": "national-parks",
+      "label": "National Parks",
+      "desc": "America's iconic landscapes"
+    },
+    {
+      "key": "chicago",
+      "label": "Chicago",
+      "desc": "The Windy City in every light"
+    },
+    {
+      "key": "summer-86",
+      "label": "Summer '86",
+      "desc": "Neon sunsets, chlorine & VHS static"
+    },
+    {
+      "key": "mountains",
+      "label": "Mountains",
+      "desc": "Peaks, ridges & alpine light"
+    },
+    {
+      "key": "dog-lovers",
+      "label": "Dog Lovers",
+      "desc": "For the good boys and girls"
+    },
+    {
+      "key": "trains",
+      "label": "Train Journeys",
+      "desc": "Rails, steam & distant horizons"
+    },
+    {
+      "key": "neon-tokyo",
+      "label": "Neon Tokyo",
+      "desc": "Electric nights in the city that glows"
+    },
+    {
+      "key": "carnival",
+      "label": "1950s Carnival",
+      "desc": "Candy-colored rides & midway lights"
+    },
+    {
+      "key": "central-parks",
+      "label": "Central Parks",
+      "desc": "Iconic urban park scenes from around the world"
+    },
+    {
+      "key": "small-towns",
+      "label": "Small Towns",
+      "desc": "Quiet main streets and countryside charm"
+    },
+    {
+      "key": "flight",
+      "label": "Flight",
+      "desc": "Aerial views from wings, baskets & cockpits"
+    },
+    {
+      "key": "little-ones",
+      "label": "Little Ones",
+      "desc": "Baby animals in charming scenes"
+    }
+  ],
+  "wallpapers": [
+    {
+      "id": "moonlit-barn",
+      "name": "Moonlit Barn",
+      "theme": "farm",
+      "tags": [
+        "night",
+        "barn",
+        "moonlight",
+        "rural"
+      ],
+      "file": "farm/moonlit-barn.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/farm/moonlit-barn.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/farm/moonlit-barn.jpg"
+    },
+    {
+      "id": "starry-pasture",
+      "name": "Starry Pasture",
+      "theme": "farm",
+      "tags": [
+        "night",
+        "stars",
+        "pasture",
+        "field"
+      ],
+      "file": "farm/starry-pasture.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/farm/starry-pasture.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/farm/starry-pasture.jpg"
+    },
+    {
+      "id": "farmhouse-porch",
+      "name": "Farmhouse Porch",
+      "theme": "farm",
+      "tags": [
+        "night",
+        "farmhouse",
+        "porch",
+        "cozy"
+      ],
+      "file": "farm/farmhouse-porch.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/farm/farmhouse-porch.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/farm/farmhouse-porch.jpg"
+    },
+    {
+      "id": "hay-bales",
+      "name": "Hay Bales",
+      "theme": "farm",
+      "tags": [
+        "night",
+        "hay",
+        "field",
+        "stars"
+      ],
+      "file": "farm/hay-bales.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/farm/hay-bales.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/farm/hay-bales.jpg"
+    },
+    {
+      "id": "night-harvest",
+      "name": "Night Harvest",
+      "theme": "farm",
+      "tags": [
+        "night",
+        "harvest",
+        "tractor",
+        "field"
+      ],
+      "file": "farm/night-harvest.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/farm/night-harvest.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/farm/night-harvest.jpg"
+    },
+    {
+      "id": "pond-reflections",
+      "name": "Pond Reflections",
+      "theme": "farm",
+      "tags": [
+        "night",
+        "pond",
+        "water",
+        "reflections"
+      ],
+      "file": "farm/pond-reflections.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/farm/pond-reflections.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/farm/pond-reflections.jpg"
+    },
+    {
+      "id": "orchard-twilight",
+      "name": "Orchard at Twilight",
+      "theme": "farm",
+      "tags": [
+        "twilight",
+        "orchard",
+        "trees",
+        "evening"
+      ],
+      "file": "farm/orchard-twilight.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/farm/orchard-twilight.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/farm/orchard-twilight.jpg"
+    },
+    {
+      "id": "country-road",
+      "name": "Country Road",
+      "theme": "farm",
+      "tags": [
+        "night",
+        "road",
+        "moonlight",
+        "rural"
+      ],
+      "file": "farm/country-road.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/farm/country-road.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/farm/country-road.jpg"
+    },
+    {
+      "id": "windmill-tower",
+      "name": "Windmill & Water Tower",
+      "theme": "farm",
+      "tags": [
+        "night",
+        "windmill",
+        "tower",
+        "rural"
+      ],
+      "file": "farm/windmill-tower.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/farm/windmill-tower.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/farm/windmill-tower.jpg"
+    },
+    {
+      "id": "dawn-breaking",
+      "name": "Dawn Breaking",
+      "theme": "farm",
+      "tags": [
+        "dawn",
+        "sunrise",
+        "morning",
+        "farm"
+      ],
+      "file": "farm/dawn-breaking.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/farm/dawn-breaking.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/farm/dawn-breaking.jpg"
+    },
+    {
+      "id": "rolling-hills",
+      "name": "Rolling Hills",
+      "theme": "bucolic",
+      "tags": [
+        "hills",
+        "countryside",
+        "green",
+        "daytime"
+      ],
+      "file": "bucolic/rolling-hills.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/bucolic/rolling-hills.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/bucolic/rolling-hills.jpg"
+    },
+    {
+      "id": "valley-stream",
+      "name": "Valley Stream",
+      "theme": "bucolic",
+      "tags": [
+        "valley",
+        "stream",
+        "water",
+        "peaceful"
+      ],
+      "file": "bucolic/valley-stream.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/bucolic/valley-stream.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/bucolic/valley-stream.jpg"
+    },
+    {
+      "id": "meadow-path",
+      "name": "Meadow Path",
+      "theme": "bucolic",
+      "tags": [
+        "meadow",
+        "path",
+        "wildflowers",
+        "walk"
+      ],
+      "file": "bucolic/meadow-path.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/bucolic/meadow-path.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/bucolic/meadow-path.jpg"
+    },
+    {
+      "id": "pastoral-sunset",
+      "name": "Pastoral Sunset",
+      "theme": "bucolic",
+      "tags": [
+        "sunset",
+        "pastoral",
+        "golden-hour",
+        "warm"
+      ],
+      "file": "bucolic/pastoral-sunset.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/bucolic/pastoral-sunset.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/bucolic/pastoral-sunset.jpg"
+    },
+    {
+      "id": "cottage-garden",
+      "name": "Cottage Garden",
+      "theme": "bucolic",
+      "tags": [
+        "cottage",
+        "garden",
+        "flowers",
+        "cozy"
+      ],
+      "file": "bucolic/cottage-garden.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/bucolic/cottage-garden.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/bucolic/cottage-garden.jpg"
+    },
+    {
+      "id": "stone-bridge",
+      "name": "Stone Bridge",
+      "theme": "bucolic",
+      "tags": [
+        "bridge",
+        "stone",
+        "river",
+        "countryside"
+      ],
+      "file": "bucolic/stone-bridge.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/bucolic/stone-bridge.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/bucolic/stone-bridge.jpg"
+    },
+    {
+      "id": "hillside-village",
+      "name": "Hillside Village",
+      "theme": "bucolic",
+      "tags": [
+        "village",
+        "hillside",
+        "houses",
+        "rural"
+      ],
+      "file": "bucolic/hillside-village.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/bucolic/hillside-village.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/bucolic/hillside-village.jpg"
+    },
+    {
+      "id": "morning-mist",
+      "name": "Morning Mist",
+      "theme": "bucolic",
+      "tags": [
+        "morning",
+        "mist",
+        "fog",
+        "ethereal"
+      ],
+      "file": "bucolic/morning-mist.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/bucolic/morning-mist.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/bucolic/morning-mist.jpg"
+    },
+    {
+      "id": "cul-de-sac",
+      "name": "Cul-de-sac",
+      "theme": "suburbia",
+      "tags": [
+        "aerial",
+        "neighborhood",
+        "houses",
+        "daytime"
+      ],
+      "file": "suburbia/cul-de-sac.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/suburbia/cul-de-sac.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/suburbia/cul-de-sac.jpg"
+    },
+    {
+      "id": "mailbox-row",
+      "name": "Mailbox Row",
+      "theme": "suburbia",
+      "tags": [
+        "afternoon",
+        "mailboxes",
+        "street",
+        "golden-hour"
+      ],
+      "file": "suburbia/mailbox-row.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/suburbia/mailbox-row.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/suburbia/mailbox-row.jpg"
+    },
+    {
+      "id": "backyard-bbq",
+      "name": "Backyard BBQ",
+      "theme": "suburbia",
+      "tags": [
+        "dusk",
+        "backyard",
+        "bbq",
+        "evening"
+      ],
+      "file": "suburbia/backyard-bbq.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/suburbia/backyard-bbq.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/suburbia/backyard-bbq.jpg"
+    },
+    {
+      "id": "morning-jogger",
+      "name": "Morning Jogger",
+      "theme": "suburbia",
+      "tags": [
+        "sunrise",
+        "jogging",
+        "morning",
+        "street"
+      ],
+      "file": "suburbia/morning-jogger.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/suburbia/morning-jogger.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/suburbia/morning-jogger.jpg"
+    },
+    {
+      "id": "garage-sale",
+      "name": "Garage Sale Saturday",
+      "theme": "suburbia",
+      "tags": [
+        "daytime",
+        "garage-sale",
+        "weekend",
+        "community"
+      ],
+      "file": "suburbia/garage-sale.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/suburbia/garage-sale.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/suburbia/garage-sale.jpg"
+    },
+    {
+      "id": "pool-day",
+      "name": "Pool Day",
+      "theme": "suburbia",
+      "tags": [
+        "aerial",
+        "pool",
+        "summer",
+        "backyard"
+      ],
+      "file": "suburbia/pool-day.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/suburbia/pool-day.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/suburbia/pool-day.jpg"
+    },
+    {
+      "id": "trick-or-treat",
+      "name": "Trick or Treat Street",
+      "theme": "suburbia",
+      "tags": [
+        "autumn",
+        "halloween",
+        "twilight",
+        "spooky"
+      ],
+      "file": "suburbia/trick-or-treat.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/suburbia/trick-or-treat.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/suburbia/trick-or-treat.jpg"
+    },
+    {
+      "id": "snow-day",
+      "name": "Snow Day",
+      "theme": "suburbia",
+      "tags": [
+        "winter",
+        "snow",
+        "cold",
+        "quiet"
+      ],
+      "file": "suburbia/snow-day.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/suburbia/snow-day.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/suburbia/snow-day.jpg"
+    },
+    {
+      "id": "block-party",
+      "name": "Block Party",
+      "theme": "suburbia",
+      "tags": [
+        "summer",
+        "evening",
+        "community",
+        "party"
+      ],
+      "file": "suburbia/block-party.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/suburbia/block-party.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/suburbia/block-party.jpg"
+    },
+    {
+      "id": "late-night",
+      "name": "Late Night Suburbia",
+      "theme": "suburbia",
+      "tags": [
+        "night",
+        "quiet",
+        "2am",
+        "street"
+      ],
+      "file": "suburbia/late-night.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/suburbia/late-night.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/suburbia/late-night.jpg"
+    },
+    {
+      "id": "the-empty-tomb",
+      "name": "The Empty Tomb",
+      "theme": "easter",
+      "tags": [
+        "resurrection",
+        "tomb",
+        "dawn",
+        "easter"
+      ],
+      "file": "easter/the-empty-tomb.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/easter/the-empty-tomb.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/easter/the-empty-tomb.jpg"
+    },
+    {
+      "id": "three-crosses",
+      "name": "Three Crosses",
+      "theme": "easter",
+      "tags": [
+        "resurrection",
+        "cross",
+        "sunset",
+        "easter"
+      ],
+      "file": "easter/three-crosses.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/easter/three-crosses.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/easter/three-crosses.jpg"
+    },
+    {
+      "id": "resurrection-dawn",
+      "name": "Resurrection Dawn",
+      "theme": "easter",
+      "tags": [
+        "resurrection",
+        "dawn",
+        "light",
+        "easter"
+      ],
+      "file": "easter/resurrection-dawn.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/easter/resurrection-dawn.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/easter/resurrection-dawn.jpg"
+    },
+    {
+      "id": "the-garden-tomb",
+      "name": "The Garden Tomb",
+      "theme": "easter",
+      "tags": [
+        "resurrection",
+        "garden",
+        "tomb",
+        "easter"
+      ],
+      "file": "easter/the-garden-tomb.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/easter/the-garden-tomb.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/easter/the-garden-tomb.jpg"
+    },
+    {
+      "id": "olive-grove-at-dawn",
+      "name": "Olive Grove at Dawn",
+      "theme": "easter",
+      "tags": [
+        "resurrection",
+        "olive",
+        "dawn",
+        "easter"
+      ],
+      "file": "easter/olive-grove-at-dawn.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/easter/olive-grove-at-dawn.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/easter/olive-grove-at-dawn.jpg"
+    },
+    {
+      "id": "the-stone-rolled-away",
+      "name": "The Stone Rolled Away",
+      "theme": "easter",
+      "tags": [
+        "resurrection",
+        "stone",
+        "dawn",
+        "easter"
+      ],
+      "file": "easter/the-stone-rolled-away.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/easter/the-stone-rolled-away.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/easter/the-stone-rolled-away.jpg"
+    },
+    {
+      "id": "easter-morning-sky",
+      "name": "Easter Morning Sky",
+      "theme": "easter",
+      "tags": [
+        "resurrection",
+        "sky",
+        "sunrise",
+        "easter"
+      ],
+      "file": "easter/easter-morning-sky.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/easter/easter-morning-sky.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/easter/easter-morning-sky.jpg"
+    },
+    {
+      "id": "the-risen-light",
+      "name": "The Risen Light",
+      "theme": "easter",
+      "tags": [
+        "resurrection",
+        "light",
+        "morning",
+        "easter"
+      ],
+      "file": "easter/the-risen-light.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/easter/the-risen-light.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/easter/the-risen-light.jpg"
+    },
+    {
+      "id": "church-on-the-hill",
+      "name": "Church on the Hill",
+      "theme": "easter",
+      "tags": [
+        "resurrection",
+        "church",
+        "hill",
+        "dawn",
+        "easter"
+      ],
+      "file": "easter/church-on-the-hill.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/easter/church-on-the-hill.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/easter/church-on-the-hill.jpg"
+    },
+    {
+      "id": "easter-bell-tower",
+      "name": "Easter Bell Tower",
+      "theme": "easter",
+      "tags": [
+        "resurrection",
+        "church",
+        "bell tower",
+        "morning",
+        "easter"
+      ],
+      "file": "easter/easter-bell-tower.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/easter/easter-bell-tower.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/easter/easter-bell-tower.jpg"
+    },
+    {
+      "id": "country-chapel-at-dawn",
+      "name": "Country Chapel at Dawn",
+      "theme": "easter",
+      "tags": [
+        "resurrection",
+        "chapel",
+        "dawn",
+        "meadow",
+        "easter"
+      ],
+      "file": "easter/country-chapel-at-dawn.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/easter/country-chapel-at-dawn.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/easter/country-chapel-at-dawn.jpg"
+    },
+    {
+      "id": "village-easter-morning",
+      "name": "Village Easter Morning",
+      "theme": "easter",
+      "tags": [
+        "resurrection",
+        "village",
+        "church",
+        "morning",
+        "easter"
+      ],
+      "file": "easter/village-easter-morning.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/easter/village-easter-morning.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/easter/village-easter-morning.jpg"
+    },
+    {
+      "id": "sea-stacks-at-dusk",
+      "name": "Sea Stacks at Dusk",
+      "theme": "coastal",
+      "tags": [
+        "ocean",
+        "rocks",
+        "dusk",
+        "dramatic"
+      ],
+      "file": "coastal/sea-stacks-at-dusk.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/coastal/sea-stacks-at-dusk.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/coastal/sea-stacks-at-dusk.jpg"
+    },
+    {
+      "id": "foggy-cliffs",
+      "name": "Foggy Cliffs",
+      "theme": "coastal",
+      "tags": [
+        "cliffs",
+        "fog",
+        "morning",
+        "moody"
+      ],
+      "file": "coastal/foggy-cliffs.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/coastal/foggy-cliffs.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/coastal/foggy-cliffs.jpg"
+    },
+    {
+      "id": "lighthouse-point",
+      "name": "Lighthouse Point",
+      "theme": "coastal",
+      "tags": [
+        "lighthouse",
+        "rocky",
+        "dusk",
+        "ocean"
+      ],
+      "file": "coastal/lighthouse-point.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/coastal/lighthouse-point.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/coastal/lighthouse-point.jpg"
+    },
+    {
+      "id": "tide-pools",
+      "name": "Tide Pools",
+      "theme": "coastal",
+      "tags": [
+        "tide pools",
+        "rocks",
+        "ocean",
+        "afternoon"
+      ],
+      "file": "coastal/tide-pools.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/coastal/tide-pools.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/coastal/tide-pools.jpg"
+    },
+    {
+      "id": "coastal-headland",
+      "name": "Coastal Headland",
+      "theme": "coastal",
+      "tags": [
+        "headland",
+        "ocean",
+        "green",
+        "calm"
+      ],
+      "file": "coastal/coastal-headland.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/coastal/coastal-headland.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/coastal/coastal-headland.jpg"
+    },
+    {
+      "id": "storm-coast",
+      "name": "Storm Coast",
+      "theme": "coastal",
+      "tags": [
+        "storm",
+        "dramatic",
+        "waves",
+        "dark"
+      ],
+      "file": "coastal/storm-coast.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/coastal/storm-coast.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/coastal/storm-coast.jpg"
+    },
+    {
+      "id": "sea-cave",
+      "name": "Sea Cave",
+      "theme": "coastal",
+      "tags": [
+        "cave",
+        "ocean",
+        "turquoise",
+        "light"
+      ],
+      "file": "coastal/sea-cave.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/coastal/sea-cave.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/coastal/sea-cave.jpg"
+    },
+    {
+      "id": "low-tide-morning",
+      "name": "Low Tide Morning",
+      "theme": "coastal",
+      "tags": [
+        "low tide",
+        "dawn",
+        "reflection",
+        "still"
+      ],
+      "file": "coastal/low-tide-morning.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/coastal/low-tide-morning.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/coastal/low-tide-morning.jpg"
+    },
+    {
+      "id": "brooklyn-bridge-at-dawn",
+      "name": "Brooklyn Bridge at Dawn",
+      "theme": "nyc",
+      "tags": [
+        "bridge",
+        "dawn",
+        "river",
+        "nyc"
+      ],
+      "file": "nyc/brooklyn-bridge-at-dawn.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/nyc/brooklyn-bridge-at-dawn.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/nyc/brooklyn-bridge-at-dawn.jpg"
+    },
+    {
+      "id": "manhattan-skyline-at-dusk",
+      "name": "Manhattan Skyline at Dusk",
+      "theme": "nyc",
+      "tags": [
+        "skyline",
+        "dusk",
+        "reflection",
+        "nyc"
+      ],
+      "file": "nyc/manhattan-skyline-at-dusk.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/nyc/manhattan-skyline-at-dusk.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/nyc/manhattan-skyline-at-dusk.jpg"
+    },
+    {
+      "id": "central-park-autumn",
+      "name": "Central Park Autumn",
+      "theme": "nyc",
+      "tags": [
+        "central park",
+        "autumn",
+        "aerial",
+        "nyc"
+      ],
+      "file": "nyc/central-park-autumn.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/nyc/central-park-autumn.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/nyc/central-park-autumn.jpg"
+    },
+    {
+      "id": "chrysler-building",
+      "name": "Chrysler Building",
+      "theme": "nyc",
+      "tags": [
+        "art deco",
+        "skyscraper",
+        "architecture",
+        "nyc"
+      ],
+      "file": "nyc/chrysler-building.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/nyc/chrysler-building.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/nyc/chrysler-building.jpg"
+    },
+    {
+      "id": "the-high-line",
+      "name": "The High Line",
+      "theme": "nyc",
+      "tags": [
+        "high line",
+        "park",
+        "sunset",
+        "nyc"
+      ],
+      "file": "nyc/the-high-line.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/nyc/the-high-line.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/nyc/the-high-line.jpg"
+    },
+    {
+      "id": "empire-state-at-night",
+      "name": "Empire State at Night",
+      "theme": "nyc",
+      "tags": [
+        "empire state",
+        "night",
+        "skyscraper",
+        "nyc"
+      ],
+      "file": "nyc/empire-state-at-night.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/nyc/empire-state-at-night.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/nyc/empire-state-at-night.jpg"
+    },
+    {
+      "id": "brooklyn-waterfront",
+      "name": "Brooklyn Waterfront",
+      "theme": "nyc",
+      "tags": [
+        "brooklyn",
+        "waterfront",
+        "golden hour",
+        "nyc"
+      ],
+      "file": "nyc/brooklyn-waterfront.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/nyc/brooklyn-waterfront.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/nyc/brooklyn-waterfront.jpg"
+    },
+    {
+      "id": "central-park-winter",
+      "name": "Central Park Winter",
+      "theme": "nyc",
+      "tags": [
+        "central park",
+        "winter",
+        "snow",
+        "nyc"
+      ],
+      "file": "nyc/central-park-winter.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/nyc/central-park-winter.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/nyc/central-park-winter.jpg"
+    },
+    {
+      "id": "coney-island-boardwalk",
+      "name": "Coney Island Boardwalk",
+      "theme": "nyc",
+      "tags": [
+        "coney island",
+        "boardwalk",
+        "sunset",
+        "nyc"
+      ],
+      "file": "nyc/coney-island-boardwalk.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/nyc/coney-island-boardwalk.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/nyc/coney-island-boardwalk.jpg"
+    },
+    {
+      "id": "rainy-night-midtown",
+      "name": "Rainy Night in Midtown",
+      "theme": "nyc",
+      "tags": [
+        "rain",
+        "night",
+        "midtown",
+        "nyc"
+      ],
+      "file": "nyc/rainy-night-midtown.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/nyc/rainy-night-midtown.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/nyc/rainy-night-midtown.jpg"
+    },
+    {
+      "id": "route-66",
+      "name": "Route 66",
+      "theme": "americana",
+      "tags": [
+        "highway",
+        "desert",
+        "road trip",
+        "americana"
+      ],
+      "file": "americana/route-66.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/americana/route-66.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/americana/route-66.jpg"
+    },
+    {
+      "id": "grain-elevator",
+      "name": "Grain Elevator",
+      "theme": "americana",
+      "tags": [
+        "midwest",
+        "plains",
+        "grain",
+        "americana"
+      ],
+      "file": "americana/grain-elevator.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/americana/grain-elevator.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/americana/grain-elevator.jpg"
+    },
+    {
+      "id": "drive-in-at-dusk",
+      "name": "Drive-In at Dusk",
+      "theme": "americana",
+      "tags": [
+        "drive-in",
+        "cinema",
+        "dusk",
+        "americana"
+      ],
+      "file": "americana/drive-in-at-dusk.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/americana/drive-in-at-dusk.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/americana/drive-in-at-dusk.jpg"
+    },
+    {
+      "id": "small-town-water-tower",
+      "name": "Small Town Water Tower",
+      "theme": "americana",
+      "tags": [
+        "water tower",
+        "small town",
+        "americana"
+      ],
+      "file": "americana/small-town-water-tower.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/americana/small-town-water-tower.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/americana/small-town-water-tower.jpg"
+    },
+    {
+      "id": "roadside-diner",
+      "name": "Roadside Diner",
+      "theme": "americana",
+      "tags": [
+        "diner",
+        "neon",
+        "roadside",
+        "americana"
+      ],
+      "file": "americana/roadside-diner.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/americana/roadside-diner.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/americana/roadside-diner.jpg"
+    },
+    {
+      "id": "county-fair-ferris-wheel",
+      "name": "County Fair Ferris Wheel",
+      "theme": "americana",
+      "tags": [
+        "fair",
+        "ferris wheel",
+        "sunset",
+        "americana"
+      ],
+      "file": "americana/county-fair-ferris-wheel.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/americana/county-fair-ferris-wheel.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/americana/county-fair-ferris-wheel.jpg"
+    },
+    {
+      "id": "baseball-diamond",
+      "name": "Baseball Diamond",
+      "theme": "americana",
+      "tags": [
+        "baseball",
+        "field",
+        "golden hour",
+        "americana"
+      ],
+      "file": "americana/baseball-diamond.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/americana/baseball-diamond.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/americana/baseball-diamond.jpg"
+    },
+    {
+      "id": "covered-bridge-in-autumn",
+      "name": "Covered Bridge in Autumn",
+      "theme": "americana",
+      "tags": [
+        "bridge",
+        "autumn",
+        "rural",
+        "americana"
+      ],
+      "file": "americana/covered-bridge-in-autumn.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/americana/covered-bridge-in-autumn.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/americana/covered-bridge-in-autumn.jpg"
+    },
+    {
+      "id": "general-store",
+      "name": "General Store",
+      "theme": "americana",
+      "tags": [
+        "general store",
+        "rural",
+        "vintage",
+        "americana"
+      ],
+      "file": "americana/general-store.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/americana/general-store.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/americana/general-store.jpg"
+    },
+    {
+      "id": "main-street-at-dusk",
+      "name": "Main Street at Dusk",
+      "theme": "americana",
+      "tags": [
+        "main street",
+        "small town",
+        "dusk",
+        "americana"
+      ],
+      "file": "americana/main-street-at-dusk.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/americana/main-street-at-dusk.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/americana/main-street-at-dusk.jpg"
+    },
+    {
+      "id": "linderman-library",
+      "name": "Linderman Library",
+      "theme": "lehigh",
+      "tags": [
+        "lehigh",
+        "library",
+        "romanesque",
+        "architecture"
+      ],
+      "file": "lehigh/linderman-library.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/lehigh/linderman-library.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/lehigh/linderman-library.jpg"
+    },
+    {
+      "id": "lehigh-hillside-campus",
+      "name": "South Mountain Campus",
+      "theme": "lehigh",
+      "tags": [
+        "lehigh",
+        "campus",
+        "hillside",
+        "aerial"
+      ],
+      "file": "lehigh/lehigh-hillside-campus.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/lehigh/lehigh-hillside-campus.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/lehigh/lehigh-hillside-campus.jpg"
+    },
+    {
+      "id": "asa-packer-mansion",
+      "name": "Asa Packer Mansion",
+      "theme": "lehigh",
+      "tags": [
+        "lehigh",
+        "mansion",
+        "victorian",
+        "italianate"
+      ],
+      "file": "lehigh/asa-packer-mansion.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/lehigh/asa-packer-mansion.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/lehigh/asa-packer-mansion.jpg"
+    },
+    {
+      "id": "bethlehem-steel",
+      "name": "Bethlehem Steel Furnaces",
+      "theme": "lehigh",
+      "tags": [
+        "lehigh",
+        "bethlehem",
+        "industrial",
+        "steel"
+      ],
+      "file": "lehigh/bethlehem-steel.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/lehigh/bethlehem-steel.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/lehigh/bethlehem-steel.jpg"
+    },
+    {
+      "id": "goodman-stadium",
+      "name": "Goodman Stadium",
+      "theme": "lehigh",
+      "tags": [
+        "lehigh",
+        "stadium",
+        "football",
+        "hillside"
+      ],
+      "file": "lehigh/goodman-stadium.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/lehigh/goodman-stadium.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/lehigh/goodman-stadium.jpg"
+    },
+    {
+      "id": "lehigh-valley-panorama",
+      "name": "Lehigh Valley Panorama",
+      "theme": "lehigh",
+      "tags": [
+        "lehigh",
+        "valley",
+        "panorama",
+        "dawn"
+      ],
+      "file": "lehigh/lehigh-valley-panorama.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/lehigh/lehigh-valley-panorama.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/lehigh/lehigh-valley-panorama.jpg"
+    },
+    {
+      "id": "star-of-bethlehem",
+      "name": "Star of Bethlehem",
+      "theme": "lehigh",
+      "tags": [
+        "lehigh",
+        "bethlehem",
+        "star",
+        "night"
+      ],
+      "file": "lehigh/star-of-bethlehem.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/lehigh/star-of-bethlehem.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/lehigh/star-of-bethlehem.jpg"
+    },
+    {
+      "id": "packer-memorial-church",
+      "name": "Packer Memorial Church",
+      "theme": "lehigh",
+      "tags": [
+        "lehigh",
+        "church",
+        "gothic",
+        "brownstone"
+      ],
+      "file": "lehigh/packer-memorial-church.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/lehigh/packer-memorial-church.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/lehigh/packer-memorial-church.jpg"
+    },
+    {
+      "id": "art-deco-skyscraper",
+      "name": "Art Deco Skyscraper",
+      "theme": "1920s",
+      "tags": [
+        "art deco",
+        "skyscraper",
+        "night",
+        "1920s"
+      ],
+      "file": "1920s/art-deco-skyscraper.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/1920s/art-deco-skyscraper.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/1920s/art-deco-skyscraper.jpg"
+    },
+    {
+      "id": "jazz-club-interior",
+      "name": "Jazz Club Interior",
+      "theme": "1920s",
+      "tags": [
+        "jazz",
+        "club",
+        "interior",
+        "1920s"
+      ],
+      "file": "1920s/jazz-club-interior.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/1920s/jazz-club-interior.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/1920s/jazz-club-interior.jpg"
+    },
+    {
+      "id": "speakeasy-bar",
+      "name": "Speakeasy Bar",
+      "theme": "1920s",
+      "tags": [
+        "speakeasy",
+        "bar",
+        "bottles",
+        "1920s"
+      ],
+      "file": "1920s/speakeasy-bar.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/1920s/speakeasy-bar.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/1920s/speakeasy-bar.jpg"
+    },
+    {
+      "id": "model-t-rainy-cobblestone",
+      "name": "Model T on Rainy Cobblestone",
+      "theme": "1920s",
+      "tags": [
+        "model t",
+        "rain",
+        "cobblestone",
+        "1920s"
+      ],
+      "file": "1920s/model-t-rainy-cobblestone.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/1920s/model-t-rainy-cobblestone.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/1920s/model-t-rainy-cobblestone.jpg"
+    },
+    {
+      "id": "ocean-liner-foggy-harbor",
+      "name": "Ocean Liner in Foggy Harbor",
+      "theme": "1920s",
+      "tags": [
+        "ocean liner",
+        "harbor",
+        "fog",
+        "1920s"
+      ],
+      "file": "1920s/ocean-liner-foggy-harbor.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/1920s/ocean-liner-foggy-harbor.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/1920s/ocean-liner-foggy-harbor.jpg"
+    },
+    {
+      "id": "grand-train-station",
+      "name": "Grand Train Station",
+      "theme": "1920s",
+      "tags": [
+        "train station",
+        "arches",
+        "steam",
+        "1920s"
+      ],
+      "file": "1920s/grand-train-station.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/1920s/grand-train-station.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/1920s/grand-train-station.jpg"
+    },
+    {
+      "id": "movie-palace-exterior",
+      "name": "Movie Palace Exterior",
+      "theme": "1920s",
+      "tags": [
+        "movie palace",
+        "art deco",
+        "marquee",
+        "1920s"
+      ],
+      "file": "1920s/movie-palace-exterior.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/1920s/movie-palace-exterior.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/1920s/movie-palace-exterior.jpg"
+    },
+    {
+      "id": "gatsby-mansion-dusk",
+      "name": "Gatsby Mansion at Dusk",
+      "theme": "1920s",
+      "tags": [
+        "mansion",
+        "gatsby",
+        "dusk",
+        "1920s"
+      ],
+      "file": "1920s/gatsby-mansion-dusk.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/1920s/gatsby-mansion-dusk.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/1920s/gatsby-mansion-dusk.jpg"
+    },
+    {
+      "id": "treehouse-in-summer",
+      "name": "Treehouse in Summer",
+      "theme": "childhood",
+      "tags": [
+        "treehouse",
+        "summer",
+        "oak",
+        "afternoon"
+      ],
+      "file": "childhood/treehouse-in-summer.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/childhood/treehouse-in-summer.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/childhood/treehouse-in-summer.jpg"
+    },
+    {
+      "id": "lemonade-stand",
+      "name": "Lemonade Stand",
+      "theme": "childhood",
+      "tags": [
+        "lemonade",
+        "summer",
+        "sidewalk",
+        "sunny"
+      ],
+      "file": "childhood/lemonade-stand.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/childhood/lemonade-stand.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/childhood/lemonade-stand.jpg"
+    },
+    {
+      "id": "bicycle-on-lawn",
+      "name": "Bicycle on a Lawn",
+      "theme": "childhood",
+      "tags": [
+        "bicycle",
+        "suburban",
+        "afternoon",
+        "yard"
+      ],
+      "file": "childhood/bicycle-on-lawn.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/childhood/bicycle-on-lawn.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/childhood/bicycle-on-lawn.jpg"
+    },
+    {
+      "id": "backyard-sprinkler",
+      "name": "Backyard Sprinkler",
+      "theme": "childhood",
+      "tags": [
+        "sprinkler",
+        "summer",
+        "water",
+        "lawn"
+      ],
+      "file": "childhood/backyard-sprinkler.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/childhood/backyard-sprinkler.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/childhood/backyard-sprinkler.jpg"
+    },
+    {
+      "id": "ice-cream-truck",
+      "name": "Ice Cream Truck",
+      "theme": "childhood",
+      "tags": [
+        "ice cream",
+        "truck",
+        "summer",
+        "street"
+      ],
+      "file": "childhood/ice-cream-truck.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/childhood/ice-cream-truck.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/childhood/ice-cream-truck.jpg"
+    },
+    {
+      "id": "blanket-fort",
+      "name": "Blanket Fort",
+      "theme": "childhood",
+      "tags": [
+        "fort",
+        "cozy",
+        "pillows",
+        "warm"
+      ],
+      "file": "childhood/blanket-fort.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/childhood/blanket-fort.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/childhood/blanket-fort.jpg"
+    },
+    {
+      "id": "playground-golden-hour",
+      "name": "Playground at Golden Hour",
+      "theme": "childhood",
+      "tags": [
+        "playground",
+        "swings",
+        "dusk",
+        "shadows"
+      ],
+      "file": "childhood/playground-golden-hour.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/childhood/playground-golden-hour.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/childhood/playground-golden-hour.jpg"
+    },
+    {
+      "id": "fireflies-dusk",
+      "name": "Fireflies at Dusk",
+      "theme": "childhood",
+      "tags": [
+        "fireflies",
+        "evening",
+        "backyard",
+        "glow"
+      ],
+      "file": "childhood/fireflies-dusk.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/childhood/fireflies-dusk.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/childhood/fireflies-dusk.jpg"
+    },
+    {
+      "id": "water-towers-sunset",
+      "name": "Water Towers at Sunset",
+      "theme": "rooftops",
+      "tags": [
+        "water tower",
+        "sunset",
+        "rooftop",
+        "golden hour"
+      ],
+      "file": "rooftops/water-towers-sunset.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/rooftops/water-towers-sunset.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/rooftops/water-towers-sunset.jpg"
+    },
+    {
+      "id": "string-lights-rain",
+      "name": "String Lights After Rain",
+      "theme": "rooftops",
+      "tags": [
+        "string lights",
+        "rain",
+        "rooftop",
+        "evening"
+      ],
+      "file": "rooftops/string-lights-rain.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/rooftops/string-lights-rain.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/rooftops/string-lights-rain.jpg"
+    },
+    {
+      "id": "rooftop-garden",
+      "name": "Rooftop Garden at Golden Hour",
+      "theme": "rooftops",
+      "tags": [
+        "garden",
+        "golden hour",
+        "rooftop",
+        "plants"
+      ],
+      "file": "rooftops/rooftop-garden.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/rooftops/rooftop-garden.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/rooftops/rooftop-garden.jpg"
+    },
+    {
+      "id": "neon-glow-below",
+      "name": "Neon Glow From Below",
+      "theme": "rooftops",
+      "tags": [
+        "neon",
+        "night",
+        "rooftop",
+        "city lights"
+      ],
+      "file": "rooftops/neon-glow-below.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/rooftops/neon-glow-below.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/rooftops/neon-glow-below.jpg"
+    },
+    {
+      "id": "clotheslines-brick",
+      "name": "Clotheslines and Brick",
+      "theme": "rooftops",
+      "tags": [
+        "clotheslines",
+        "brick",
+        "rooftop",
+        "afternoon"
+      ],
+      "file": "rooftops/clotheslines-brick.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/rooftops/clotheslines-brick.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/rooftops/clotheslines-brick.jpg"
+    },
+    {
+      "id": "snowy-chimneys-dusk",
+      "name": "Snowy Chimneys at Dusk",
+      "theme": "rooftops",
+      "tags": [
+        "snow",
+        "chimneys",
+        "rooftop",
+        "winter",
+        "dusk"
+      ],
+      "file": "rooftops/snowy-chimneys-dusk.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/rooftops/snowy-chimneys-dusk.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/rooftops/snowy-chimneys-dusk.jpg"
+    },
+    {
+      "id": "dawn-fog",
+      "name": "Dawn Fog Rolling In",
+      "theme": "rooftops",
+      "tags": [
+        "dawn",
+        "fog",
+        "rooftop",
+        "morning",
+        "mist"
+      ],
+      "file": "rooftops/dawn-fog.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/rooftops/dawn-fog.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/rooftops/dawn-fog.jpg"
+    },
+    {
+      "id": "old-antennas-clouds",
+      "name": "Old Antennas and Dramatic Clouds",
+      "theme": "rooftops",
+      "tags": [
+        "antennas",
+        "clouds",
+        "rooftop",
+        "dramatic",
+        "moody"
+      ],
+      "file": "rooftops/old-antennas-clouds.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/rooftops/old-antennas-clouds.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/rooftops/old-antennas-clouds.jpg"
+    },
+    {
+      "id": "overgrown-train-station",
+      "name": "Overgrown Train Station",
+      "theme": "abandoned",
+      "tags": [
+        "train",
+        "station",
+        "overgrown",
+        "abandoned"
+      ],
+      "file": "abandoned/overgrown-train-station.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/abandoned/overgrown-train-station.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/abandoned/overgrown-train-station.jpg"
+    },
+    {
+      "id": "forgotten-library",
+      "name": "Forgotten Library",
+      "theme": "abandoned",
+      "tags": [
+        "library",
+        "books",
+        "forgotten",
+        "abandoned"
+      ],
+      "file": "abandoned/forgotten-library.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/abandoned/forgotten-library.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/abandoned/forgotten-library.jpg"
+    },
+    {
+      "id": "abandoned-greenhouse",
+      "name": "Abandoned Greenhouse",
+      "theme": "abandoned",
+      "tags": [
+        "greenhouse",
+        "glass",
+        "overgrown",
+        "abandoned"
+      ],
+      "file": "abandoned/abandoned-greenhouse.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/abandoned/abandoned-greenhouse.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/abandoned/abandoned-greenhouse.jpg"
+    },
+    {
+      "id": "empty-theater",
+      "name": "Empty Theater",
+      "theme": "abandoned",
+      "tags": [
+        "theater",
+        "seats",
+        "curtain",
+        "abandoned"
+      ],
+      "file": "abandoned/empty-theater.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/abandoned/empty-theater.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/abandoned/empty-theater.jpg"
+    },
+    {
+      "id": "rusted-ferris-wheel",
+      "name": "Rusted Ferris Wheel",
+      "theme": "abandoned",
+      "tags": [
+        "ferris wheel",
+        "carnival",
+        "rusted",
+        "abandoned"
+      ],
+      "file": "abandoned/rusted-ferris-wheel.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/abandoned/rusted-ferris-wheel.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/abandoned/rusted-ferris-wheel.jpg"
+    },
+    {
+      "id": "flooded-cathedral",
+      "name": "Flooded Cathedral",
+      "theme": "abandoned",
+      "tags": [
+        "cathedral",
+        "flooded",
+        "stained glass",
+        "abandoned"
+      ],
+      "file": "abandoned/flooded-cathedral.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/abandoned/flooded-cathedral.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/abandoned/flooded-cathedral.jpg"
+    },
+    {
+      "id": "derelict-factory",
+      "name": "Derelict Factory",
+      "theme": "abandoned",
+      "tags": [
+        "factory",
+        "industrial",
+        "derelict",
+        "abandoned"
+      ],
+      "file": "abandoned/derelict-factory.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/abandoned/derelict-factory.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/abandoned/derelict-factory.jpg"
+    },
+    {
+      "id": "crumbling-observatory",
+      "name": "Crumbling Observatory",
+      "theme": "abandoned",
+      "tags": [
+        "observatory",
+        "telescope",
+        "stars",
+        "abandoned"
+      ],
+      "file": "abandoned/crumbling-observatory.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/abandoned/crumbling-observatory.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/abandoned/crumbling-observatory.jpg"
+    },
+    {
+      "id": "vintage-porsche-morning",
+      "name": "Vintage Porsche Morning",
+      "theme": "cars-and-coffee",
+      "tags": [
+        "porsche",
+        "vintage",
+        "morning",
+        "cars-and-coffee"
+      ],
+      "file": "cars-and-coffee/vintage-porsche-morning.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/cars-and-coffee/vintage-porsche-morning.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/cars-and-coffee/vintage-porsche-morning.jpg"
+    },
+    {
+      "id": "ferrari-at-dawn",
+      "name": "Ferrari at Dawn",
+      "theme": "cars-and-coffee",
+      "tags": [
+        "ferrari",
+        "dawn",
+        "sunrise",
+        "cars-and-coffee"
+      ],
+      "file": "cars-and-coffee/ferrari-at-dawn.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/cars-and-coffee/ferrari-at-dawn.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/cars-and-coffee/ferrari-at-dawn.jpg"
+    },
+    {
+      "id": "steaming-cup-hood",
+      "name": "Steaming Cup on Hood",
+      "theme": "cars-and-coffee",
+      "tags": [
+        "coffee",
+        "cup",
+        "hood",
+        "cars-and-coffee"
+      ],
+      "file": "cars-and-coffee/steaming-cup-hood.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/cars-and-coffee/steaming-cup-hood.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/cars-and-coffee/steaming-cup-hood.jpg"
+    },
+    {
+      "id": "parking-lot-meetup",
+      "name": "Parking Lot Meetup",
+      "theme": "cars-and-coffee",
+      "tags": [
+        "meetup",
+        "parking lot",
+        "cars",
+        "cars-and-coffee"
+      ],
+      "file": "cars-and-coffee/parking-lot-meetup.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/cars-and-coffee/parking-lot-meetup.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/cars-and-coffee/parking-lot-meetup.jpg"
+    },
+    {
+      "id": "classic-mustang-mist",
+      "name": "Classic Mustang in Mist",
+      "theme": "cars-and-coffee",
+      "tags": [
+        "mustang",
+        "classic",
+        "mist",
+        "cars-and-coffee"
+      ],
+      "file": "cars-and-coffee/classic-mustang-mist.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/cars-and-coffee/classic-mustang-mist.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/cars-and-coffee/classic-mustang-mist.jpg"
+    },
+    {
+      "id": "espresso-and-engine",
+      "name": "Espresso and Engine",
+      "theme": "cars-and-coffee",
+      "tags": [
+        "espresso",
+        "engine",
+        "morning",
+        "cars-and-coffee"
+      ],
+      "file": "cars-and-coffee/espresso-and-engine.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/cars-and-coffee/espresso-and-engine.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/cars-and-coffee/espresso-and-engine.jpg"
+    },
+    {
+      "id": "sunrise-car-show",
+      "name": "Sunrise Car Show",
+      "theme": "cars-and-coffee",
+      "tags": [
+        "car show",
+        "sunrise",
+        "golden hour",
+        "cars-and-coffee"
+      ],
+      "file": "cars-and-coffee/sunrise-car-show.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/cars-and-coffee/sunrise-car-show.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/cars-and-coffee/sunrise-car-show.jpg"
+    },
+    {
+      "id": "bmw-and-barista",
+      "name": "BMW and Barista",
+      "theme": "cars-and-coffee",
+      "tags": [
+        "bmw",
+        "barista",
+        "coffee shop",
+        "cars-and-coffee"
+      ],
+      "file": "cars-and-coffee/bmw-and-barista.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/cars-and-coffee/bmw-and-barista.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/cars-and-coffee/bmw-and-barista.jpg"
+    },
+    {
+      "id": "new-york-dawn",
+      "name": "New York Dawn",
+      "theme": "skylines",
+      "tags": [
+        "new york",
+        "dawn",
+        "empire state",
+        "skylines"
+      ],
+      "file": "skylines/new-york-dawn.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/skylines/new-york-dawn.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/skylines/new-york-dawn.jpg"
+    },
+    {
+      "id": "chicago-dusk",
+      "name": "Chicago Dusk",
+      "theme": "skylines",
+      "tags": [
+        "chicago",
+        "dusk",
+        "lake michigan",
+        "skylines"
+      ],
+      "file": "skylines/chicago-dusk.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/skylines/chicago-dusk.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/skylines/chicago-dusk.jpg"
+    },
+    {
+      "id": "san-francisco-fog",
+      "name": "San Francisco Fog",
+      "theme": "skylines",
+      "tags": [
+        "san francisco",
+        "fog",
+        "golden gate",
+        "skylines"
+      ],
+      "file": "skylines/san-francisco-fog.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/skylines/san-francisco-fog.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/skylines/san-francisco-fog.jpg"
+    },
+    {
+      "id": "los-angeles-golden",
+      "name": "Los Angeles Golden Hour",
+      "theme": "skylines",
+      "tags": [
+        "los angeles",
+        "golden hour",
+        "palm trees",
+        "skylines"
+      ],
+      "file": "skylines/los-angeles-golden.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/skylines/los-angeles-golden.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/skylines/los-angeles-golden.jpg"
+    },
+    {
+      "id": "new-orleans-night",
+      "name": "New Orleans Night",
+      "theme": "skylines",
+      "tags": [
+        "new orleans",
+        "night",
+        "french quarter",
+        "skylines"
+      ],
+      "file": "skylines/new-orleans-night.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/skylines/new-orleans-night.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/skylines/new-orleans-night.jpg"
+    },
+    {
+      "id": "nashville-twilight",
+      "name": "Nashville Twilight",
+      "theme": "skylines",
+      "tags": [
+        "nashville",
+        "twilight",
+        "batman building",
+        "skylines"
+      ],
+      "file": "skylines/nashville-twilight.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/skylines/nashville-twilight.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/skylines/nashville-twilight.jpg"
+    },
+    {
+      "id": "seattle-overcast",
+      "name": "Seattle Overcast",
+      "theme": "skylines",
+      "tags": [
+        "seattle",
+        "overcast",
+        "space needle",
+        "skylines"
+      ],
+      "file": "skylines/seattle-overcast.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/skylines/seattle-overcast.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/skylines/seattle-overcast.jpg"
+    },
+    {
+      "id": "miami-sunrise",
+      "name": "Miami Sunrise",
+      "theme": "skylines",
+      "tags": [
+        "miami",
+        "sunrise",
+        "art deco",
+        "skylines"
+      ],
+      "file": "skylines/miami-sunrise.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/skylines/miami-sunrise.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/skylines/miami-sunrise.jpg"
+    },
+    {
+      "id": "summer-bbq",
+      "name": "Summer BBQ",
+      "theme": "backyards",
+      "tags": [
+        "summer",
+        "bbq",
+        "grill",
+        "afternoon",
+        "backyards"
+      ],
+      "file": "backyards/summer-bbq.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/backyards/summer-bbq.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/backyards/summer-bbq.jpg"
+    },
+    {
+      "id": "firepit-night",
+      "name": "Firepit Night",
+      "theme": "backyards",
+      "tags": [
+        "night",
+        "firepit",
+        "stars",
+        "adirondack",
+        "backyards"
+      ],
+      "file": "backyards/firepit-night.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/backyards/firepit-night.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/backyards/firepit-night.jpg"
+    },
+    {
+      "id": "rainy-afternoon",
+      "name": "Rainy Afternoon",
+      "theme": "backyards",
+      "tags": [
+        "rain",
+        "overcast",
+        "moody",
+        "patio",
+        "backyards"
+      ],
+      "file": "backyards/rainy-afternoon.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/backyards/rainy-afternoon.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/backyards/rainy-afternoon.jpg"
+    },
+    {
+      "id": "fall-morning",
+      "name": "Fall Morning",
+      "theme": "backyards",
+      "tags": [
+        "fall",
+        "autumn",
+        "morning",
+        "golden",
+        "backyards"
+      ],
+      "file": "backyards/fall-morning.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/backyards/fall-morning.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/backyards/fall-morning.jpg"
+    },
+    {
+      "id": "pool-day",
+      "name": "Pool Day",
+      "theme": "backyards",
+      "tags": [
+        "pool",
+        "summer",
+        "midday",
+        "suburban",
+        "backyards"
+      ],
+      "file": "backyards/pool-day.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/backyards/pool-day.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/backyards/pool-day.jpg"
+    },
+    {
+      "id": "treehouse-dusk",
+      "name": "Treehouse Dusk",
+      "theme": "backyards",
+      "tags": [
+        "treehouse",
+        "dusk",
+        "fireflies",
+        "oak",
+        "backyards"
+      ],
+      "file": "backyards/treehouse-dusk.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/backyards/treehouse-dusk.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/backyards/treehouse-dusk.jpg"
+    },
+    {
+      "id": "garden-spring",
+      "name": "Garden Spring",
+      "theme": "backyards",
+      "tags": [
+        "garden",
+        "spring",
+        "flowers",
+        "birdbath",
+        "backyards"
+      ],
+      "file": "backyards/garden-spring.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/backyards/garden-spring.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/backyards/garden-spring.jpg"
+    },
+    {
+      "id": "snow-morning",
+      "name": "Snow Morning",
+      "theme": "backyards",
+      "tags": [
+        "snow",
+        "winter",
+        "morning",
+        "birds",
+        "backyards"
+      ],
+      "file": "backyards/snow-morning.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/backyards/snow-morning.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/backyards/snow-morning.jpg"
+    },
+    {
+      "id": "ds-nebula",
+      "name": "Nebula",
+      "theme": "deep-space",
+      "tags": [
+        "nebula",
+        "gas cloud",
+        "stars",
+        "space",
+        "deep-space"
+      ],
+      "file": "deep-space/nebula.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/deep-space/nebula.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/deep-space/nebula.jpg"
+    },
+    {
+      "id": "ds-black-hole",
+      "name": "Black Hole",
+      "theme": "deep-space",
+      "tags": [
+        "black hole",
+        "accretion disk",
+        "space",
+        "deep-space"
+      ],
+      "file": "deep-space/black-hole.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/deep-space/black-hole.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/deep-space/black-hole.jpg"
+    },
+    {
+      "id": "ds-saturn",
+      "name": "Saturn",
+      "theme": "deep-space",
+      "tags": [
+        "saturn",
+        "rings",
+        "planets",
+        "moons",
+        "deep-space"
+      ],
+      "file": "deep-space/saturn.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/deep-space/saturn.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/deep-space/saturn.jpg"
+    },
+    {
+      "id": "ds-mars-surface",
+      "name": "Mars Surface",
+      "theme": "deep-space",
+      "tags": [
+        "mars",
+        "red planet",
+        "rover",
+        "landscape",
+        "deep-space"
+      ],
+      "file": "deep-space/mars-surface.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/deep-space/mars-surface.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/deep-space/mars-surface.jpg"
+    },
+    {
+      "id": "ds-galaxy-core",
+      "name": "Galaxy Core",
+      "theme": "deep-space",
+      "tags": [
+        "galaxy",
+        "spiral",
+        "stars",
+        "cosmos",
+        "deep-space"
+      ],
+      "file": "deep-space/galaxy-core.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/deep-space/galaxy-core.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/deep-space/galaxy-core.jpg"
+    },
+    {
+      "id": "ds-astronaut",
+      "name": "Astronaut",
+      "theme": "deep-space",
+      "tags": [
+        "astronaut",
+        "earth",
+        "orbit",
+        "spacewalk",
+        "deep-space"
+      ],
+      "file": "deep-space/astronaut.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/deep-space/astronaut.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/deep-space/astronaut.jpg"
+    },
+    {
+      "id": "ds-aurora-from-orbit",
+      "name": "Aurora From Orbit",
+      "theme": "deep-space",
+      "tags": [
+        "aurora",
+        "earth",
+        "orbit",
+        "night",
+        "deep-space"
+      ],
+      "file": "deep-space/aurora-from-orbit.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/deep-space/aurora-from-orbit.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/deep-space/aurora-from-orbit.jpg"
+    },
+    {
+      "id": "ds-supernova",
+      "name": "Supernova",
+      "theme": "deep-space",
+      "tags": [
+        "supernova",
+        "explosion",
+        "shockwave",
+        "stars",
+        "deep-space"
+      ],
+      "file": "deep-space/supernova.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/deep-space/supernova.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/deep-space/supernova.jpg"
+    },
+    {
+      "id": "cr-shallow-reef",
+      "name": "Shallow Reef",
+      "theme": "coral-reef",
+      "tags": [
+        "coral",
+        "reef",
+        "tropical",
+        "fish",
+        "shallow",
+        "coral-reef"
+      ],
+      "file": "coral-reef/shallow-reef.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/coral-reef/shallow-reef.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/coral-reef/shallow-reef.jpg"
+    },
+    {
+      "id": "cr-deep-wall",
+      "name": "Deep Wall",
+      "theme": "coral-reef",
+      "tags": [
+        "coral",
+        "reef",
+        "deep",
+        "wall",
+        "ocean",
+        "coral-reef"
+      ],
+      "file": "coral-reef/deep-wall.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/coral-reef/deep-wall.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/coral-reef/deep-wall.jpg"
+    },
+    {
+      "id": "cr-sea-turtle",
+      "name": "Sea Turtle",
+      "theme": "coral-reef",
+      "tags": [
+        "sea turtle",
+        "turtle",
+        "coral",
+        "reef",
+        "coral-reef"
+      ],
+      "file": "coral-reef/sea-turtle.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/coral-reef/sea-turtle.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/coral-reef/sea-turtle.jpg"
+    },
+    {
+      "id": "cr-kelp-forest",
+      "name": "Kelp Forest",
+      "theme": "coral-reef",
+      "tags": [
+        "kelp",
+        "forest",
+        "underwater",
+        "fish",
+        "coral-reef"
+      ],
+      "file": "coral-reef/kelp-forest.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/coral-reef/kelp-forest.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/coral-reef/kelp-forest.jpg"
+    },
+    {
+      "id": "cr-anemone-field",
+      "name": "Anemone Field",
+      "theme": "coral-reef",
+      "tags": [
+        "anemone",
+        "clownfish",
+        "reef",
+        "coral-reef"
+      ],
+      "file": "coral-reef/anemone-field.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/coral-reef/anemone-field.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/coral-reef/anemone-field.jpg"
+    },
+    {
+      "id": "cr-night-reef",
+      "name": "Night Reef",
+      "theme": "coral-reef",
+      "tags": [
+        "night",
+        "bioluminescent",
+        "coral",
+        "reef",
+        "dark",
+        "coral-reef"
+      ],
+      "file": "coral-reef/night-reef.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/coral-reef/night-reef.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/coral-reef/night-reef.jpg"
+    },
+    {
+      "id": "cr-manta-ray",
+      "name": "Manta Ray",
+      "theme": "coral-reef",
+      "tags": [
+        "manta ray",
+        "ray",
+        "reef",
+        "ocean",
+        "coral-reef"
+      ],
+      "file": "coral-reef/manta-ray.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/coral-reef/manta-ray.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/coral-reef/manta-ray.jpg"
+    },
+    {
+      "id": "cr-reef-sunrise",
+      "name": "Reef Sunrise",
+      "theme": "coral-reef",
+      "tags": [
+        "sunrise",
+        "dawn",
+        "reef",
+        "surface",
+        "light",
+        "coral-reef"
+      ],
+      "file": "coral-reef/reef-sunrise.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/coral-reef/reef-sunrise.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/coral-reef/reef-sunrise.jpg"
+    },
+    {
+      "id": "rf-canopy-lookout",
+      "name": "Canopy Lookout",
+      "theme": "rainforest",
+      "tags": [
+        "canopy",
+        "trees",
+        "light rays",
+        "jungle",
+        "rainforest"
+      ],
+      "file": "rainforest/canopy-lookout.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/rainforest/canopy-lookout.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/rainforest/canopy-lookout.jpg"
+    },
+    {
+      "id": "rf-forest-floor",
+      "name": "Forest Floor",
+      "theme": "rainforest",
+      "tags": [
+        "roots",
+        "ferns",
+        "mist",
+        "jungle",
+        "rainforest"
+      ],
+      "file": "rainforest/forest-floor.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/rainforest/forest-floor.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/rainforest/forest-floor.jpg"
+    },
+    {
+      "id": "rf-waterfall",
+      "name": "Waterfall",
+      "theme": "rainforest",
+      "tags": [
+        "waterfall",
+        "pool",
+        "jade",
+        "cascade",
+        "rainforest"
+      ],
+      "file": "rainforest/waterfall.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/rainforest/waterfall.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/rainforest/waterfall.jpg"
+    },
+    {
+      "id": "rf-river-bend",
+      "name": "River Bend",
+      "theme": "rainforest",
+      "tags": [
+        "river",
+        "jungle",
+        "winding",
+        "aerial",
+        "rainforest"
+      ],
+      "file": "rainforest/river-bend.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/rainforest/river-bend.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/rainforest/river-bend.jpg"
+    },
+    {
+      "id": "rf-treetop-village",
+      "name": "Treetop Village",
+      "theme": "rainforest",
+      "tags": [
+        "village",
+        "platforms",
+        "rope bridges",
+        "trees",
+        "rainforest"
+      ],
+      "file": "rainforest/treetop-village.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/rainforest/treetop-village.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/rainforest/treetop-village.jpg"
+    },
+    {
+      "id": "rf-jaguar",
+      "name": "Jaguar",
+      "theme": "rainforest",
+      "tags": [
+        "jaguar",
+        "big cat",
+        "branch",
+        "dappled light",
+        "rainforest"
+      ],
+      "file": "rainforest/jaguar.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/rainforest/jaguar.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/rainforest/jaguar.jpg"
+    },
+    {
+      "id": "rf-night-jungle",
+      "name": "Night Jungle",
+      "theme": "rainforest",
+      "tags": [
+        "night",
+        "bioluminescent",
+        "fungi",
+        "moonlight",
+        "rainforest"
+      ],
+      "file": "rainforest/night-jungle.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/rainforest/night-jungle.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/rainforest/night-jungle.jpg"
+    },
+    {
+      "id": "rf-aerial-view",
+      "name": "Aerial View",
+      "theme": "rainforest",
+      "tags": [
+        "aerial",
+        "canopy",
+        "river",
+        "birds eye",
+        "rainforest"
+      ],
+      "file": "rainforest/aerial-view.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/rainforest/aerial-view.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/rainforest/aerial-view.jpg"
+    },
+    {
+      "id": "mcm-ranch-exterior",
+      "name": "Ranch Exterior",
+      "theme": "mid-century-modern",
+      "tags": [
+        "ranch",
+        "house",
+        "golden hour",
+        "exterior",
+        "mid-century-modern"
+      ],
+      "file": "mid-century-modern/mcm-ranch-exterior.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/mid-century-modern/mcm-ranch-exterior.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/mid-century-modern/mcm-ranch-exterior.jpg"
+    },
+    {
+      "id": "mcm-atomic-lounge",
+      "name": "Atomic Lounge",
+      "theme": "mid-century-modern",
+      "tags": [
+        "atomic",
+        "starburst",
+        "boomerang",
+        "lounge",
+        "mid-century-modern"
+      ],
+      "file": "mid-century-modern/mcm-atomic-lounge.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/mid-century-modern/mcm-atomic-lounge.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/mid-century-modern/mcm-atomic-lounge.jpg"
+    },
+    {
+      "id": "mcm-desert-home",
+      "name": "Desert Home",
+      "theme": "mid-century-modern",
+      "tags": [
+        "desert",
+        "glass",
+        "joshua tree",
+        "dusk",
+        "mid-century-modern"
+      ],
+      "file": "mid-century-modern/mcm-desert-home.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/mid-century-modern/mcm-desert-home.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/mid-century-modern/mcm-desert-home.jpg"
+    },
+    {
+      "id": "mcm-kidney-pool",
+      "name": "Kidney Pool",
+      "theme": "mid-century-modern",
+      "tags": [
+        "pool",
+        "kidney",
+        "overhead",
+        "aerial",
+        "mid-century-modern"
+      ],
+      "file": "mid-century-modern/mcm-kidney-pool.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/mid-century-modern/mcm-kidney-pool.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/mid-century-modern/mcm-kidney-pool.jpg"
+    },
+    {
+      "id": "mcm-living-room",
+      "name": "Living Room",
+      "theme": "mid-century-modern",
+      "tags": [
+        "eames",
+        "sunburst",
+        "interior",
+        "mountain",
+        "mid-century-modern"
+      ],
+      "file": "mid-century-modern/mcm-living-room.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/mid-century-modern/mcm-living-room.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/mid-century-modern/mcm-living-room.jpg"
+    },
+    {
+      "id": "mcm-roadside-motel",
+      "name": "Roadside Motel",
+      "theme": "mid-century-modern",
+      "tags": [
+        "motel",
+        "desert",
+        "dusk",
+        "highway",
+        "mid-century-modern"
+      ],
+      "file": "mid-century-modern/mcm-roadside-motel.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/mid-century-modern/mcm-roadside-motel.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/mid-century-modern/mcm-roadside-motel.jpg"
+    },
+    {
+      "id": "mcm-space-age-interior",
+      "name": "Space Age Interior",
+      "theme": "mid-century-modern",
+      "tags": [
+        "space age",
+        "tulip",
+        "bubble lamp",
+        "1960s",
+        "mid-century-modern"
+      ],
+      "file": "mid-century-modern/mcm-space-age-interior.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/mid-century-modern/mcm-space-age-interior.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/mid-century-modern/mcm-space-age-interior.jpg"
+    },
+    {
+      "id": "mcm-hillside-view",
+      "name": "Hillside View",
+      "theme": "mid-century-modern",
+      "tags": [
+        "hillside",
+        "city",
+        "twilight",
+        "cantilevered",
+        "mid-century-modern"
+      ],
+      "file": "mid-century-modern/mcm-hillside-view.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/mid-century-modern/mcm-hillside-view.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/mid-century-modern/mcm-hillside-view.jpg"
+    },
+    {
+      "id": "nl-frozen-lake",
+      "name": "Frozen Lake",
+      "theme": "northern-lights",
+      "tags": [
+        "aurora",
+        "lake",
+        "reflection",
+        "pine",
+        "night"
+      ],
+      "file": "northern-lights/frozen-lake.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/northern-lights/frozen-lake.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/northern-lights/frozen-lake.jpg"
+    },
+    {
+      "id": "nl-cabin-in-pines",
+      "name": "Cabin in the Pines",
+      "theme": "northern-lights",
+      "tags": [
+        "aurora",
+        "cabin",
+        "snow",
+        "pine",
+        "cozy"
+      ],
+      "file": "northern-lights/cabin-in-pines.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/northern-lights/cabin-in-pines.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/northern-lights/cabin-in-pines.jpg"
+    },
+    {
+      "id": "nl-frozen-fjord",
+      "name": "Frozen Fjord",
+      "theme": "northern-lights",
+      "tags": [
+        "aurora",
+        "fjord",
+        "cliffs",
+        "village",
+        "norway"
+      ],
+      "file": "northern-lights/frozen-fjord.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/northern-lights/frozen-fjord.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/northern-lights/frozen-fjord.jpg"
+    },
+    {
+      "id": "nl-nordic-village",
+      "name": "Nordic Village",
+      "theme": "northern-lights",
+      "tags": [
+        "aurora",
+        "village",
+        "church",
+        "snow",
+        "rooftops"
+      ],
+      "file": "northern-lights/nordic-village.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/northern-lights/nordic-village.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/northern-lights/nordic-village.jpg"
+    },
+    {
+      "id": "nl-tundra-arc",
+      "name": "Tundra Arc",
+      "theme": "northern-lights",
+      "tags": [
+        "aurora",
+        "tundra",
+        "arctic",
+        "open",
+        "vast"
+      ],
+      "file": "northern-lights/tundra-arc.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/northern-lights/tundra-arc.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/northern-lights/tundra-arc.jpg"
+    },
+    {
+      "id": "nl-iceberg-sea",
+      "name": "Iceberg Sea",
+      "theme": "northern-lights",
+      "tags": [
+        "aurora",
+        "icebergs",
+        "arctic",
+        "ocean",
+        "reflection"
+      ],
+      "file": "northern-lights/iceberg-sea.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/northern-lights/iceberg-sea.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/northern-lights/iceberg-sea.jpg"
+    },
+    {
+      "id": "nl-forest-trail",
+      "name": "Forest Trail",
+      "theme": "northern-lights",
+      "tags": [
+        "aurora",
+        "forest",
+        "trail",
+        "pine",
+        "snow"
+      ],
+      "file": "northern-lights/forest-trail.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/northern-lights/forest-trail.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/northern-lights/forest-trail.jpg"
+    },
+    {
+      "id": "nl-mountaintop-observatory",
+      "name": "Mountaintop Observatory",
+      "theme": "northern-lights",
+      "tags": [
+        "aurora",
+        "observatory",
+        "mountain",
+        "stars",
+        "night"
+      ],
+      "file": "northern-lights/mountaintop-observatory.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/northern-lights/mountaintop-observatory.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/northern-lights/mountaintop-observatory.jpg"
+    },
+    {
+      "id": "yosemite-valley",
+      "name": "Yosemite Valley",
+      "theme": "national-parks",
+      "tags": [
+        "yosemite",
+        "granite",
+        "valley",
+        "pine",
+        "mountains"
+      ],
+      "file": "national-parks/yosemite-valley.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/national-parks/yosemite-valley.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/national-parks/yosemite-valley.jpg"
+    },
+    {
+      "id": "grand-canyon",
+      "name": "Grand Canyon",
+      "theme": "national-parks",
+      "tags": [
+        "canyon",
+        "desert",
+        "strata",
+        "river",
+        "southwest"
+      ],
+      "file": "national-parks/grand-canyon.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/national-parks/grand-canyon.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/national-parks/grand-canyon.jpg"
+    },
+    {
+      "id": "yellowstone-geysers",
+      "name": "Yellowstone Geysers",
+      "theme": "national-parks",
+      "tags": [
+        "yellowstone",
+        "geysers",
+        "steam",
+        "geothermal",
+        "plains"
+      ],
+      "file": "national-parks/yellowstone-geysers.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/national-parks/yellowstone-geysers.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/national-parks/yellowstone-geysers.jpg"
+    },
+    {
+      "id": "zion-narrows",
+      "name": "Zion Narrows",
+      "theme": "national-parks",
+      "tags": [
+        "zion",
+        "slot canyon",
+        "sandstone",
+        "river",
+        "southwest"
+      ],
+      "file": "national-parks/zion-narrows.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/national-parks/zion-narrows.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/national-parks/zion-narrows.jpg"
+    },
+    {
+      "id": "arches-delicate",
+      "name": "Arches Delicate Arch",
+      "theme": "national-parks",
+      "tags": [
+        "arches",
+        "arch",
+        "desert",
+        "buttes",
+        "utah"
+      ],
+      "file": "national-parks/arches-delicate.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/national-parks/arches-delicate.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/national-parks/arches-delicate.jpg"
+    },
+    {
+      "id": "great-smoky-mountains",
+      "name": "Great Smoky Mountains",
+      "theme": "national-parks",
+      "tags": [
+        "smoky mountains",
+        "appalachian",
+        "haze",
+        "forest",
+        "ridges"
+      ],
+      "file": "national-parks/great-smoky-mountains.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/national-parks/great-smoky-mountains.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/national-parks/great-smoky-mountains.jpg"
+    },
+    {
+      "id": "olympic-rainforest",
+      "name": "Olympic Rainforest",
+      "theme": "national-parks",
+      "tags": [
+        "olympic",
+        "rainforest",
+        "moss",
+        "ferns",
+        "trees"
+      ],
+      "file": "national-parks/olympic-rainforest.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/national-parks/olympic-rainforest.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/national-parks/olympic-rainforest.jpg"
+    },
+    {
+      "id": "death-valley-dunes",
+      "name": "Death Valley Dunes",
+      "theme": "national-parks",
+      "tags": [
+        "death valley",
+        "dunes",
+        "sand",
+        "desert",
+        "shadows"
+      ],
+      "file": "national-parks/death-valley-dunes.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/national-parks/death-valley-dunes.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/national-parks/death-valley-dunes.jpg"
+    },
+    {
+      "id": "chicago-skyline",
+      "name": "Chicago Skyline",
+      "theme": "chicago",
+      "tags": [
+        "chicago",
+        "skyline",
+        "lake michigan",
+        "skyscrapers",
+        "downtown"
+      ],
+      "file": "chicago/chicago-skyline.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/chicago/chicago-skyline.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/chicago/chicago-skyline.jpg"
+    },
+    {
+      "id": "the-loop",
+      "name": "The Loop",
+      "theme": "chicago",
+      "tags": [
+        "chicago",
+        "loop",
+        "elevated train",
+        "downtown",
+        "urban"
+      ],
+      "file": "chicago/the-loop.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/chicago/the-loop.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/chicago/the-loop.jpg"
+    },
+    {
+      "id": "lake-shore",
+      "name": "Lake Shore",
+      "theme": "chicago",
+      "tags": [
+        "chicago",
+        "lake shore",
+        "lake michigan",
+        "beach",
+        "waterfront"
+      ],
+      "file": "chicago/lake-shore.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/chicago/lake-shore.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/chicago/lake-shore.jpg"
+    },
+    {
+      "id": "cloud-gate",
+      "name": "Cloud Gate",
+      "theme": "chicago",
+      "tags": [
+        "chicago",
+        "cloud gate",
+        "bean",
+        "millennium park",
+        "sculpture"
+      ],
+      "file": "chicago/cloud-gate.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/chicago/cloud-gate.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/chicago/cloud-gate.jpg"
+    },
+    {
+      "id": "chicago-river",
+      "name": "Chicago River",
+      "theme": "chicago",
+      "tags": [
+        "chicago",
+        "river",
+        "bridges",
+        "downtown",
+        "riverwalk"
+      ],
+      "file": "chicago/chicago-river.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/chicago/chicago-river.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/chicago/chicago-river.jpg"
+    },
+    {
+      "id": "wrigley",
+      "name": "Wrigley Field",
+      "theme": "chicago",
+      "tags": [
+        "chicago",
+        "wrigley",
+        "baseball",
+        "cubs",
+        "ballpark"
+      ],
+      "file": "chicago/wrigley.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/chicago/wrigley.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/chicago/wrigley.jpg"
+    },
+    {
+      "id": "navy-pier",
+      "name": "Navy Pier",
+      "theme": "chicago",
+      "tags": [
+        "chicago",
+        "navy pier",
+        "ferris wheel",
+        "lake michigan",
+        "sunset"
+      ],
+      "file": "chicago/navy-pier.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/chicago/navy-pier.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/chicago/navy-pier.jpg"
+    },
+    {
+      "id": "jazz-alley",
+      "name": "Jazz Alley",
+      "theme": "chicago",
+      "tags": [
+        "chicago",
+        "jazz",
+        "alley",
+        "nightlife",
+        "music"
+      ],
+      "file": "chicago/jazz-alley.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/chicago/jazz-alley.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/chicago/jazz-alley.jpg"
+    },
+    {
+      "id": "community-pool",
+      "name": "Community Pool",
+      "theme": "summer-86",
+      "tags": [
+        "summer",
+        "80s",
+        "pool",
+        "nostalgia",
+        "retro"
+      ],
+      "file": "summer-86/community-pool.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/summer-86/community-pool.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/summer-86/community-pool.jpg"
+    },
+    {
+      "id": "vhs-rental",
+      "name": "VHS Rental",
+      "theme": "summer-86",
+      "tags": [
+        "summer",
+        "80s",
+        "vhs",
+        "video store",
+        "nostalgia",
+        "retro"
+      ],
+      "file": "summer-86/vhs-rental.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/summer-86/vhs-rental.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/summer-86/vhs-rental.jpg"
+    },
+    {
+      "id": "roller-rink",
+      "name": "Roller Rink",
+      "theme": "summer-86",
+      "tags": [
+        "summer",
+        "80s",
+        "roller rink",
+        "skating",
+        "nostalgia",
+        "retro"
+      ],
+      "file": "summer-86/roller-rink.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/summer-86/roller-rink.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/summer-86/roller-rink.jpg"
+    },
+    {
+      "id": "arcade",
+      "name": "Arcade",
+      "theme": "summer-86",
+      "tags": [
+        "summer",
+        "80s",
+        "arcade",
+        "games",
+        "nostalgia",
+        "retro"
+      ],
+      "file": "summer-86/arcade.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/summer-86/arcade.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/summer-86/arcade.jpg"
+    },
+    {
+      "id": "drive-in-wagon",
+      "name": "Drive-In Wagon",
+      "theme": "summer-86",
+      "tags": [
+        "summer",
+        "80s",
+        "drive-in",
+        "station wagon",
+        "nostalgia",
+        "retro"
+      ],
+      "file": "summer-86/drive-in-wagon.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/summer-86/drive-in-wagon.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/summer-86/drive-in-wagon.jpg"
+    },
+    {
+      "id": "backyard-sprinkler",
+      "name": "Backyard Sprinkler",
+      "theme": "summer-86",
+      "tags": [
+        "summer",
+        "80s",
+        "sprinkler",
+        "backyard",
+        "nostalgia",
+        "retro"
+      ],
+      "file": "summer-86/backyard-sprinkler.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/summer-86/backyard-sprinkler.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/summer-86/backyard-sprinkler.jpg"
+    },
+    {
+      "id": "alpine-dawn",
+      "name": "Alpine Dawn",
+      "theme": "mountains",
+      "tags": [
+        "mountains",
+        "alpine",
+        "dawn",
+        "sunrise",
+        "peaks"
+      ],
+      "file": "mountains/alpine-dawn.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/mountains/alpine-dawn.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/mountains/alpine-dawn.jpg"
+    },
+    {
+      "id": "glacial-lake",
+      "name": "Glacial Lake",
+      "theme": "mountains",
+      "tags": [
+        "mountains",
+        "glacial",
+        "lake",
+        "reflection",
+        "alpine"
+      ],
+      "file": "mountains/glacial-lake.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/mountains/glacial-lake.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/mountains/glacial-lake.jpg"
+    },
+    {
+      "id": "misty-ridgeline",
+      "name": "Misty Ridgeline",
+      "theme": "mountains",
+      "tags": [
+        "mountains",
+        "mist",
+        "ridgeline",
+        "fog",
+        "layers"
+      ],
+      "file": "mountains/misty-ridgeline.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/mountains/misty-ridgeline.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/mountains/misty-ridgeline.jpg"
+    },
+    {
+      "id": "sunset-range",
+      "name": "Sunset Range",
+      "theme": "mountains",
+      "tags": [
+        "mountains",
+        "sunset",
+        "range",
+        "golden hour",
+        "peaks"
+      ],
+      "file": "mountains/sunset-range.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/mountains/sunset-range.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/mountains/sunset-range.jpg"
+    },
+    {
+      "id": "rolling-foothills",
+      "name": "Rolling Foothills",
+      "theme": "mountains",
+      "tags": [
+        "mountains",
+        "foothills",
+        "green",
+        "rolling",
+        "valleys"
+      ],
+      "file": "mountains/rolling-foothills.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/mountains/rolling-foothills.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/mountains/rolling-foothills.jpg"
+    },
+    {
+      "id": "mountain-meadow",
+      "name": "Mountain Meadow",
+      "theme": "mountains",
+      "tags": [
+        "mountains",
+        "meadow",
+        "wildflowers",
+        "alpine",
+        "peaks"
+      ],
+      "file": "mountains/mountain-meadow.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/mountains/mountain-meadow.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/mountains/mountain-meadow.jpg"
+    },
+    {
+      "id": "granite-spires",
+      "name": "Granite Spires",
+      "theme": "mountains",
+      "tags": [
+        "mountains",
+        "granite",
+        "spires",
+        "rock",
+        "dramatic"
+      ],
+      "file": "mountains/granite-spires.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/mountains/granite-spires.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/mountains/granite-spires.jpg"
+    },
+    {
+      "id": "starlit-peaks",
+      "name": "Starlit Peaks",
+      "theme": "mountains",
+      "tags": [
+        "mountains",
+        "night",
+        "stars",
+        "peaks",
+        "moon"
+      ],
+      "file": "mountains/starlit-peaks.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/mountains/starlit-peaks.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/mountains/starlit-peaks.jpg"
+    },
+    {
+      "id": "golden-nap",
+      "name": "Golden Nap",
+      "theme": "dog-lovers",
+      "tags": [
+        "dog",
+        "cozy",
+        "indoor"
+      ],
+      "file": "dog-lovers/golden-nap.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/dog-lovers/golden-nap.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/dog-lovers/golden-nap.jpg"
+    },
+    {
+      "id": "rainy-window",
+      "name": "Rainy Window",
+      "theme": "dog-lovers",
+      "tags": [
+        "dog",
+        "rain",
+        "cozy",
+        "indoor"
+      ],
+      "file": "dog-lovers/rainy-window.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/dog-lovers/rainy-window.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/dog-lovers/rainy-window.jpg"
+    },
+    {
+      "id": "park-romp",
+      "name": "Park Romp",
+      "theme": "dog-lovers",
+      "tags": [
+        "dog",
+        "park",
+        "outdoor",
+        "green"
+      ],
+      "file": "dog-lovers/park-romp.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/dog-lovers/park-romp.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/dog-lovers/park-romp.jpg"
+    },
+    {
+      "id": "couch-potato",
+      "name": "Couch Potato",
+      "theme": "dog-lovers",
+      "tags": [
+        "dog",
+        "cozy",
+        "indoor",
+        "lazy"
+      ],
+      "file": "dog-lovers/couch-potato.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/dog-lovers/couch-potato.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/dog-lovers/couch-potato.jpg"
+    },
+    {
+      "id": "fetch-field",
+      "name": "Fetch Field",
+      "theme": "dog-lovers",
+      "tags": [
+        "dog",
+        "outdoor",
+        "play",
+        "meadow"
+      ],
+      "file": "dog-lovers/fetch-field.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/dog-lovers/fetch-field.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/dog-lovers/fetch-field.jpg"
+    },
+    {
+      "id": "puppy-pile",
+      "name": "Puppy Pile",
+      "theme": "dog-lovers",
+      "tags": [
+        "dog",
+        "puppies",
+        "cozy",
+        "cute"
+      ],
+      "file": "dog-lovers/puppy-pile.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/dog-lovers/puppy-pile.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/dog-lovers/puppy-pile.jpg"
+    },
+    {
+      "id": "beach-dog",
+      "name": "Beach Dog",
+      "theme": "dog-lovers",
+      "tags": [
+        "dog",
+        "beach",
+        "ocean",
+        "outdoor"
+      ],
+      "file": "dog-lovers/beach-dog.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/dog-lovers/beach-dog.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/dog-lovers/beach-dog.jpg"
+    },
+    {
+      "id": "autumn-trail",
+      "name": "Autumn Trail",
+      "theme": "dog-lovers",
+      "tags": [
+        "dog",
+        "autumn",
+        "forest",
+        "outdoor"
+      ],
+      "file": "dog-lovers/autumn-trail.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/dog-lovers/autumn-trail.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/dog-lovers/autumn-trail.jpg"
+    },
+    {
+      "id": "tr-stone-viaduct",
+      "name": "Stone Viaduct",
+      "theme": "trains",
+      "tags": [
+        "train",
+        "steam",
+        "viaduct",
+        "dawn",
+        "valley",
+        "trains"
+      ],
+      "file": "trains/stone-viaduct.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/trains/stone-viaduct.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/trains/stone-viaduct.jpg"
+    },
+    {
+      "id": "tr-bullet-train-blossoms",
+      "name": "Bullet Train Blossoms",
+      "theme": "trains",
+      "tags": [
+        "train",
+        "bullet train",
+        "cherry blossom",
+        "spring",
+        "trains"
+      ],
+      "file": "trains/bullet-train-blossoms.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/trains/bullet-train-blossoms.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/trains/bullet-train-blossoms.jpg"
+    },
+    {
+      "id": "tr-platform-golden-hour",
+      "name": "Platform Golden Hour",
+      "theme": "trains",
+      "tags": [
+        "train",
+        "platform",
+        "station",
+        "golden hour",
+        "vintage",
+        "trains"
+      ],
+      "file": "trains/platform-golden-hour.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/trains/platform-golden-hour.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/trains/platform-golden-hour.jpg"
+    },
+    {
+      "id": "tr-sleeping-car-window",
+      "name": "Sleeping Car Window",
+      "theme": "trains",
+      "tags": [
+        "train",
+        "sleeping car",
+        "window",
+        "sunset",
+        "countryside",
+        "trains"
+      ],
+      "file": "trains/sleeping-car-window.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/trains/sleeping-car-window.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/trains/sleeping-car-window.jpg"
+    },
+    {
+      "id": "tr-mountain-switchback",
+      "name": "Mountain Switchback",
+      "theme": "trains",
+      "tags": [
+        "train",
+        "mountain",
+        "alpine",
+        "switchback",
+        "snow",
+        "trains"
+      ],
+      "file": "trains/mountain-switchback.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/trains/mountain-switchback.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/trains/mountain-switchback.jpg"
+    },
+    {
+      "id": "tr-night-arrival",
+      "name": "Night Arrival",
+      "theme": "trains",
+      "tags": [
+        "train",
+        "night",
+        "station",
+        "lamplight",
+        "stars",
+        "trains"
+      ],
+      "file": "trains/night-arrival.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/trains/night-arrival.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/trains/night-arrival.jpg"
+    },
+    {
+      "id": "tr-glass-station",
+      "name": "Glass Station",
+      "theme": "trains",
+      "tags": [
+        "train",
+        "station",
+        "glass",
+        "iron",
+        "european",
+        "grand",
+        "trains"
+      ],
+      "file": "trains/glass-station.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/trains/glass-station.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/trains/glass-station.jpg"
+    },
+    {
+      "id": "tr-coastal-railway",
+      "name": "Coastal Railway",
+      "theme": "trains",
+      "tags": [
+        "train",
+        "coastal",
+        "cliffs",
+        "ocean",
+        "railway",
+        "trains"
+      ],
+      "file": "trains/coastal-railway.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/trains/coastal-railway.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/trains/coastal-railway.jpg"
+    },
+    {
+      "id": "nt-ramen-alley",
+      "name": "Ramen Alley",
+      "theme": "neon-tokyo",
+      "tags": [
+        "tokyo",
+        "neon",
+        "ramen",
+        "alley",
+        "night",
+        "neon-tokyo"
+      ],
+      "file": "neon-tokyo/ramen-alley.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/neon-tokyo/ramen-alley.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/neon-tokyo/ramen-alley.jpg"
+    },
+    {
+      "id": "nt-vending-machines-rain",
+      "name": "Vending Machines in Rain",
+      "theme": "neon-tokyo",
+      "tags": [
+        "tokyo",
+        "neon",
+        "vending machines",
+        "rain",
+        "night",
+        "neon-tokyo"
+      ],
+      "file": "neon-tokyo/vending-machines-rain.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/neon-tokyo/vending-machines-rain.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/neon-tokyo/vending-machines-rain.jpg"
+    },
+    {
+      "id": "nt-shibuya-crossing",
+      "name": "Shibuya Crossing",
+      "theme": "neon-tokyo",
+      "tags": [
+        "tokyo",
+        "neon",
+        "shibuya",
+        "crossing",
+        "urban",
+        "neon-tokyo"
+      ],
+      "file": "neon-tokyo/shibuya-crossing.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/neon-tokyo/shibuya-crossing.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/neon-tokyo/shibuya-crossing.jpg"
+    },
+    {
+      "id": "nt-temple-neon",
+      "name": "Temple in Neon",
+      "theme": "neon-tokyo",
+      "tags": [
+        "tokyo",
+        "neon",
+        "temple",
+        "traditional",
+        "contrast",
+        "neon-tokyo"
+      ],
+      "file": "neon-tokyo/temple-neon.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/neon-tokyo/temple-neon.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/neon-tokyo/temple-neon.jpg"
+    },
+    {
+      "id": "nt-tokyo-tower-dusk",
+      "name": "Tokyo Tower at Dusk",
+      "theme": "neon-tokyo",
+      "tags": [
+        "tokyo",
+        "neon",
+        "tower",
+        "dusk",
+        "skyline",
+        "neon-tokyo"
+      ],
+      "file": "neon-tokyo/tokyo-tower-dusk.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/neon-tokyo/tokyo-tower-dusk.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/neon-tokyo/tokyo-tower-dusk.jpg"
+    },
+    {
+      "id": "nt-train-platform-night",
+      "name": "Train Platform at Night",
+      "theme": "neon-tokyo",
+      "tags": [
+        "tokyo",
+        "neon",
+        "train",
+        "platform",
+        "night",
+        "neon-tokyo"
+      ],
+      "file": "neon-tokyo/train-platform-night.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/neon-tokyo/train-platform-night.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/neon-tokyo/train-platform-night.jpg"
+    },
+    {
+      "id": "nt-cherry-blossoms-neon",
+      "name": "Cherry Blossoms in Neon",
+      "theme": "neon-tokyo",
+      "tags": [
+        "tokyo",
+        "neon",
+        "cherry blossoms",
+        "sakura",
+        "spring",
+        "neon-tokyo"
+      ],
+      "file": "neon-tokyo/cherry-blossoms-neon.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/neon-tokyo/cherry-blossoms-neon.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/neon-tokyo/cherry-blossoms-neon.jpg"
+    },
+    {
+      "id": "nt-rooftop-skyline",
+      "name": "Rooftop Skyline",
+      "theme": "neon-tokyo",
+      "tags": [
+        "tokyo",
+        "neon",
+        "rooftop",
+        "skyline",
+        "night",
+        "neon-tokyo"
+      ],
+      "file": "neon-tokyo/rooftop-skyline.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/neon-tokyo/rooftop-skyline.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/neon-tokyo/rooftop-skyline.jpg"
+    },
+    {
+      "id": "ferris-wheel-dusk",
+      "name": "Ferris Wheel at Dusk",
+      "theme": "carnival",
+      "tags": [
+        "carnival",
+        "ferris wheel",
+        "dusk",
+        "lights",
+        "1950s"
+      ],
+      "file": "carnival/ferris-wheel-dusk.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/carnival/ferris-wheel-dusk.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/carnival/ferris-wheel-dusk.jpg"
+    },
+    {
+      "id": "cotton-candy-stand",
+      "name": "Cotton Candy Stand",
+      "theme": "carnival",
+      "tags": [
+        "carnival",
+        "cotton candy",
+        "fairground",
+        "pastel",
+        "1950s"
+      ],
+      "file": "carnival/cotton-candy-stand.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/carnival/cotton-candy-stand.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/carnival/cotton-candy-stand.jpg"
+    },
+    {
+      "id": "tilt-a-whirl",
+      "name": "Tilt-a-Whirl",
+      "theme": "carnival",
+      "tags": [
+        "carnival",
+        "ride",
+        "spin",
+        "evening",
+        "1950s"
+      ],
+      "file": "carnival/tilt-a-whirl.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/carnival/tilt-a-whirl.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/carnival/tilt-a-whirl.jpg"
+    },
+    {
+      "id": "midway-at-night",
+      "name": "Midway at Night",
+      "theme": "carnival",
+      "tags": [
+        "carnival",
+        "midway",
+        "night",
+        "lights",
+        "1950s"
+      ],
+      "file": "carnival/midway-at-night.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/carnival/midway-at-night.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/carnival/midway-at-night.jpg"
+    },
+    {
+      "id": "carousel-close-up",
+      "name": "Carousel Close-Up",
+      "theme": "carnival",
+      "tags": [
+        "carnival",
+        "carousel",
+        "horses",
+        "vintage",
+        "1950s"
+      ],
+      "file": "carnival/carousel-close-up.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/carnival/carousel-close-up.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/carnival/carousel-close-up.jpg"
+    },
+    {
+      "id": "bumper-cars",
+      "name": "Bumper Cars",
+      "theme": "carnival",
+      "tags": [
+        "carnival",
+        "bumper cars",
+        "pavilion",
+        "electric",
+        "1950s"
+      ],
+      "file": "carnival/bumper-cars.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/carnival/bumper-cars.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/carnival/bumper-cars.jpg"
+    },
+    {
+      "id": "ticket-booth",
+      "name": "Ticket Booth",
+      "theme": "carnival",
+      "tags": [
+        "carnival",
+        "ticket booth",
+        "entrance",
+        "warm",
+        "1950s"
+      ],
+      "file": "carnival/ticket-booth.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/carnival/ticket-booth.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/carnival/ticket-booth.jpg"
+    },
+    {
+      "id": "roller-coaster-sunset",
+      "name": "Roller Coaster at Sunset",
+      "theme": "carnival",
+      "tags": [
+        "carnival",
+        "roller coaster",
+        "sunset",
+        "silhouette",
+        "1950s"
+      ],
+      "file": "carnival/roller-coaster-sunset.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/carnival/roller-coaster-sunset.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/carnival/roller-coaster-sunset.jpg"
+    },
+    {
+      "id": "bow-bridge-autumn",
+      "name": "Bow Bridge Autumn",
+      "theme": "central-parks",
+      "tags": [
+        "central parks",
+        "new york",
+        "autumn",
+        "bridge",
+        "lake"
+      ],
+      "file": "central-parks/bow-bridge-autumn.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/central-parks/bow-bridge-autumn.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/central-parks/bow-bridge-autumn.jpg"
+    },
+    {
+      "id": "serpentine-morning",
+      "name": "Serpentine Morning",
+      "theme": "central-parks",
+      "tags": [
+        "central parks",
+        "london",
+        "hyde park",
+        "lake",
+        "morning"
+      ],
+      "file": "central-parks/serpentine-morning.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/central-parks/serpentine-morning.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/central-parks/serpentine-morning.jpg"
+    },
+    {
+      "id": "ueno-cherry-blossoms",
+      "name": "Ueno Cherry Blossoms",
+      "theme": "central-parks",
+      "tags": [
+        "central parks",
+        "tokyo",
+        "cherry blossoms",
+        "spring",
+        "japan"
+      ],
+      "file": "central-parks/ueno-cherry-blossoms.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/central-parks/ueno-cherry-blossoms.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/central-parks/ueno-cherry-blossoms.jpg"
+    },
+    {
+      "id": "luxembourg-fountain",
+      "name": "Luxembourg Fountain",
+      "theme": "central-parks",
+      "tags": [
+        "central parks",
+        "paris",
+        "fountain",
+        "garden",
+        "palace"
+      ],
+      "file": "central-parks/luxembourg-fountain.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/central-parks/luxembourg-fountain.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/central-parks/luxembourg-fountain.jpg"
+    },
+    {
+      "id": "vondelpark-canals",
+      "name": "Vondelpark Canals",
+      "theme": "central-parks",
+      "tags": [
+        "central parks",
+        "amsterdam",
+        "canals",
+        "willows",
+        "spring"
+      ],
+      "file": "central-parks/vondelpark-canals.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/central-parks/vondelpark-canals.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/central-parks/vondelpark-canals.jpg"
+    },
+    {
+      "id": "ibirapuera-pavilion",
+      "name": "Ibirapuera Pavilion",
+      "theme": "central-parks",
+      "tags": [
+        "central parks",
+        "sao paulo",
+        "modernist",
+        "tropical",
+        "pavilion"
+      ],
+      "file": "central-parks/ibirapuera-pavilion.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/central-parks/ibirapuera-pavilion.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/central-parks/ibirapuera-pavilion.jpg"
+    },
+    {
+      "id": "stanley-park-totems",
+      "name": "Stanley Park Totems",
+      "theme": "central-parks",
+      "tags": [
+        "central parks",
+        "vancouver",
+        "totems",
+        "forest",
+        "coastal"
+      ],
+      "file": "central-parks/stanley-park-totems.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/central-parks/stanley-park-totems.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/central-parks/stanley-park-totems.jpg"
+    },
+    {
+      "id": "retiro-crystal-palace",
+      "name": "Retiro Crystal Palace",
+      "theme": "central-parks",
+      "tags": [
+        "central parks",
+        "madrid",
+        "crystal palace",
+        "lake",
+        "glass"
+      ],
+      "file": "central-parks/retiro-crystal-palace.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/central-parks/retiro-crystal-palace.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/central-parks/retiro-crystal-palace.jpg"
+    },
+    {
+      "id": "downtown-morning",
+      "name": "Downtown Morning",
+      "theme": "small-towns",
+      "tags": [
+        "downtown",
+        "shops",
+        "awnings",
+        "morning",
+        "small-towns"
+      ],
+      "file": "small-towns/downtown-morning.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/small-towns/downtown-morning.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/small-towns/downtown-morning.jpg"
+    },
+    {
+      "id": "residential-block",
+      "name": "Residential Block",
+      "theme": "small-towns",
+      "tags": [
+        "residential",
+        "porches",
+        "sidewalk",
+        "trees",
+        "small-towns"
+      ],
+      "file": "small-towns/residential-block.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/small-towns/residential-block.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/small-towns/residential-block.jpg"
+    },
+    {
+      "id": "town-at-dawn",
+      "name": "Town at Dawn",
+      "theme": "small-towns",
+      "tags": [
+        "dawn",
+        "rooftops",
+        "mist",
+        "lights",
+        "small-towns"
+      ],
+      "file": "small-towns/town-at-dawn.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/small-towns/town-at-dawn.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/small-towns/town-at-dawn.jpg"
+    },
+    {
+      "id": "hilltop-overlook",
+      "name": "Hilltop Overlook",
+      "theme": "small-towns",
+      "tags": [
+        "hilltop",
+        "panorama",
+        "valley",
+        "river",
+        "small-towns"
+      ],
+      "file": "small-towns/hilltop-overlook.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/small-towns/hilltop-overlook.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/small-towns/hilltop-overlook.jpg"
+    },
+    {
+      "id": "winter-rooftops",
+      "name": "Winter Rooftops",
+      "theme": "small-towns",
+      "tags": [
+        "winter",
+        "snow",
+        "rooftops",
+        "cozy",
+        "small-towns"
+      ],
+      "file": "small-towns/winter-rooftops.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/small-towns/winter-rooftops.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/small-towns/winter-rooftops.jpg"
+    },
+    {
+      "id": "main-street-night",
+      "name": "Main Street Night",
+      "theme": "small-towns",
+      "tags": [
+        "night",
+        "street",
+        "lights",
+        "shops",
+        "small-towns"
+      ],
+      "file": "small-towns/main-street-night.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/small-towns/main-street-night.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/small-towns/main-street-night.jpg"
+    },
+    {
+      "id": "steeple-town",
+      "name": "Steeple Town",
+      "theme": "small-towns",
+      "tags": [
+        "church",
+        "steeple",
+        "autumn",
+        "new-england",
+        "small-towns"
+      ],
+      "file": "small-towns/steeple-town.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/small-towns/steeple-town.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/small-towns/steeple-town.jpg"
+    },
+    {
+      "id": "summer-shade",
+      "name": "Summer Shade",
+      "theme": "small-towns",
+      "tags": [
+        "summer",
+        "shade",
+        "trees",
+        "porches",
+        "small-towns"
+      ],
+      "file": "small-towns/summer-shade.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/small-towns/summer-shade.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/small-towns/summer-shade.jpg"
+    },
+    {
+      "id": "fl-eagle-over-mountains",
+      "name": "Eagle Over Mountains",
+      "theme": "flight",
+      "tags": [
+        "eagle",
+        "mountains",
+        "dawn",
+        "soaring",
+        "aerial",
+        "flight"
+      ],
+      "file": "flight/eagle-over-mountains.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/flight/eagle-over-mountains.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/flight/eagle-over-mountains.jpg"
+    },
+    {
+      "id": "fl-hot-air-balloon-fields",
+      "name": "Hot Air Balloon Fields",
+      "theme": "flight",
+      "tags": [
+        "hot air balloon",
+        "fields",
+        "patchwork",
+        "aerial",
+        "morning",
+        "flight"
+      ],
+      "file": "flight/hot-air-balloon-fields.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/flight/hot-air-balloon-fields.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/flight/hot-air-balloon-fields.jpg"
+    },
+    {
+      "id": "fl-plane-window-coastline",
+      "name": "Plane Window Coastline",
+      "theme": "flight",
+      "tags": [
+        "airplane",
+        "window",
+        "coastline",
+        "mediterranean",
+        "ocean",
+        "flight"
+      ],
+      "file": "flight/plane-window-coastline.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/flight/plane-window-coastline.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/flight/plane-window-coastline.jpg"
+    },
+    {
+      "id": "fl-drone-city-sunset",
+      "name": "Drone City Sunset",
+      "theme": "flight",
+      "tags": [
+        "drone",
+        "city",
+        "sunset",
+        "overhead",
+        "golden hour",
+        "flight"
+      ],
+      "file": "flight/drone-city-sunset.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/flight/drone-city-sunset.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/flight/drone-city-sunset.jpg"
+    },
+    {
+      "id": "fl-river-delta-birds-eye",
+      "name": "River Delta Bird's Eye",
+      "theme": "flight",
+      "tags": [
+        "river delta",
+        "birds eye",
+        "marshland",
+        "aerial",
+        "water",
+        "flight"
+      ],
+      "file": "flight/river-delta-birds-eye.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/flight/river-delta-birds-eye.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/flight/river-delta-birds-eye.jpg"
+    },
+    {
+      "id": "fl-paraglider-alpine",
+      "name": "Paraglider Alpine",
+      "theme": "flight",
+      "tags": [
+        "paraglider",
+        "alpine",
+        "meadows",
+        "mountains",
+        "lake",
+        "flight"
+      ],
+      "file": "flight/paraglider-alpine.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/flight/paraglider-alpine.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/flight/paraglider-alpine.jpg"
+    },
+    {
+      "id": "fl-migrating-geese-sunset",
+      "name": "Migrating Geese Sunset",
+      "theme": "flight",
+      "tags": [
+        "geese",
+        "migration",
+        "sunset",
+        "v-formation",
+        "clouds",
+        "flight"
+      ],
+      "file": "flight/migrating-geese-sunset.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/flight/migrating-geese-sunset.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/flight/migrating-geese-sunset.jpg"
+    },
+    {
+      "id": "fl-hang-glider-ocean-cliffs",
+      "name": "Hang Glider Ocean Cliffs",
+      "theme": "flight",
+      "tags": [
+        "hang glider",
+        "ocean",
+        "cliffs",
+        "coast",
+        "waves",
+        "flight"
+      ],
+      "file": "flight/hang-glider-ocean-cliffs.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/flight/hang-glider-ocean-cliffs.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/flight/hang-glider-ocean-cliffs.jpg"
+    },
+    {
+      "id": "lo-fox-kit",
+      "name": "Fox Kit",
+      "theme": "little-ones",
+      "tags": [
+        "fox",
+        "autumn",
+        "forest",
+        "baby animal",
+        "little-ones"
+      ],
+      "file": "little-ones/fox-kit.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/little-ones/fox-kit.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/little-ones/fox-kit.jpg"
+    },
+    {
+      "id": "lo-duckling-pond",
+      "name": "Duckling Pond",
+      "theme": "little-ones",
+      "tags": [
+        "duckling",
+        "pond",
+        "water",
+        "baby animal",
+        "little-ones"
+      ],
+      "file": "little-ones/duckling-pond.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/little-ones/duckling-pond.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/little-ones/duckling-pond.jpg"
+    },
+    {
+      "id": "lo-baby-elephant",
+      "name": "Baby Elephant",
+      "theme": "little-ones",
+      "tags": [
+        "elephant",
+        "savanna",
+        "sunset",
+        "baby animal",
+        "little-ones"
+      ],
+      "file": "little-ones/baby-elephant.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/little-ones/baby-elephant.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/little-ones/baby-elephant.jpg"
+    },
+    {
+      "id": "lo-kitten-window",
+      "name": "Kitten Window",
+      "theme": "little-ones",
+      "tags": [
+        "kitten",
+        "window",
+        "cozy",
+        "baby animal",
+        "little-ones"
+      ],
+      "file": "little-ones/kitten-window.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/little-ones/kitten-window.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/little-ones/kitten-window.jpg"
+    },
+    {
+      "id": "lo-misty-fawn",
+      "name": "Misty Fawn",
+      "theme": "little-ones",
+      "tags": [
+        "fawn",
+        "deer",
+        "forest",
+        "mist",
+        "baby animal",
+        "little-ones"
+      ],
+      "file": "little-ones/misty-fawn.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/little-ones/misty-fawn.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/little-ones/misty-fawn.jpg"
+    },
+    {
+      "id": "lo-baby-penguin",
+      "name": "Baby Penguin",
+      "theme": "little-ones",
+      "tags": [
+        "penguin",
+        "ice",
+        "antarctic",
+        "twilight",
+        "baby animal",
+        "little-ones"
+      ],
+      "file": "little-ones/baby-penguin.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/little-ones/baby-penguin.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/little-ones/baby-penguin.jpg"
+    },
+    {
+      "id": "lo-meadow-puppy",
+      "name": "Meadow Puppy",
+      "theme": "little-ones",
+      "tags": [
+        "puppy",
+        "meadow",
+        "wildflowers",
+        "baby animal",
+        "little-ones"
+      ],
+      "file": "little-ones/meadow-puppy.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/little-ones/meadow-puppy.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/little-ones/meadow-puppy.jpg"
+    },
+    {
+      "id": "lo-owlet-dusk",
+      "name": "Owlet at Dusk",
+      "theme": "little-ones",
+      "tags": [
+        "owl",
+        "dusk",
+        "twilight",
+        "branch",
+        "baby animal",
+        "little-ones"
+      ],
+      "file": "little-ones/owlet-dusk.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/little-ones/owlet-dusk.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/little-ones/owlet-dusk.jpg"
+    }
+  ],
+  "total": 266
+}
