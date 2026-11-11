@@ -164,6 +164,11 @@
       "key": "little-ones",
       "label": "Little Ones",
       "desc": "Baby animals in charming scenes"
+    },
+    {
+      "key": "camping",
+      "label": "Camping",
+      "desc": "Tents, campfires & quiet campsites"
     }
   ],
   "wallpapers": [
@@ -4063,7 +4068,135 @@
       "file": "little-ones/owlet-dusk.jpg",
       "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/little-ones/owlet-dusk.jpg",
       "thumbUrl": "https://burkeholland.github.io/paper/thumbs/little-ones/owlet-dusk.jpg"
+    },
+    {
+      "id": "cp-lakeside-dawn",
+      "name": "Lakeside Dawn",
+      "theme": "camping",
+      "tags": [
+        "tent",
+        "lake",
+        "canoe",
+        "dawn",
+        "mist",
+        "camping"
+      ],
+      "file": "camping/lakeside-dawn.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/camping/lakeside-dawn.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/camping/lakeside-dawn.jpg"
+    },
+    {
+      "id": "cp-campfire-stars",
+      "name": "Campfire Under the Stars",
+      "theme": "camping",
+      "tags": [
+        "campfire",
+        "night",
+        "milky way",
+        "tent",
+        "forest",
+        "camping"
+      ],
+      "file": "camping/campfire-stars.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/camping/campfire-stars.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/camping/campfire-stars.jpg"
+    },
+    {
+      "id": "cp-desert-teardrop",
+      "name": "Desert Teardrop",
+      "theme": "camping",
+      "tags": [
+        "camper",
+        "trailer",
+        "desert",
+        "sunset",
+        "string lights",
+        "camping"
+      ],
+      "file": "camping/desert-teardrop.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/camping/desert-teardrop.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/camping/desert-teardrop.jpg"
+    },
+    {
+      "id": "cp-forest-hammock",
+      "name": "Forest Hammock",
+      "theme": "camping",
+      "tags": [
+        "hammock",
+        "forest",
+        "morning",
+        "tent",
+        "ferns",
+        "camping"
+      ],
+      "file": "camping/forest-hammock.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/camping/forest-hammock.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/camping/forest-hammock.jpg"
+    },
+    {
+      "id": "cp-alpine-meadow",
+      "name": "Alpine Meadow",
+      "theme": "camping",
+      "tags": [
+        "tents",
+        "mountains",
+        "meadow",
+        "wildflowers",
+        "lake",
+        "camping"
+      ],
+      "file": "camping/alpine-meadow.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/camping/alpine-meadow.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/camping/alpine-meadow.jpg"
+    },
+    {
+      "id": "cp-autumn-river",
+      "name": "Autumn River",
+      "theme": "camping",
+      "tags": [
+        "tent",
+        "river",
+        "canoe",
+        "autumn",
+        "fall",
+        "camping"
+      ],
+      "file": "camping/autumn-river.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/camping/autumn-river.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/camping/autumn-river.jpg"
+    },
+    {
+      "id": "cp-winter-camp",
+      "name": "Winter Camp",
+      "theme": "camping",
+      "tags": [
+        "tent",
+        "snow",
+        "winter",
+        "moon",
+        "dusk",
+        "camping"
+      ],
+      "file": "camping/winter-camp.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/camping/winter-camp.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/camping/winter-camp.jpg"
+    },
+    {
+      "id": "cp-coastal-bluff",
+      "name": "Coastal Bluff",
+      "theme": "camping",
+      "tags": [
+        "tent",
+        "ocean",
+        "cliffs",
+        "sunset",
+        "campfire",
+        "camping"
+      ],
+      "file": "camping/coastal-bluff.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/camping/coastal-bluff.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/camping/coastal-bluff.jpg"
     }
   ],
-  "total": 266
+  "total": 274
 }
