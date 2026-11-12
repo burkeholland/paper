@@ -275,6 +275,7 @@
     .band-little-ones .band-theme-count { color: #9B7B6B; }
     .band-camping { background: #1C2B26; }
     .band-rainy-days { background: #1E2A4A; }
+    .band-snow-days { background: #24365E; }
 
     .band-theme-header {
       display: flex;
@@ -891,6 +892,7 @@
     <button class="filter-pill" data-theme="little-ones">Little Ones</button>
     <button class="filter-pill" data-theme="camping">Camping</button>
     <button class="filter-pill" data-theme="rainy-days">Rainy Days</button>
+    <button class="filter-pill" data-theme="snow-days">Snow Days</button>
     <div class="filter-sep"></div>
     <div id="tag-filters" style="display:flex;gap:6px;flex-wrap:nowrap;"></div>
   </div>
@@ -951,7 +953,7 @@
 
   <!-- FOOTER BAND -->
   <footer class="band-footer">
-    <span class="band-footer-text">paper — 282 wallpapers, free to download.</span>
+    <span class="band-footer-text">paper — 290 wallpapers, free to download.</span>
   </footer>
 
   <script>
@@ -1238,6 +1240,14 @@
       { id: "rd-lily-pond", name: "Lily Pond", theme: "rainy-days", tags: ["pond", "lily pads", "koi", "frog", "summer rain", "rainy days"], file: "rainy-days/lily-pond.jpg" },
       { id: "rd-greenhouse", name: "Greenhouse", theme: "rainy-days", tags: ["greenhouse", "garden", "plants", "flowers", "rain", "rainy days"], file: "rainy-days/greenhouse.jpg" },
       { id: "rd-country-station", name: "Country Station", theme: "rainy-days", tags: ["train", "station", "platform", "dusk", "rain", "rainy days"], file: "rainy-days/country-station.jpg" },
+      { id: "sd-snowy-village", name: "Snowy Village", theme: "snow-days", tags: ["village", "hillside", "moon", "dusk", "snow", "snow days"], file: "snow-days/snowy-village.jpg" },
+      { id: "sd-frozen-pond", name: "Frozen Pond", theme: "snow-days", tags: ["pond", "skating", "hut", "ice", "snow", "snow days"], file: "snow-days/frozen-pond.jpg" },
+      { id: "sd-sledding-hill", name: "Sledding Hill", theme: "snow-days", tags: ["sled", "snowman", "barn", "hills", "snow", "snow days"], file: "snow-days/sledding-hill.jpg" },
+      { id: "sd-ski-lodge", name: "Ski Lodge", theme: "snow-days", tags: ["lodge", "chairlift", "mountains", "night", "snow", "snow days"], file: "snow-days/ski-lodge.jpg" },
+      { id: "sd-bird-feeder", name: "Bird Feeder", theme: "snow-days", tags: ["birds", "cardinals", "holly", "backyard", "snow", "snow days"], file: "snow-days/bird-feeder.jpg" },
+      { id: "sd-brownstone-street", name: "Brownstone Street", theme: "snow-days", tags: ["city", "brownstones", "wreaths", "evening", "snow", "snow days"], file: "snow-days/brownstone-street.jpg" },
+      { id: "sd-covered-bridge", name: "Covered Bridge", theme: "snow-days", tags: ["bridge", "creek", "birches", "countryside", "snow", "snow days"], file: "snow-days/covered-bridge.jpg" },
+      { id: "sd-deer-clearing", name: "Deer Clearing", theme: "snow-days", tags: ["deer", "forest", "stream", "sunrise", "snow", "snow days"], file: "snow-days/deer-clearing.jpg" },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -1310,6 +1320,7 @@
         { key: 'little-ones', label: 'Little Ones', desc: 'Baby animals in charming scenes' },
         { key: 'camping', label: 'Camping', desc: 'Tents, campfires & quiet campsites' },
         { key: 'rainy-days', label: 'Rainy Days', desc: 'Cozy, quiet scenes in the rain' },
+        { key: 'snow-days', label: 'Snow Days', desc: 'Cozy snowfall, sleds & winter quiet' },
       ];
 
       let html = '';

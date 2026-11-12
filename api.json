@@ -174,6 +174,11 @@
       "key": "rainy-days",
       "label": "Rainy Days",
       "desc": "Cozy, quiet scenes in the rain"
+    },
+    {
+      "key": "snow-days",
+      "label": "Snow Days",
+      "desc": "Cozy snowfall, sleds & winter quiet"
     }
   ],
   "wallpapers": [
@@ -4329,7 +4334,135 @@
       "file": "rainy-days/country-station.jpg",
       "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/rainy-days/country-station.jpg",
       "thumbUrl": "https://burkeholland.github.io/paper/thumbs/rainy-days/country-station.jpg"
+    },
+    {
+      "id": "sd-snowy-village",
+      "name": "Snowy Village",
+      "theme": "snow-days",
+      "tags": [
+        "village",
+        "hillside",
+        "moon",
+        "dusk",
+        "snow",
+        "snow days"
+      ],
+      "file": "snow-days/snowy-village.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/snow-days/snowy-village.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/snow-days/snowy-village.jpg"
+    },
+    {
+      "id": "sd-frozen-pond",
+      "name": "Frozen Pond",
+      "theme": "snow-days",
+      "tags": [
+        "pond",
+        "skating",
+        "hut",
+        "ice",
+        "snow",
+        "snow days"
+      ],
+      "file": "snow-days/frozen-pond.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/snow-days/frozen-pond.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/snow-days/frozen-pond.jpg"
+    },
+    {
+      "id": "sd-sledding-hill",
+      "name": "Sledding Hill",
+      "theme": "snow-days",
+      "tags": [
+        "sled",
+        "snowman",
+        "barn",
+        "hills",
+        "snow",
+        "snow days"
+      ],
+      "file": "snow-days/sledding-hill.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/snow-days/sledding-hill.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/snow-days/sledding-hill.jpg"
+    },
+    {
+      "id": "sd-ski-lodge",
+      "name": "Ski Lodge",
+      "theme": "snow-days",
+      "tags": [
+        "lodge",
+        "chairlift",
+        "mountains",
+        "night",
+        "snow",
+        "snow days"
+      ],
+      "file": "snow-days/ski-lodge.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/snow-days/ski-lodge.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/snow-days/ski-lodge.jpg"
+    },
+    {
+      "id": "sd-bird-feeder",
+      "name": "Bird Feeder",
+      "theme": "snow-days",
+      "tags": [
+        "birds",
+        "cardinals",
+        "holly",
+        "backyard",
+        "snow",
+        "snow days"
+      ],
+      "file": "snow-days/bird-feeder.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/snow-days/bird-feeder.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/snow-days/bird-feeder.jpg"
+    },
+    {
+      "id": "sd-brownstone-street",
+      "name": "Brownstone Street",
+      "theme": "snow-days",
+      "tags": [
+        "city",
+        "brownstones",
+        "wreaths",
+        "evening",
+        "snow",
+        "snow days"
+      ],
+      "file": "snow-days/brownstone-street.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/snow-days/brownstone-street.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/snow-days/brownstone-street.jpg"
+    },
+    {
+      "id": "sd-covered-bridge",
+      "name": "Covered Bridge",
+      "theme": "snow-days",
+      "tags": [
+        "bridge",
+        "creek",
+        "birches",
+        "countryside",
+        "snow",
+        "snow days"
+      ],
+      "file": "snow-days/covered-bridge.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/snow-days/covered-bridge.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/snow-days/covered-bridge.jpg"
+    },
+    {
+      "id": "sd-deer-clearing",
+      "name": "Deer Clearing",
+      "theme": "snow-days",
+      "tags": [
+        "deer",
+        "forest",
+        "stream",
+        "sunrise",
+        "snow",
+        "snow days"
+      ],
+      "file": "snow-days/deer-clearing.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/snow-days/deer-clearing.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/snow-days/deer-clearing.jpg"
     }
   ],
-  "total": 282
+  "total": 290
 }
