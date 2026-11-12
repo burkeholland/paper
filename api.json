@@ -169,6 +169,11 @@
       "key": "camping",
       "label": "Camping",
       "desc": "Tents, campfires & quiet campsites"
+    },
+    {
+      "key": "rainy-days",
+      "label": "Rainy Days",
+      "desc": "Cozy, quiet scenes in the rain"
     }
   ],
   "wallpapers": [
@@ -4196,7 +4201,135 @@
       "file": "camping/coastal-bluff.jpg",
       "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/camping/coastal-bluff.jpg",
       "thumbUrl": "https://burkeholland.github.io/paper/thumbs/camping/coastal-bluff.jpg"
+    },
+    {
+      "id": "rd-village-street",
+      "name": "Village Street in the Rain",
+      "theme": "rainy-days",
+      "tags": [
+        "street",
+        "village",
+        "awnings",
+        "dusk",
+        "rain",
+        "rainy days"
+      ],
+      "file": "rainy-days/village-street.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/rainy-days/village-street.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/rainy-days/village-street.jpg"
+    },
+    {
+      "id": "rd-forest-cabin",
+      "name": "Forest Cabin",
+      "theme": "rainy-days",
+      "tags": [
+        "cabin",
+        "forest",
+        "pines",
+        "evening",
+        "rain",
+        "rainy days"
+      ],
+      "file": "rainy-days/forest-cabin.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/rainy-days/forest-cabin.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/rainy-days/forest-cabin.jpg"
+    },
+    {
+      "id": "rd-passing-shower",
+      "name": "Passing Shower",
+      "theme": "rainy-days",
+      "tags": [
+        "farm",
+        "barn",
+        "rainbow",
+        "hills",
+        "spring",
+        "rainy days"
+      ],
+      "file": "rainy-days/passing-shower.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/rainy-days/passing-shower.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/rainy-days/passing-shower.jpg"
+    },
+    {
+      "id": "rd-harbor-drizzle",
+      "name": "Harbor Drizzle",
+      "theme": "rainy-days",
+      "tags": [
+        "harbor",
+        "boats",
+        "lighthouse",
+        "coast",
+        "drizzle",
+        "rainy days"
+      ],
+      "file": "rainy-days/harbor-drizzle.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/rainy-days/harbor-drizzle.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/rainy-days/harbor-drizzle.jpg"
+    },
+    {
+      "id": "rd-window-seat",
+      "name": "Window Seat",
+      "theme": "rainy-days",
+      "tags": [
+        "window",
+        "cozy",
+        "book",
+        "tea",
+        "rooftops",
+        "rainy days"
+      ],
+      "file": "rainy-days/window-seat.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/rainy-days/window-seat.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/rainy-days/window-seat.jpg"
+    },
+    {
+      "id": "rd-lily-pond",
+      "name": "Lily Pond",
+      "theme": "rainy-days",
+      "tags": [
+        "pond",
+        "lily pads",
+        "koi",
+        "frog",
+        "summer rain",
+        "rainy days"
+      ],
+      "file": "rainy-days/lily-pond.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/rainy-days/lily-pond.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/rainy-days/lily-pond.jpg"
+    },
+    {
+      "id": "rd-greenhouse",
+      "name": "Greenhouse",
+      "theme": "rainy-days",
+      "tags": [
+        "greenhouse",
+        "garden",
+        "plants",
+        "flowers",
+        "rain",
+        "rainy days"
+      ],
+      "file": "rainy-days/greenhouse.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/rainy-days/greenhouse.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/rainy-days/greenhouse.jpg"
+    },
+    {
+      "id": "rd-country-station",
+      "name": "Country Station",
+      "theme": "rainy-days",
+      "tags": [
+        "train",
+        "station",
+        "platform",
+        "dusk",
+        "rain",
+        "rainy days"
+      ],
+      "file": "rainy-days/country-station.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/rainy-days/country-station.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/rainy-days/country-station.jpg"
     }
   ],
-  "total": 274
+  "total": 282
 }

@@ -274,6 +274,7 @@
     .band-little-ones .band-theme-desc { color: #7A5F4F; }
     .band-little-ones .band-theme-count { color: #9B7B6B; }
     .band-camping { background: #1C2B26; }
+    .band-rainy-days { background: #1E2A4A; }
 
     .band-theme-header {
       display: flex;
@@ -889,6 +890,7 @@
     <button class="filter-pill" data-theme="flight">Flight</button>
     <button class="filter-pill" data-theme="little-ones">Little Ones</button>
     <button class="filter-pill" data-theme="camping">Camping</button>
+    <button class="filter-pill" data-theme="rainy-days">Rainy Days</button>
     <div class="filter-sep"></div>
     <div id="tag-filters" style="display:flex;gap:6px;flex-wrap:nowrap;"></div>
   </div>
@@ -949,7 +951,7 @@
 
   <!-- FOOTER BAND -->
   <footer class="band-footer">
-    <span class="band-footer-text">paper — 274 wallpapers, free to download.</span>
+    <span class="band-footer-text">paper — 282 wallpapers, free to download.</span>
   </footer>
 
   <script>
@@ -1228,6 +1230,14 @@
       { id: "cp-autumn-river", name: "Autumn River", theme: "camping", tags: ["tent", "river", "canoe", "autumn", "fall", "camping"], file: "camping/autumn-river.jpg" },
       { id: "cp-winter-camp", name: "Winter Camp", theme: "camping", tags: ["tent", "snow", "winter", "moon", "dusk", "camping"], file: "camping/winter-camp.jpg" },
       { id: "cp-coastal-bluff", name: "Coastal Bluff", theme: "camping", tags: ["tent", "ocean", "cliffs", "sunset", "campfire", "camping"], file: "camping/coastal-bluff.jpg" },
+      { id: "rd-village-street", name: "Village Street in the Rain", theme: "rainy-days", tags: ["street", "village", "awnings", "dusk", "rain", "rainy days"], file: "rainy-days/village-street.jpg" },
+      { id: "rd-forest-cabin", name: "Forest Cabin", theme: "rainy-days", tags: ["cabin", "forest", "pines", "evening", "rain", "rainy days"], file: "rainy-days/forest-cabin.jpg" },
+      { id: "rd-passing-shower", name: "Passing Shower", theme: "rainy-days", tags: ["farm", "barn", "rainbow", "hills", "spring", "rainy days"], file: "rainy-days/passing-shower.jpg" },
+      { id: "rd-harbor-drizzle", name: "Harbor Drizzle", theme: "rainy-days", tags: ["harbor", "boats", "lighthouse", "coast", "drizzle", "rainy days"], file: "rainy-days/harbor-drizzle.jpg" },
+      { id: "rd-window-seat", name: "Window Seat", theme: "rainy-days", tags: ["window", "cozy", "book", "tea", "rooftops", "rainy days"], file: "rainy-days/window-seat.jpg" },
+      { id: "rd-lily-pond", name: "Lily Pond", theme: "rainy-days", tags: ["pond", "lily pads", "koi", "frog", "summer rain", "rainy days"], file: "rainy-days/lily-pond.jpg" },
+      { id: "rd-greenhouse", name: "Greenhouse", theme: "rainy-days", tags: ["greenhouse", "garden", "plants", "flowers", "rain", "rainy days"], file: "rainy-days/greenhouse.jpg" },
+      { id: "rd-country-station", name: "Country Station", theme: "rainy-days", tags: ["train", "station", "platform", "dusk", "rain", "rainy days"], file: "rainy-days/country-station.jpg" },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -1299,6 +1309,7 @@
         { key: 'flight', label: 'Flight', desc: 'Aerial views from wings, baskets & cockpits' },
         { key: 'little-ones', label: 'Little Ones', desc: 'Baby animals in charming scenes' },
         { key: 'camping', label: 'Camping', desc: 'Tents, campfires & quiet campsites' },
+        { key: 'rainy-days', label: 'Rainy Days', desc: 'Cozy, quiet scenes in the rain' },
       ];
 
       let html = '';
