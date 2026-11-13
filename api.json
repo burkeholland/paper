@@ -184,6 +184,11 @@
       "key": "old-tech",
       "label": "Old Tech",
       "desc": "Boomboxes, CRTs & floppy disks"
+    },
+    {
+      "key": "fjords",
+      "label": "Fjords",
+      "desc": "Steep peaks, deep water & red cabins"
     }
   ],
   "wallpapers": [
@@ -4603,7 +4608,144 @@
       "file": "old-tech/arcade.jpg",
       "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/old-tech/arcade.jpg",
       "thumbUrl": "https://burkeholland.github.io/paper/thumbs/old-tech/arcade.jpg"
+    },
+    {
+      "id": "fj-fishing-village",
+      "name": "Fishing Village",
+      "theme": "fjords",
+      "tags": [
+        "fishing village",
+        "cabins",
+        "boats",
+        "mountains",
+        "water",
+        "norway",
+        "fjords"
+      ],
+      "file": "fjords/fishing-village.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/fjords/fishing-village.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/fjords/fishing-village.jpg"
+    },
+    {
+      "id": "fj-ferry-crossing",
+      "name": "Ferry Crossing",
+      "theme": "fjords",
+      "tags": [
+        "ferry",
+        "waterfalls",
+        "church",
+        "village",
+        "water",
+        "norway",
+        "fjords"
+      ],
+      "file": "fjords/ferry-crossing.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/fjords/ferry-crossing.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/fjords/ferry-crossing.jpg"
+    },
+    {
+      "id": "fj-waterfall-wall",
+      "name": "Waterfall Wall",
+      "theme": "fjords",
+      "tags": [
+        "waterfalls",
+        "cliffs",
+        "sailboat",
+        "farmhouse",
+        "water",
+        "norway",
+        "fjords"
+      ],
+      "file": "fjords/waterfall-wall.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/fjords/waterfall-wall.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/fjords/waterfall-wall.jpg"
+    },
+    {
+      "id": "fj-midnight-sun",
+      "name": "Midnight Sun",
+      "theme": "fjords",
+      "tags": [
+        "sun",
+        "sunset",
+        "boathouse",
+        "rowboat",
+        "water",
+        "norway",
+        "fjords"
+      ],
+      "file": "fjords/midnight-sun.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/fjords/midnight-sun.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/fjords/midnight-sun.jpg"
+    },
+    {
+      "id": "fj-turf-roof-farm",
+      "name": "Turf-Roof Farm",
+      "theme": "fjords",
+      "tags": [
+        "farm",
+        "grass roof",
+        "goats",
+        "barn",
+        "mountains",
+        "norway",
+        "fjords"
+      ],
+      "file": "fjords/turf-roof-farm.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/fjords/turf-roof-farm.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/fjords/turf-roof-farm.jpg"
+    },
+    {
+      "id": "fj-cliff-overlook",
+      "name": "Cliff Overlook",
+      "theme": "fjords",
+      "tags": [
+        "cliff",
+        "overlook",
+        "mountains",
+        "water",
+        "sunset",
+        "norway",
+        "fjords"
+      ],
+      "file": "fjords/cliff-overlook.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/fjords/cliff-overlook.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/fjords/cliff-overlook.jpg"
+    },
+    {
+      "id": "fj-stave-church",
+      "name": "Stave Church",
+      "theme": "fjords",
+      "tags": [
+        "church",
+        "autumn",
+        "birch",
+        "rowboat",
+        "water",
+        "norway",
+        "fjords"
+      ],
+      "file": "fjords/stave-church.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/fjords/stave-church.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/fjords/stave-church.jpg"
+    },
+    {
+      "id": "fj-winter-fjord",
+      "name": "Winter Fjord",
+      "theme": "fjords",
+      "tags": [
+        "winter",
+        "snow",
+        "houses",
+        "pier",
+        "moon",
+        "night",
+        "norway",
+        "fjords"
+      ],
+      "file": "fjords/winter-fjord.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/fjords/winter-fjord.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/fjords/winter-fjord.jpg"
     }
   ],
-  "total": 298
+  "total": 306
 }
