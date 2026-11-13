@@ -179,6 +179,11 @@
       "key": "snow-days",
       "label": "Snow Days",
       "desc": "Cozy snowfall, sleds & winter quiet"
+    },
+    {
+      "key": "old-tech",
+      "label": "Old Tech",
+      "desc": "Boomboxes, CRTs & floppy disks"
     }
   ],
   "wallpapers": [
@@ -4462,7 +4467,143 @@
       "file": "snow-days/deer-clearing.jpg",
       "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/snow-days/deer-clearing.jpg",
       "thumbUrl": "https://burkeholland.github.io/paper/thumbs/snow-days/deer-clearing.jpg"
+    },
+    {
+      "id": "ot-beige-pc",
+      "name": "Beige PC",
+      "theme": "old-tech",
+      "tags": [
+        "computer",
+        "floppy disks",
+        "desk",
+        "bedroom",
+        "dusk",
+        "retro",
+        "old tech"
+      ],
+      "file": "old-tech/beige-pc.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/old-tech/beige-pc.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/old-tech/beige-pc.jpg"
+    },
+    {
+      "id": "ot-boombox",
+      "name": "Boombox",
+      "theme": "old-tech",
+      "tags": [
+        "boombox",
+        "cassettes",
+        "skateboard",
+        "porch",
+        "summer",
+        "retro",
+        "old tech"
+      ],
+      "file": "old-tech/boombox.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/old-tech/boombox.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/old-tech/boombox.jpg"
+    },
+    {
+      "id": "ot-game-den",
+      "name": "Game Den",
+      "theme": "old-tech",
+      "tags": [
+        "video games",
+        "crt",
+        "handheld",
+        "basement",
+        "rainy night",
+        "retro",
+        "old tech"
+      ],
+      "file": "old-tech/game-den.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/old-tech/game-den.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/old-tech/game-den.jpg"
+    },
+    {
+      "id": "ot-instant-camera",
+      "name": "Instant Camera",
+      "theme": "old-tech",
+      "tags": [
+        "camera",
+        "photos",
+        "lake",
+        "picnic",
+        "summer",
+        "retro",
+        "old tech"
+      ],
+      "file": "old-tech/instant-camera.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/old-tech/instant-camera.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/old-tech/instant-camera.jpg"
+    },
+    {
+      "id": "ot-kitchen-phone",
+      "name": "Kitchen Phone",
+      "theme": "old-tech",
+      "tags": [
+        "phone",
+        "kitchen",
+        "radio",
+        "fridge",
+        "morning",
+        "retro",
+        "old tech"
+      ],
+      "file": "old-tech/kitchen-phone.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/old-tech/kitchen-phone.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/old-tech/kitchen-phone.jpg"
+    },
+    {
+      "id": "ot-movie-night",
+      "name": "Movie Night",
+      "theme": "old-tech",
+      "tags": [
+        "vcr",
+        "tv",
+        "popcorn",
+        "living room",
+        "night",
+        "retro",
+        "old tech"
+      ],
+      "file": "old-tech/movie-night.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/old-tech/movie-night.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/old-tech/movie-night.jpg"
+    },
+    {
+      "id": "ot-record-player",
+      "name": "Record Player",
+      "theme": "old-tech",
+      "tags": [
+        "record player",
+        "vinyl",
+        "speakers",
+        "attic",
+        "autumn",
+        "retro",
+        "old tech"
+      ],
+      "file": "old-tech/record-player.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/old-tech/record-player.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/old-tech/record-player.jpg"
+    },
+    {
+      "id": "ot-arcade",
+      "name": "Arcade",
+      "theme": "old-tech",
+      "tags": [
+        "arcade",
+        "pinball",
+        "claw machine",
+        "bike",
+        "night",
+        "retro",
+        "old tech"
+      ],
+      "file": "old-tech/arcade.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/old-tech/arcade.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/old-tech/arcade.jpg"
     }
   ],
-  "total": 290
+  "total": 298
 }

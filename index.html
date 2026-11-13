@@ -276,6 +276,7 @@
     .band-camping { background: #1C2B26; }
     .band-rainy-days { background: #1E2A4A; }
     .band-snow-days { background: #24365E; }
+    .band-old-tech { background: #2B2550; }
 
     .band-theme-header {
       display: flex;
@@ -893,6 +894,7 @@
     <button class="filter-pill" data-theme="camping">Camping</button>
     <button class="filter-pill" data-theme="rainy-days">Rainy Days</button>
     <button class="filter-pill" data-theme="snow-days">Snow Days</button>
+    <button class="filter-pill" data-theme="old-tech">Old Tech</button>
     <div class="filter-sep"></div>
     <div id="tag-filters" style="display:flex;gap:6px;flex-wrap:nowrap;"></div>
   </div>
@@ -953,7 +955,7 @@
 
   <!-- FOOTER BAND -->
   <footer class="band-footer">
-    <span class="band-footer-text">paper — 290 wallpapers, free to download.</span>
+    <span class="band-footer-text">paper — 298 wallpapers, free to download.</span>
   </footer>
 
   <script>
@@ -1248,6 +1250,14 @@
       { id: "sd-brownstone-street", name: "Brownstone Street", theme: "snow-days", tags: ["city", "brownstones", "wreaths", "evening", "snow", "snow days"], file: "snow-days/brownstone-street.jpg" },
       { id: "sd-covered-bridge", name: "Covered Bridge", theme: "snow-days", tags: ["bridge", "creek", "birches", "countryside", "snow", "snow days"], file: "snow-days/covered-bridge.jpg" },
       { id: "sd-deer-clearing", name: "Deer Clearing", theme: "snow-days", tags: ["deer", "forest", "stream", "sunrise", "snow", "snow days"], file: "snow-days/deer-clearing.jpg" },
+      { id: "ot-beige-pc", name: "Beige PC", theme: "old-tech", tags: ["computer", "floppy disks", "desk", "bedroom", "dusk", "retro", "old tech"], file: "old-tech/beige-pc.jpg" },
+      { id: "ot-boombox", name: "Boombox", theme: "old-tech", tags: ["boombox", "cassettes", "skateboard", "porch", "summer", "retro", "old tech"], file: "old-tech/boombox.jpg" },
+      { id: "ot-game-den", name: "Game Den", theme: "old-tech", tags: ["video games", "crt", "handheld", "basement", "rainy night", "retro", "old tech"], file: "old-tech/game-den.jpg" },
+      { id: "ot-instant-camera", name: "Instant Camera", theme: "old-tech", tags: ["camera", "photos", "lake", "picnic", "summer", "retro", "old tech"], file: "old-tech/instant-camera.jpg" },
+      { id: "ot-kitchen-phone", name: "Kitchen Phone", theme: "old-tech", tags: ["phone", "kitchen", "radio", "fridge", "morning", "retro", "old tech"], file: "old-tech/kitchen-phone.jpg" },
+      { id: "ot-movie-night", name: "Movie Night", theme: "old-tech", tags: ["vcr", "tv", "popcorn", "living room", "night", "retro", "old tech"], file: "old-tech/movie-night.jpg" },
+      { id: "ot-record-player", name: "Record Player", theme: "old-tech", tags: ["record player", "vinyl", "speakers", "attic", "autumn", "retro", "old tech"], file: "old-tech/record-player.jpg" },
+      { id: "ot-arcade", name: "Arcade", theme: "old-tech", tags: ["arcade", "pinball", "claw machine", "bike", "night", "retro", "old tech"], file: "old-tech/arcade.jpg" },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -1321,6 +1331,7 @@
         { key: 'camping', label: 'Camping', desc: 'Tents, campfires & quiet campsites' },
         { key: 'rainy-days', label: 'Rainy Days', desc: 'Cozy, quiet scenes in the rain' },
         { key: 'snow-days', label: 'Snow Days', desc: 'Cozy snowfall, sleds & winter quiet' },
+        { key: 'old-tech', label: 'Old Tech', desc: 'Boomboxes, CRTs & floppy disks' },
       ];
 
       let html = '';
