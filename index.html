@@ -278,6 +278,7 @@
     .band-snow-days { background: #24365E; }
     .band-old-tech { background: #2B2550; }
     .band-fjords { background: #1B3A4B; }
+    .band-christmas { background: #1E3A2F; }
 
     .band-theme-header {
       display: flex;
@@ -327,6 +328,7 @@
     .band-snow-days .band-theme-title { color: #B9E6FE; }
     .band-old-tech .band-theme-title { color: #F97066; }
     .band-fjords .band-theme-title { color: #FAF6EE; }
+    .band-christmas .band-theme-title { color: #FAF6EE; }
 
     .band-theme-desc {
       font-size: 0.78rem;
@@ -367,6 +369,7 @@
     .band-snow-days .band-theme-desc { color: #7CD4FD; }
     .band-old-tech .band-theme-desc { color: #B9E6FE; }
     .band-fjords .band-theme-desc { color: #7CD4FD; }
+    .band-christmas .band-theme-desc { color: #F97066; }
 
     .band-theme-count {
       font-size: 0.7rem;
@@ -410,6 +413,7 @@
     .band-snow-days .band-theme-count { color: #B9E6FE; }
     .band-old-tech .band-theme-count { color: #B9E6FE; }
     .band-fjords .band-theme-count { color: #B9E6FE; }
+    .band-christmas .band-theme-count { color: #B9E6FE; }
 
     /* Gallery grid */
     .band-grid {
@@ -913,6 +917,7 @@
     <button class="filter-pill" data-theme="snow-days">Snow Days</button>
     <button class="filter-pill" data-theme="old-tech">Old Tech</button>
     <button class="filter-pill" data-theme="fjords">Fjords</button>
+    <button class="filter-pill" data-theme="christmas">Christmas</button>
     <div class="filter-sep"></div>
     <div id="tag-filters" style="display:flex;gap:6px;flex-wrap:nowrap;"></div>
   </div>
@@ -973,7 +978,7 @@
 
   <!-- FOOTER BAND -->
   <footer class="band-footer">
-    <span class="band-footer-text">paper — 306 wallpapers, free to download.</span>
+    <span class="band-footer-text">paper — 314 wallpapers, free to download.</span>
   </footer>
 
   <script>
@@ -1284,6 +1289,14 @@
       { id: "fj-cliff-overlook", name: "Cliff Overlook", theme: "fjords", tags: ["cliff", "overlook", "mountains", "water", "sunset", "norway", "fjords"], file: "fjords/cliff-overlook.jpg" },
       { id: "fj-stave-church", name: "Stave Church", theme: "fjords", tags: ["church", "autumn", "birch", "rowboat", "water", "norway", "fjords"], file: "fjords/stave-church.jpg" },
       { id: "fj-winter-fjord", name: "Winter Fjord", theme: "fjords", tags: ["winter", "snow", "houses", "pier", "moon", "night", "norway", "fjords"], file: "fjords/winter-fjord.jpg" },
+      { id: "xm-tree-lot", name: "Tree Lot", theme: "christmas", tags: ["christmas tree", "lights", "truck", "dusk", "holiday", "christmas"], file: "christmas/tree-lot.jpg" },
+      { id: "xm-christmas-eve", name: "Christmas Eve", theme: "christmas", tags: ["fireplace", "stockings", "presents", "cat", "cozy", "holiday", "christmas"], file: "christmas/christmas-eve.jpg" },
+      { id: "xm-main-street", name: "Main Street", theme: "christmas", tags: ["small town", "wreaths", "shops", "snow", "vintage cars", "holiday", "christmas"], file: "christmas/main-street.jpg" },
+      { id: "xm-gingerbread", name: "Gingerbread", theme: "christmas", tags: ["baking", "cookies", "kitchen", "cocoa", "holiday", "christmas"], file: "christmas/gingerbread.jpg" },
+      { id: "xm-light-show", name: "Light Show", theme: "christmas", tags: ["neighborhood", "lights", "snowman", "night", "holiday", "christmas"], file: "christmas/light-show.jpg" },
+      { id: "xm-silent-night", name: "Silent Night", theme: "christmas", tags: ["cabin", "forest", "fox", "moon", "night", "holiday", "christmas"], file: "christmas/silent-night.jpg" },
+      { id: "xm-skating-pond", name: "Skating Pond", theme: "christmas", tags: ["ice skating", "pond", "village", "lanterns", "holiday", "christmas"], file: "christmas/skating-pond.jpg" },
+      { id: "xm-holiday-express", name: "Holiday Express", theme: "christmas", tags: ["train", "mountains", "bridge", "dusk", "holiday", "christmas"], file: "christmas/holiday-express.jpg" },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -1359,6 +1372,7 @@
         { key: 'snow-days', label: 'Snow Days', desc: 'Cozy snowfall, sleds & winter quiet' },
         { key: 'old-tech', label: 'Old Tech', desc: 'Boomboxes, CRTs & floppy disks' },
         { key: 'fjords', label: 'Fjords', desc: 'Steep peaks, deep water & red cabins' },
+        { key: 'christmas', label: 'Christmas', desc: 'Tree lots, twinkle lights & cocoa' },
       ];
 
       let html = '';

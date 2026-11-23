@@ -189,6 +189,11 @@
       "key": "fjords",
       "label": "Fjords",
       "desc": "Steep peaks, deep water & red cabins"
+    },
+    {
+      "key": "christmas",
+      "label": "Christmas",
+      "desc": "Tree lots, twinkle lights & cocoa"
     }
   ],
   "wallpapers": [
@@ -4745,7 +4750,138 @@
       "file": "fjords/winter-fjord.jpg",
       "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/fjords/winter-fjord.jpg",
       "thumbUrl": "https://burkeholland.github.io/paper/thumbs/fjords/winter-fjord.jpg"
+    },
+    {
+      "id": "xm-tree-lot",
+      "name": "Tree Lot",
+      "theme": "christmas",
+      "tags": [
+        "christmas tree",
+        "lights",
+        "truck",
+        "dusk",
+        "holiday",
+        "christmas"
+      ],
+      "file": "christmas/tree-lot.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/christmas/tree-lot.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/christmas/tree-lot.jpg"
+    },
+    {
+      "id": "xm-christmas-eve",
+      "name": "Christmas Eve",
+      "theme": "christmas",
+      "tags": [
+        "fireplace",
+        "stockings",
+        "presents",
+        "cat",
+        "cozy",
+        "holiday",
+        "christmas"
+      ],
+      "file": "christmas/christmas-eve.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/christmas/christmas-eve.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/christmas/christmas-eve.jpg"
+    },
+    {
+      "id": "xm-main-street",
+      "name": "Main Street",
+      "theme": "christmas",
+      "tags": [
+        "small town",
+        "wreaths",
+        "shops",
+        "snow",
+        "vintage cars",
+        "holiday",
+        "christmas"
+      ],
+      "file": "christmas/main-street.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/christmas/main-street.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/christmas/main-street.jpg"
+    },
+    {
+      "id": "xm-gingerbread",
+      "name": "Gingerbread",
+      "theme": "christmas",
+      "tags": [
+        "baking",
+        "cookies",
+        "kitchen",
+        "cocoa",
+        "holiday",
+        "christmas"
+      ],
+      "file": "christmas/gingerbread.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/christmas/gingerbread.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/christmas/gingerbread.jpg"
+    },
+    {
+      "id": "xm-light-show",
+      "name": "Light Show",
+      "theme": "christmas",
+      "tags": [
+        "neighborhood",
+        "lights",
+        "snowman",
+        "night",
+        "holiday",
+        "christmas"
+      ],
+      "file": "christmas/light-show.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/christmas/light-show.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/christmas/light-show.jpg"
+    },
+    {
+      "id": "xm-silent-night",
+      "name": "Silent Night",
+      "theme": "christmas",
+      "tags": [
+        "cabin",
+        "forest",
+        "fox",
+        "moon",
+        "night",
+        "holiday",
+        "christmas"
+      ],
+      "file": "christmas/silent-night.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/christmas/silent-night.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/christmas/silent-night.jpg"
+    },
+    {
+      "id": "xm-skating-pond",
+      "name": "Skating Pond",
+      "theme": "christmas",
+      "tags": [
+        "ice skating",
+        "pond",
+        "village",
+        "lanterns",
+        "holiday",
+        "christmas"
+      ],
+      "file": "christmas/skating-pond.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/christmas/skating-pond.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/christmas/skating-pond.jpg"
+    },
+    {
+      "id": "xm-holiday-express",
+      "name": "Holiday Express",
+      "theme": "christmas",
+      "tags": [
+        "train",
+        "mountains",
+        "bridge",
+        "dusk",
+        "holiday",
+        "christmas"
+      ],
+      "file": "christmas/holiday-express.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/christmas/holiday-express.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/christmas/holiday-express.jpg"
     }
   ],
-  "total": 306
+  "total": 314
 }
