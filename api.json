@@ -194,6 +194,11 @@
       "key": "christmas",
       "label": "Christmas",
       "desc": "Tree lots, twinkle lights & cocoa"
+    },
+    {
+      "key": "holy-night",
+      "label": "Holy Night",
+      "desc": "The star, the stable & the first Christmas"
     }
   ],
   "wallpapers": [
@@ -4881,7 +4886,149 @@
       "file": "christmas/holiday-express.jpg",
       "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/christmas/holiday-express.jpg",
       "thumbUrl": "https://burkeholland.github.io/paper/thumbs/christmas/holiday-express.jpg"
+    },
+    {
+      "id": "hn-bethlehem",
+      "name": "Bethlehem",
+      "theme": "holy-night",
+      "tags": [
+        "town",
+        "star",
+        "night",
+        "hills",
+        "nativity",
+        "faith",
+        "christmas"
+      ],
+      "file": "holy-night/bethlehem.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/holy-night/bethlehem.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/holy-night/bethlehem.jpg"
+    },
+    {
+      "id": "hn-the-manger",
+      "name": "The Manger",
+      "theme": "holy-night",
+      "tags": [
+        "stable",
+        "manger",
+        "donkey",
+        "sheep",
+        "star",
+        "nativity",
+        "faith",
+        "christmas"
+      ],
+      "file": "holy-night/the-manger.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/holy-night/the-manger.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/holy-night/the-manger.jpg"
+    },
+    {
+      "id": "hn-shepherds-field",
+      "name": "Shepherds' Field",
+      "theme": "holy-night",
+      "tags": [
+        "shepherds",
+        "sheep",
+        "hills",
+        "star",
+        "night",
+        "nativity",
+        "faith",
+        "christmas"
+      ],
+      "file": "holy-night/shepherds-field.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/holy-night/shepherds-field.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/holy-night/shepherds-field.jpg"
+    },
+    {
+      "id": "hn-wise-men",
+      "name": "Wise Men",
+      "theme": "holy-night",
+      "tags": [
+        "magi",
+        "camels",
+        "desert",
+        "star",
+        "gifts",
+        "nativity",
+        "faith",
+        "christmas"
+      ],
+      "file": "holy-night/wise-men.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/holy-night/wise-men.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/holy-night/wise-men.jpg"
+    },
+    {
+      "id": "hn-country-church",
+      "name": "Country Church",
+      "theme": "holy-night",
+      "tags": [
+        "church",
+        "snow",
+        "lanterns",
+        "star",
+        "night",
+        "nativity",
+        "faith",
+        "christmas"
+      ],
+      "file": "holy-night/country-church.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/holy-night/country-church.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/holy-night/country-church.jpg"
+    },
+    {
+      "id": "hn-candlelight-service",
+      "name": "Candlelight Service",
+      "theme": "holy-night",
+      "tags": [
+        "chapel",
+        "candles",
+        "poinsettias",
+        "stained glass",
+        "nativity",
+        "faith",
+        "christmas"
+      ],
+      "file": "holy-night/candlelight-service.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/holy-night/candlelight-service.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/holy-night/candlelight-service.jpg"
+    },
+    {
+      "id": "hn-advent-wreath",
+      "name": "Advent Wreath",
+      "theme": "holy-night",
+      "tags": [
+        "advent",
+        "candles",
+        "bible",
+        "nativity",
+        "home",
+        "nativity",
+        "faith",
+        "christmas"
+      ],
+      "file": "holy-night/advent-wreath.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/holy-night/advent-wreath.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/holy-night/advent-wreath.jpg"
+    },
+    {
+      "id": "hn-christmas-dawn",
+      "name": "Christmas Dawn",
+      "theme": "holy-night",
+      "tags": [
+        "sunrise",
+        "stable",
+        "sheep",
+        "doves",
+        "hills",
+        "nativity",
+        "faith",
+        "christmas"
+      ],
+      "file": "holy-night/christmas-dawn.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/holy-night/christmas-dawn.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/holy-night/christmas-dawn.jpg"
     }
   ],
-  "total": 314
+  "total": 322
 }

@@ -279,6 +279,7 @@
     .band-old-tech { background: #2B2550; }
     .band-fjords { background: #1B3A4B; }
     .band-christmas { background: #1E3A2F; }
+    .band-holy-night { background: #1A2350; }
 
     .band-theme-header {
       display: flex;
@@ -329,6 +330,7 @@
     .band-old-tech .band-theme-title { color: #F97066; }
     .band-fjords .band-theme-title { color: #FAF6EE; }
     .band-christmas .band-theme-title { color: #FAF6EE; }
+    .band-holy-night .band-theme-title { color: #F5C842; }
 
     .band-theme-desc {
       font-size: 0.78rem;
@@ -370,6 +372,7 @@
     .band-old-tech .band-theme-desc { color: #B9E6FE; }
     .band-fjords .band-theme-desc { color: #7CD4FD; }
     .band-christmas .band-theme-desc { color: #F97066; }
+    .band-holy-night .band-theme-desc { color: #B9E6FE; }
 
     .band-theme-count {
       font-size: 0.7rem;
@@ -414,6 +417,7 @@
     .band-old-tech .band-theme-count { color: #B9E6FE; }
     .band-fjords .band-theme-count { color: #B9E6FE; }
     .band-christmas .band-theme-count { color: #B9E6FE; }
+    .band-holy-night .band-theme-count { color: #B9E6FE; }
 
     /* Gallery grid */
     .band-grid {
@@ -918,6 +922,7 @@
     <button class="filter-pill" data-theme="old-tech">Old Tech</button>
     <button class="filter-pill" data-theme="fjords">Fjords</button>
     <button class="filter-pill" data-theme="christmas">Christmas</button>
+    <button class="filter-pill" data-theme="holy-night">Holy Night</button>
     <div class="filter-sep"></div>
     <div id="tag-filters" style="display:flex;gap:6px;flex-wrap:nowrap;"></div>
   </div>
@@ -978,7 +983,7 @@
 
   <!-- FOOTER BAND -->
   <footer class="band-footer">
-    <span class="band-footer-text">paper — 314 wallpapers, free to download.</span>
+    <span class="band-footer-text">paper — 322 wallpapers, free to download.</span>
   </footer>
 
   <script>
@@ -1297,6 +1302,14 @@
       { id: "xm-silent-night", name: "Silent Night", theme: "christmas", tags: ["cabin", "forest", "fox", "moon", "night", "holiday", "christmas"], file: "christmas/silent-night.jpg" },
       { id: "xm-skating-pond", name: "Skating Pond", theme: "christmas", tags: ["ice skating", "pond", "village", "lanterns", "holiday", "christmas"], file: "christmas/skating-pond.jpg" },
       { id: "xm-holiday-express", name: "Holiday Express", theme: "christmas", tags: ["train", "mountains", "bridge", "dusk", "holiday", "christmas"], file: "christmas/holiday-express.jpg" },
+      { id: "hn-bethlehem", name: "Bethlehem", theme: "holy-night", tags: ["town", "star", "night", "hills", "nativity", "faith", "christmas"], file: "holy-night/bethlehem.jpg" },
+      { id: "hn-the-manger", name: "The Manger", theme: "holy-night", tags: ["stable", "manger", "donkey", "sheep", "star", "nativity", "faith", "christmas"], file: "holy-night/the-manger.jpg" },
+      { id: "hn-shepherds-field", name: "Shepherds' Field", theme: "holy-night", tags: ["shepherds", "sheep", "hills", "star", "night", "nativity", "faith", "christmas"], file: "holy-night/shepherds-field.jpg" },
+      { id: "hn-wise-men", name: "Wise Men", theme: "holy-night", tags: ["magi", "camels", "desert", "star", "gifts", "nativity", "faith", "christmas"], file: "holy-night/wise-men.jpg" },
+      { id: "hn-country-church", name: "Country Church", theme: "holy-night", tags: ["church", "snow", "lanterns", "star", "night", "nativity", "faith", "christmas"], file: "holy-night/country-church.jpg" },
+      { id: "hn-candlelight-service", name: "Candlelight Service", theme: "holy-night", tags: ["chapel", "candles", "poinsettias", "stained glass", "nativity", "faith", "christmas"], file: "holy-night/candlelight-service.jpg" },
+      { id: "hn-advent-wreath", name: "Advent Wreath", theme: "holy-night", tags: ["advent", "candles", "bible", "nativity", "home", "nativity", "faith", "christmas"], file: "holy-night/advent-wreath.jpg" },
+      { id: "hn-christmas-dawn", name: "Christmas Dawn", theme: "holy-night", tags: ["sunrise", "stable", "sheep", "doves", "hills", "nativity", "faith", "christmas"], file: "holy-night/christmas-dawn.jpg" },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -1373,6 +1386,7 @@
         { key: 'old-tech', label: 'Old Tech', desc: 'Boomboxes, CRTs & floppy disks' },
         { key: 'fjords', label: 'Fjords', desc: 'Steep peaks, deep water & red cabins' },
         { key: 'christmas', label: 'Christmas', desc: 'Tree lots, twinkle lights & cocoa' },
+        { key: 'holy-night', label: 'Holy Night', desc: 'The star, the stable & the first Christmas' },
       ];
 
       let html = '';
