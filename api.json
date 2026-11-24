@@ -199,6 +199,11 @@
       "key": "christmas",
       "label": "Christmas",
       "desc": "Tree lots, twinkle lights & cocoa"
+    },
+    {
+      "key": "fledgling",
+      "label": "Fledgling",
+      "desc": "One small bird, one long river & a lantern every night"
     }
   ],
   "wallpapers": [
@@ -5028,7 +5033,154 @@
       "file": "christmas/holiday-express.jpg",
       "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/christmas/holiday-express.jpg",
       "thumbUrl": "https://burkeholland.github.io/paper/thumbs/christmas/holiday-express.jpg"
+    },
+    {
+      "id": "fl-great-oak",
+      "name": "Great Oak",
+      "theme": "fledgling",
+      "tags": [
+        "oak",
+        "nests",
+        "owl",
+        "lantern",
+        "valley",
+        "dusk",
+        "bird",
+        "story",
+        "fledgling"
+      ],
+      "file": "fledgling/great-oak.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/fledgling/great-oak.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/fledgling/great-oak.jpg"
+    },
+    {
+      "id": "fl-goose-gap",
+      "name": "Goose Gap",
+      "theme": "fledgling",
+      "tags": [
+        "mountains",
+        "geese",
+        "river",
+        "wind",
+        "morning",
+        "bird",
+        "story",
+        "fledgling"
+      ],
+      "file": "fledgling/goose-gap.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/fledgling/goose-gap.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/fledgling/goose-gap.jpg"
+    },
+    {
+      "id": "fl-forest-lake",
+      "name": "Forest Lake",
+      "theme": "fledgling",
+      "tags": [
+        "lake",
+        "owl",
+        "lantern",
+        "pines",
+        "dusk",
+        "bird",
+        "story",
+        "fledgling"
+      ],
+      "file": "fledgling/forest-lake.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/fledgling/forest-lake.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/fledgling/forest-lake.jpg"
+    },
+    {
+      "id": "fl-slowbridge",
+      "name": "Slowbridge",
+      "theme": "fledgling",
+      "tags": [
+        "bridge",
+        "river",
+        "street lamps",
+        "bat",
+        "village",
+        "night",
+        "bird",
+        "story",
+        "fledgling"
+      ],
+      "file": "fledgling/slowbridge.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/fledgling/slowbridge.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/fledgling/slowbridge.jpg"
+    },
+    {
+      "id": "fl-merryweather",
+      "name": "Merryweather",
+      "theme": "fledgling",
+      "tags": [
+        "gardens",
+        "cat",
+        "greenhouse",
+        "blossoms",
+        "afternoon",
+        "bird",
+        "story",
+        "fledgling"
+      ],
+      "file": "fledgling/merryweather.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/fledgling/merryweather.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/fledgling/merryweather.jpg"
+    },
+    {
+      "id": "fl-tallwater",
+      "name": "Tallwater",
+      "theme": "fledgling",
+      "tags": [
+        "city",
+        "river",
+        "pigeon",
+        "lantern",
+        "moon",
+        "night",
+        "bird",
+        "story",
+        "fledgling"
+      ],
+      "file": "fledgling/tallwater.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/fledgling/tallwater.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/fledgling/tallwater.jpg"
+    },
+    {
+      "id": "fl-the-winnow",
+      "name": "The Winnow",
+      "theme": "fledgling",
+      "tags": [
+        "cornfields",
+        "windmill",
+        "kestrel",
+        "river",
+        "sea",
+        "bird",
+        "story",
+        "fledgling"
+      ],
+      "file": "fledgling/the-winnow.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/fledgling/the-winnow.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/fledgling/the-winnow.jpg"
+    },
+    {
+      "id": "fl-saltwick-light",
+      "name": "Saltwick Light",
+      "theme": "fledgling",
+      "tags": [
+        "lighthouse",
+        "harbour",
+        "flock",
+        "sea",
+        "night",
+        "bird",
+        "story",
+        "fledgling"
+      ],
+      "file": "fledgling/saltwick-light.jpg",
+      "wallpaperUrl": "https://burkeholland.github.io/paper/wallpapers/fledgling/saltwick-light.jpg",
+      "thumbUrl": "https://burkeholland.github.io/paper/thumbs/fledgling/saltwick-light.jpg"
     }
   ],
-  "total": 322
+  "total": 330
 }

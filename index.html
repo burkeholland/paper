@@ -280,6 +280,7 @@
     .band-fjords { background: #1B3A4B; }
     .band-christmas { background: #1E3A2F; }
     .band-holy-night { background: #1A2350; }
+    .band-fledgling { background: #1F3B4D; }
 
     .band-theme-header {
       display: flex;
@@ -331,6 +332,7 @@
     .band-fjords .band-theme-title { color: #FAF6EE; }
     .band-christmas .band-theme-title { color: #FAF6EE; }
     .band-holy-night .band-theme-title { color: #F5C842; }
+    .band-fledgling .band-theme-title { color: #F9A03F; }
 
     .band-theme-desc {
       font-size: 0.78rem;
@@ -373,6 +375,7 @@
     .band-fjords .band-theme-desc { color: #7CD4FD; }
     .band-christmas .band-theme-desc { color: #F97066; }
     .band-holy-night .band-theme-desc { color: #B9E6FE; }
+    .band-fledgling .band-theme-desc { color: #B9E6FE; }
 
     .band-theme-count {
       font-size: 0.7rem;
@@ -418,6 +421,7 @@
     .band-fjords .band-theme-count { color: #B9E6FE; }
     .band-christmas .band-theme-count { color: #B9E6FE; }
     .band-holy-night .band-theme-count { color: #B9E6FE; }
+    .band-fledgling .band-theme-count { color: #FAF6EE; }
 
     /* Gallery grid */
     .band-grid {
@@ -923,6 +927,7 @@
     <button class="filter-pill" data-theme="fjords">Fjords</button>
     <button class="filter-pill" data-theme="holy-night">Holy Night</button>
     <button class="filter-pill" data-theme="christmas">Christmas</button>
+    <button class="filter-pill" data-theme="fledgling">Fledgling</button>
     <div class="filter-sep"></div>
     <div id="tag-filters" style="display:flex;gap:6px;flex-wrap:nowrap;"></div>
   </div>
@@ -983,7 +988,7 @@
 
   <!-- FOOTER BAND -->
   <footer class="band-footer">
-    <span class="band-footer-text">paper — 322 wallpapers, free to download.</span>
+    <span class="band-footer-text">paper — 330 wallpapers, free to download.</span>
   </footer>
 
   <script>
@@ -1310,6 +1315,14 @@
       { id: "xm-silent-night", name: "Silent Night", theme: "christmas", tags: ["cabin", "forest", "fox", "moon", "night", "holiday", "christmas"], file: "christmas/silent-night.jpg" },
       { id: "xm-skating-pond", name: "Skating Pond", theme: "christmas", tags: ["ice skating", "pond", "village", "lanterns", "holiday", "christmas"], file: "christmas/skating-pond.jpg" },
       { id: "xm-holiday-express", name: "Holiday Express", theme: "christmas", tags: ["train", "mountains", "bridge", "dusk", "holiday", "christmas"], file: "christmas/holiday-express.jpg" },
+      { id: "fl-great-oak", name: "Great Oak", theme: "fledgling", tags: ["oak", "nests", "owl", "lantern", "valley", "dusk", "bird", "story", "fledgling"], file: "fledgling/great-oak.jpg" },
+      { id: "fl-goose-gap", name: "Goose Gap", theme: "fledgling", tags: ["mountains", "geese", "river", "wind", "morning", "bird", "story", "fledgling"], file: "fledgling/goose-gap.jpg" },
+      { id: "fl-forest-lake", name: "Forest Lake", theme: "fledgling", tags: ["lake", "owl", "lantern", "pines", "dusk", "bird", "story", "fledgling"], file: "fledgling/forest-lake.jpg" },
+      { id: "fl-slowbridge", name: "Slowbridge", theme: "fledgling", tags: ["bridge", "river", "street lamps", "bat", "village", "night", "bird", "story", "fledgling"], file: "fledgling/slowbridge.jpg" },
+      { id: "fl-merryweather", name: "Merryweather", theme: "fledgling", tags: ["gardens", "cat", "greenhouse", "blossoms", "afternoon", "bird", "story", "fledgling"], file: "fledgling/merryweather.jpg" },
+      { id: "fl-tallwater", name: "Tallwater", theme: "fledgling", tags: ["city", "river", "pigeon", "lantern", "moon", "night", "bird", "story", "fledgling"], file: "fledgling/tallwater.jpg" },
+      { id: "fl-the-winnow", name: "The Winnow", theme: "fledgling", tags: ["cornfields", "windmill", "kestrel", "river", "sea", "bird", "story", "fledgling"], file: "fledgling/the-winnow.jpg" },
+      { id: "fl-saltwick-light", name: "Saltwick Light", theme: "fledgling", tags: ["lighthouse", "harbour", "flock", "sea", "night", "bird", "story", "fledgling"], file: "fledgling/saltwick-light.jpg" },
     ];
 
     const allTags = [...new Set(wallpapers.flatMap(w => w.tags))].sort();
@@ -1387,6 +1400,7 @@
         { key: 'fjords', label: 'Fjords', desc: 'Steep peaks, deep water & red cabins' },
         { key: 'holy-night', label: 'Holy Night', desc: 'The star, the stable & the first Christmas' },
         { key: 'christmas', label: 'Christmas', desc: 'Tree lots, twinkle lights & cocoa' },
+        { key: 'fledgling', label: 'Fledgling', desc: 'One small bird, one long river & a lantern every night' },
       ];
 
       let html = '';
